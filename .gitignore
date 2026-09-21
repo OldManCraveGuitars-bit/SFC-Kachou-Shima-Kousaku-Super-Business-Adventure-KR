@@ -1,0 +1,12 @@
+*.sfc
+*.smc
+*.fig
+*.srm
+*.sav
+*.state*
+*.zst
+*.bin
+out/
+roms/
+Thumbs.db
+.DS_Store

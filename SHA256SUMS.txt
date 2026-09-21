@@ -1,0 +1,3 @@
+Kachou_Shima_Kousaku_KR_V0.2.ips  80a3461fdba19f17ba0d19f3cc3bdc78e8d208801c6b8f41430010767228aecd
+Patched_ROM_expected_SHA256          2042ec0df6c01e01e68559a6ce05b873db91411c6596af674e83724ff7db7bb9
+Original_ROM_required_SHA256         988eeb2c00dedebf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7
