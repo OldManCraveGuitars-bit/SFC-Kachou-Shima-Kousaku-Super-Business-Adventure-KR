@@ -1,6 +1,6 @@
 {
   "rom": "out\\Kachou Shima Kousaku (Japan) [KR Story Path Extended Preview].sfc",
-  "rom_sha256": "2042ec0df6c01e01e68559a6ce05b873db91411c6596af674e83724ff7db7bb9",
+  "rom_sha256": "35291c3762f144fbbd6ef9c163723e8d17de21aaae47da09c20f56933656bade",
   "cold_frames": 8000,
   "reset_frames": 4000,
   "sample_interval": 30,
