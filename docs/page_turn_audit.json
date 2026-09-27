@@ -1,5 +1,5 @@
 {
-  "records": 5157,
+  "records": 4853,
   "mismatches": 0,
   "source_fe": 273,
   "source_fd": 16,
@@ -3477,6 +3477,13 @@
     {
       "label": "nakagawa-result-363",
       "offset": "0x4A3AC",
+      "source": [],
+      "korean": [],
+      "match": true
+    },
+    {
+      "label": "nakagawa-result-366",
+      "offset": "0x4A3C6",
       "source": [],
       "korean": [],
       "match": true
@@ -10034,13 +10041,6 @@
       "match": true
     },
     {
-      "label": "future-3026-03",
-      "offset": "0x53131",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3027-00",
       "offset": "0x53134",
       "source": [],
@@ -10141,13 +10141,6 @@
     {
       "label": "future-3031-02",
       "offset": "0x53206",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3031-03",
-      "offset": "0x53210",
       "source": [],
       "korean": [],
       "match": true
@@ -10279,13 +10272,6 @@
       "match": true
     },
     {
-      "label": "future-3041-02",
-      "offset": "0x59E21",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3042-00",
       "offset": "0x59E24",
       "source": [],
@@ -10295,13 +10281,6 @@
     {
       "label": "future-3042-01",
       "offset": "0x59E27",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3043-00",
-      "offset": "0x59E34",
       "source": [],
       "korean": [],
       "match": true
@@ -10356,13 +10335,6 @@
       "match": true
     },
     {
-      "label": "future-3048-00",
-      "offset": "0x59F0A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3049-00",
       "offset": "0x59F11",
       "source": [],
@@ -10372,13 +10344,6 @@
     {
       "label": "future-3049-01",
       "offset": "0x59F26",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3050-00",
-      "offset": "0x59F2E",
       "source": [],
       "korean": [],
       "match": true
@@ -10636,29 +10601,8 @@
       "match": true
     },
     {
-      "label": "future-3064-00",
-      "offset": "0x5A148",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3066-00",
       "offset": "0x5A150",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3067-00",
-      "offset": "0x5A159",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3068-00",
-      "offset": "0x5A15C",
       "source": [],
       "korean": [],
       "match": true
@@ -10680,13 +10624,6 @@
     {
       "label": "future-3069-02",
       "offset": "0x5A16D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3070-00",
-      "offset": "0x5A174",
       "source": [],
       "korean": [],
       "match": true
@@ -10806,13 +10743,6 @@
     {
       "label": "future-3081-03",
       "offset": "0x5A25B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3083-00",
-      "offset": "0x54F43",
       "source": [],
       "korean": [],
       "match": true
@@ -11049,13 +10979,6 @@
       "match": true
     },
     {
-      "label": "future-3097-00",
-      "offset": "0x55132",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3098-00",
       "offset": "0x55138",
       "source": [],
@@ -11079,13 +11002,6 @@
     {
       "label": "future-3099-00",
       "offset": "0x5514D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3101-00",
-      "offset": "0x55BD2",
       "source": [],
       "korean": [],
       "match": true
@@ -11149,13 +11065,6 @@
     {
       "label": "future-3104-03",
       "offset": "0x55C20",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3104-04",
-      "offset": "0x55C29",
       "source": [],
       "korean": [],
       "match": true
@@ -11408,20 +11317,6 @@
     {
       "label": "future-3120-06",
       "offset": "0x1A8DB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3120-07",
-      "offset": "0x55DDA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3121-00",
-      "offset": "0x56831",
       "source": [],
       "korean": [],
       "match": true
@@ -11798,13 +11693,6 @@
       "match": true
     },
     {
-      "label": "future-3282-00",
-      "offset": "0x56B47",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3283-00",
       "offset": "0x56B4C",
       "source": [],
@@ -11924,13 +11812,6 @@
       "match": true
     },
     {
-      "label": "future-3286-07",
-      "offset": "0x56BDC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3287-00",
       "offset": "0x56C82",
       "source": [],
@@ -11959,13 +11840,6 @@
       "match": true
     },
     {
-      "label": "future-3287-04",
-      "offset": "0x56CBC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3288-00",
       "offset": "0x56CBF",
       "source": [],
@@ -11975,13 +11849,6 @@
     {
       "label": "future-3289-00",
       "offset": "0x56CCC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3290-00",
-      "offset": "0x56CD0",
       "source": [],
       "korean": [],
       "match": true
@@ -12003,13 +11870,6 @@
     {
       "label": "future-3293-00",
       "offset": "0x56CE7",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3295-00",
-      "offset": "0x56CEA",
       "source": [],
       "korean": [],
       "match": true
@@ -12073,13 +11933,6 @@
     {
       "label": "future-3298-01",
       "offset": "0x56D6A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3299-00",
-      "offset": "0x56D77",
       "source": [],
       "korean": [],
       "match": true
@@ -12281,13 +12134,6 @@
       "match": true
     },
     {
-      "label": "future-3313-00",
-      "offset": "0x57315",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3314-00",
       "offset": "0x57318",
       "source": [],
@@ -12297,13 +12143,6 @@
     {
       "label": "future-3314-01",
       "offset": "0x5732D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3315-00",
-      "offset": "0x57333",
       "source": [],
       "korean": [],
       "match": true
@@ -12388,13 +12227,6 @@
     {
       "label": "future-3318-06",
       "offset": "0x573C8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3319-00",
-      "offset": "0x573D2",
       "source": [],
       "korean": [],
       "match": true
@@ -12540,13 +12372,6 @@
       "match": true
     },
     {
-      "label": "future-3327-00",
-      "offset": "0x574E1",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3328-00",
       "offset": "0x574E4",
       "source": [],
@@ -12652,13 +12477,6 @@
       "match": true
     },
     {
-      "label": "future-3332-00",
-      "offset": "0x575C8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3333-00",
       "offset": "0x575CB",
       "source": [],
@@ -12696,13 +12514,6 @@
     {
       "label": "future-3333-05",
       "offset": "0x575F4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3334-00",
-      "offset": "0x57607",
       "source": [],
       "korean": [],
       "match": true
@@ -12750,13 +12561,6 @@
       "match": true
     },
     {
-      "label": "future-3335-06",
-      "offset": "0x57641",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3336-00",
       "offset": "0x57645",
       "source": [],
@@ -12780,13 +12584,6 @@
     {
       "label": "future-3336-03",
       "offset": "0x57661",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3337-00",
-      "offset": "0x57665",
       "source": [],
       "korean": [],
       "match": true
@@ -12829,13 +12626,6 @@
     {
       "label": "future-3338-05",
       "offset": "0x57689",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3338-06",
-      "offset": "0x5769A",
       "source": [],
       "korean": [],
       "match": true
@@ -12885,13 +12675,6 @@
     {
       "label": "future-3339-06",
       "offset": "0x576D9",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3340-00",
-      "offset": "0x576EB",
       "source": [],
       "korean": [],
       "match": true
@@ -13037,13 +12820,6 @@
       "match": true
     },
     {
-      "label": "future-3355-00",
-      "offset": "0x54E12",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3356-00",
       "offset": "0x54E17",
       "source": [],
@@ -13053,13 +12829,6 @@
     {
       "label": "future-3356-01",
       "offset": "0x54E23",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3356-02",
-      "offset": "0x54E2E",
       "source": [],
       "korean": [],
       "match": true
@@ -13081,13 +12850,6 @@
     {
       "label": "future-3357-02",
       "offset": "0x54E5B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3358-00",
-      "offset": "0x54E69",
       "source": [],
       "korean": [],
       "match": true
@@ -13123,13 +12885,6 @@
     {
       "label": "future-3359-01",
       "offset": "0x54EB4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3360-00",
-      "offset": "0x54EBE",
       "source": [],
       "korean": [],
       "match": true
@@ -13205,22 +12960,8 @@
       "match": true
     },
     {
-      "label": "future-3363-00",
-      "offset": "0x54F41",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-3364-00",
       "offset": "0x47CEC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3365-00",
-      "offset": "0x47D01",
       "source": [],
       "korean": [],
       "match": true
@@ -13417,13 +13158,6 @@
     {
       "label": "future-3370-06",
       "offset": "0x47EA8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-3371-00",
-      "offset": "0x47EB1",
       "source": [],
       "korean": [],
       "match": true
@@ -13898,13 +13632,6 @@
       "match": true
     },
     {
-      "label": "future-1937-01",
-      "offset": "0x50FE2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-1938-00",
       "offset": "0x50FEB",
       "source": [],
@@ -13956,13 +13683,6 @@
     {
       "label": "future-1942-00",
       "offset": "0x51050",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-1943-00",
-      "offset": "0x51056",
       "source": [],
       "korean": [],
       "match": true
@@ -14068,13 +13788,6 @@
     {
       "label": "future-1952-00",
       "offset": "0x51134",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-1953-00",
-      "offset": "0x5113A",
       "source": [],
       "korean": [],
       "match": true
@@ -14255,13 +13968,6 @@
       "match": true
     },
     {
-      "label": "future-2267-00",
-      "offset": "0x512FF",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2268-00",
       "offset": "0x51306",
       "source": [],
@@ -14299,13 +14005,6 @@
     {
       "label": "future-2269-02",
       "offset": "0x5135B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2269-03",
-      "offset": "0x51362",
       "source": [],
       "korean": [],
       "match": true
@@ -14493,13 +14192,6 @@
       "match": true
     },
     {
-      "label": "future-2281-00",
-      "offset": "0x514D6",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2282-00",
       "offset": "0x514D9",
       "source": [],
@@ -14598,13 +14290,6 @@
       "match": true
     },
     {
-      "label": "future-2586-00",
-      "offset": "0x515AA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2587-00",
       "offset": "0x515AD",
       "source": [],
@@ -14670,13 +14355,6 @@
     {
       "label": "future-2588-06",
       "offset": "0x1A586",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2588-07",
-      "offset": "0x515D7",
       "source": [],
       "korean": [],
       "match": true
@@ -14768,13 +14446,6 @@
     {
       "label": "future-2595-00",
       "offset": "0x51674",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2596-00",
-      "offset": "0x5167A",
       "source": [],
       "korean": [],
       "match": true
@@ -14885,20 +14556,6 @@
       "match": true
     },
     {
-      "label": "future-2603-07",
-      "offset": "0x516EF",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2604-00",
-      "offset": "0x516F0",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2607-00",
       "offset": "0x516FA",
       "source": [],
@@ -14990,13 +14647,6 @@
       "match": true
     },
     {
-      "label": "future-2611-00",
-      "offset": "0x51C75",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2612-00",
       "offset": "0x51C78",
       "source": [],
@@ -15027,13 +14677,6 @@
     {
       "label": "future-2615-00",
       "offset": "0x52285",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2615-01",
-      "offset": "0x5228A",
       "source": [],
       "korean": [],
       "match": true
@@ -15242,13 +14885,6 @@
       "match": true
     },
     {
-      "label": "future-2627-08",
-      "offset": "0x52392",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2628-00",
       "offset": "0x52393",
       "source": [],
@@ -15438,13 +15074,6 @@
       "match": true
     },
     {
-      "label": "future-2645-00",
-      "offset": "0x524F3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2648-00",
       "offset": "0x524FB",
       "source": [],
@@ -15522,13 +15151,6 @@
       "match": true
     },
     {
-      "label": "future-2650-00",
-      "offset": "0x52577",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2651-00",
       "offset": "0x52580",
       "source": [],
@@ -15564,13 +15186,6 @@
       "match": true
     },
     {
-      "label": "future-2655-00",
-      "offset": "0x525C7",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2656-00",
       "offset": "0x525CE",
       "source": [],
@@ -15601,13 +15216,6 @@
     {
       "label": "future-2658-00",
       "offset": "0x52609",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2659-00",
-      "offset": "0x5261A",
       "source": [],
       "korean": [],
       "match": true
@@ -15655,22 +15263,8 @@
       "match": true
     },
     {
-      "label": "future-2667-00",
-      "offset": "0x5325E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2668-00",
       "offset": "0x53263",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2669-00",
-      "offset": "0x5326B",
       "source": [],
       "korean": [],
       "match": true
@@ -16082,13 +15676,6 @@
       "match": true
     },
     {
-      "label": "future-2702-00",
-      "offset": "0x535D6",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2702-01",
       "offset": "0x53F0C",
       "source": [],
@@ -16292,13 +15879,6 @@
       "match": true
     },
     {
-      "label": "future-2715-00",
-      "offset": "0x52AC5",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2716-00",
       "offset": "0x52AC8",
       "source": [],
@@ -16322,13 +15902,6 @@
     {
       "label": "future-2717-00",
       "offset": "0x52AF2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2718-00",
-      "offset": "0x52B00",
       "source": [],
       "korean": [],
       "match": true
@@ -16390,22 +15963,8 @@
       "match": true
     },
     {
-      "label": "future-2723-00",
-      "offset": "0x52B5A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-2724-00",
       "offset": "0x52B5D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2724-01",
-      "offset": "0x52B67",
       "source": [],
       "korean": [],
       "match": true
@@ -16420,13 +15979,6 @@
     {
       "label": "future-2726-00",
       "offset": "0x52B73",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2727-00",
-      "offset": "0x52B7E",
       "source": [],
       "korean": [],
       "match": true
@@ -16868,20 +16420,6 @@
     {
       "label": "future-2759-06",
       "offset": "0x1A73D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2759-07",
-      "offset": "0x52EEE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-2760-00",
-      "offset": "0x52EEF",
       "source": [],
       "korean": [],
       "match": true
@@ -17974,13 +17512,6 @@
     {
       "label": "future-4024-02",
       "offset": "0x4AFCA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-4024-03",
-      "offset": "0x4AFD2",
       "source": [],
       "korean": [],
       "match": true
@@ -21430,22 +20961,8 @@
       "match": true
     },
     {
-      "label": "future-5006-00",
-      "offset": "0x20F3C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5007-01",
       "offset": "0x20F3F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5017-02",
-      "offset": "0x4AEFB",
       "source": [],
       "korean": [],
       "match": true
@@ -21460,20 +20977,6 @@
     {
       "label": "future-5026-04",
       "offset": "0x4AFDA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5034-05",
-      "offset": "0x4B03A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5045-06",
-      "offset": "0x4B176",
       "source": [],
       "korean": [],
       "match": true
@@ -21500,57 +21003,8 @@
       "match": true
     },
     {
-      "label": "future-5062-10",
-      "offset": "0x4B47D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5064-11",
-      "offset": "0x4B4D8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5066-12",
-      "offset": "0x4B520",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5067-13",
       "offset": "0x4B532",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5069-14",
-      "offset": "0x4B539",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5085-15",
-      "offset": "0x4B66A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5086-16",
-      "offset": "0x4B7C4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5090-17",
-      "offset": "0x4B806",
       "source": [],
       "korean": [],
       "match": true
@@ -21570,71 +21024,8 @@
       "match": true
     },
     {
-      "label": "future-5110-20",
-      "offset": "0x4CB7D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5111-21",
-      "offset": "0x4D038",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5113-22",
       "offset": "0x4D03E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5116-23",
-      "offset": "0x4D07F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5120-24",
-      "offset": "0x4D0D1",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5123-25",
-      "offset": "0x4D0F0",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5129-26",
-      "offset": "0x4D146",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5134-27",
-      "offset": "0x4D1A8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5136-28",
-      "offset": "0x4D1DB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5140-29",
-      "offset": "0x4D222",
       "source": [],
       "korean": [],
       "match": true
@@ -21647,57 +21038,8 @@
       "match": true
     },
     {
-      "label": "future-5149-31",
-      "offset": "0x4D34E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5150-32",
-      "offset": "0x4D43D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5152-33",
       "offset": "0x4D490",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5161-34",
-      "offset": "0x4D5C6",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5163-35",
-      "offset": "0x4D5CC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5165-36",
-      "offset": "0x4D5DC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5172-37",
-      "offset": "0x4D655",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5177-38",
-      "offset": "0x4E401",
       "source": [],
       "korean": [],
       "match": true
@@ -21724,148 +21066,8 @@
       "match": true
     },
     {
-      "label": "future-5188-42",
-      "offset": "0x4E4D4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5190-43",
-      "offset": "0x4E4F3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5191-44",
       "offset": "0x4E508",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5192-45",
-      "offset": "0x4E510",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5194-46",
-      "offset": "0x4E519",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5196-47",
-      "offset": "0x4E52C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5198-48",
-      "offset": "0x4E55A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5203-49",
-      "offset": "0x4E5AE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5207-50",
-      "offset": "0x4E5EC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5212-51",
-      "offset": "0x4E6EB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5213-52",
-      "offset": "0x4E732",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5215-53",
-      "offset": "0x4E76E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5219-54",
-      "offset": "0x4E7D5",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5220-55",
-      "offset": "0x4E9FA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5224-56",
-      "offset": "0x4EA42",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5227-57",
-      "offset": "0x4F468",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5232-58",
-      "offset": "0x4F4AA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5242-59",
-      "offset": "0x4F58C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5244-60",
-      "offset": "0x4F5DF",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5249-61",
-      "offset": "0x4F643",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5257-62",
-      "offset": "0x4F711",
       "source": [],
       "korean": [],
       "match": true
@@ -21878,155 +21080,8 @@
       "match": true
     },
     {
-      "label": "future-5263-64",
-      "offset": "0x4F76B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5270-65",
-      "offset": "0x4F812",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5271-66",
-      "offset": "0x4F813",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5271-67",
       "offset": "0x4F816",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5275-68",
-      "offset": "0x4F862",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5281-69",
-      "offset": "0x4F8EE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5285-70",
-      "offset": "0x34836",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5288-71",
-      "offset": "0x3487C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5290-72",
-      "offset": "0x35016",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5293-73",
-      "offset": "0x364B8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5303-74",
-      "offset": "0x366C9",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5304-75",
-      "offset": "0x4A0AC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5318-76",
-      "offset": "0x4A185",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5319-77",
-      "offset": "0x4A18A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5329-78",
-      "offset": "0x49560",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5331-79",
-      "offset": "0x49584",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5334-80",
-      "offset": "0x495A2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5335-81",
-      "offset": "0x495B3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5337-82",
-      "offset": "0x495C2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5339-83",
-      "offset": "0x495ED",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5345-84",
-      "offset": "0x4967A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5347-85",
-      "offset": "0x49690",
       "source": [],
       "korean": [],
       "match": true
@@ -22039,13 +21094,6 @@
       "match": true
     },
     {
-      "label": "future-5352-87",
-      "offset": "0x4E147",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5355-88",
       "offset": "0x4E14E",
       "source": [],
@@ -22053,50 +21101,8 @@
       "match": true
     },
     {
-      "label": "future-5356-89",
-      "offset": "0x4E150",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5365-90",
-      "offset": "0x34B4D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-5370-91",
       "offset": "0x34BBC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5372-92",
-      "offset": "0x34BBF",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5383-93",
-      "offset": "0x4A42C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5385-94",
-      "offset": "0x4A437",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-5400-95",
-      "offset": "0x4A5FE",
       "source": [],
       "korean": [],
       "match": true
@@ -22216,13 +21222,6 @@
     {
       "label": "future-6002-16",
       "offset": "0x1822F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-6002-17",
-      "offset": "0x20322",
       "source": [],
       "korean": [],
       "match": true
@@ -22522,13 +21521,6 @@
       "match": true
     },
     {
-      "label": "future-28246-473",
-      "offset": "0x273CC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28246-474",
       "offset": "0x273CF",
       "source": [],
@@ -22795,20 +21787,6 @@
       "match": true
     },
     {
-      "label": "future-28255-512",
-      "offset": "0x2762B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-7014-59",
-      "offset": "0x206DA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-7015-60",
       "offset": "0x20E88",
       "source": [],
@@ -23033,20 +22011,6 @@
       "match": true
     },
     {
-      "label": "future-7041-92",
-      "offset": "0x212D4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-7042-93",
-      "offset": "0x212D5",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-7042-94",
       "offset": "0x212DB",
       "source": [],
@@ -23118,7 +22082,7 @@
     },
     {
       "label": "future-7049-104",
-      "offset": "0x21343",
+      "offset": "0x21344",
       "source": [],
       "korean": [],
       "match": true
@@ -23222,13 +22186,6 @@
       "match": true
     },
     {
-      "label": "future-7058-119",
-      "offset": "0x26DFC",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-7059-120",
       "offset": "0x26DFF",
       "source": [],
@@ -23259,13 +22216,6 @@
     {
       "label": "future-7061-124",
       "offset": "0x26E28",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-7062-125",
-      "offset": "0x26E34",
       "source": [],
       "korean": [],
       "match": true
@@ -23315,13 +22265,6 @@
     {
       "label": "future-7065-132",
       "offset": "0x26E63",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-7066-133",
-      "offset": "0x26E71",
       "source": [],
       "korean": [],
       "match": true
@@ -23378,20 +22321,6 @@
     {
       "label": "future-7068-141",
       "offset": "0x1899B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-7068-142",
-      "offset": "0x26EB5",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-7069-143",
-      "offset": "0x26EB6",
       "source": [],
       "korean": [],
       "match": true
@@ -23677,13 +22606,6 @@
       "match": true
     },
     {
-      "label": "future-17494-1040",
-      "offset": "0x2CB02",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-17495-1041",
       "offset": "0x2CB09",
       "source": [],
@@ -23796,13 +22718,6 @@
       "match": true
     },
     {
-      "label": "future-17503-1057",
-      "offset": "0x2CB9C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-17504-1058",
       "offset": "0x2CB9F",
       "source": [],
@@ -23838,13 +22753,6 @@
       "match": true
     },
     {
-      "label": "future-17505-1063",
-      "offset": "0x2CBD9",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-17505-1064",
       "offset": "0x2CBDC",
       "source": [],
@@ -23861,13 +22769,6 @@
     {
       "label": "future-17505-1066",
       "offset": "0x2CBF2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-17507-1067",
-      "offset": "0x2CCF7",
       "source": [],
       "korean": [],
       "match": true
@@ -23985,13 +22886,6 @@
       "match": true
     },
     {
-      "label": "future-17516-1084",
-      "offset": "0x2CDE4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-17517-1085",
       "offset": "0x2CDEB",
       "source": [],
@@ -24036,13 +22930,6 @@
     {
       "label": "future-18520-1091",
       "offset": "0x2CE49",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-18521-1092",
-      "offset": "0x2CE59",
       "source": [],
       "korean": [],
       "match": true
@@ -24139,20 +23026,6 @@
       "match": true
     },
     {
-      "label": "future-18524-1106",
-      "offset": "0x2CEC9",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-18525-1107",
-      "offset": "0x2D581",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-18526-1108",
       "offset": "0x2D588",
       "source": [],
@@ -24218,13 +23091,6 @@
     {
       "label": "future-18532-1117",
       "offset": "0x2D60A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-18532-1118",
-      "offset": "0x2D610",
       "source": [],
       "korean": [],
       "match": true
@@ -24344,13 +23210,6 @@
     {
       "label": "future-18535-1135",
       "offset": "0x2D834",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-18536-1136",
-      "offset": "0x2D83F",
       "source": [],
       "korean": [],
       "match": true
@@ -24512,13 +23371,6 @@
     {
       "label": "future-18545-1159",
       "offset": "0x2F0DB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-18546-1160",
-      "offset": "0x2F0EC",
       "source": [],
       "korean": [],
       "match": true
@@ -24860,13 +23712,6 @@
       "match": true
     },
     {
-      "label": "future-19571-1209",
-      "offset": "0x2F3B4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-19572-1210",
       "offset": "0x2F3B9",
       "source": [],
@@ -24944,13 +23789,6 @@
       "match": true
     },
     {
-      "label": "future-19579-1221",
-      "offset": "0x3011B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-19579-1222",
       "offset": "0x3011E",
       "source": [],
@@ -24960,27 +23798,6 @@
     {
       "label": "future-19579-1223",
       "offset": "0x30130",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-19579-1224",
-      "offset": "0x3013F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-19580-1225",
-      "offset": "0x30140",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-19581-1226",
-      "offset": "0x30141",
       "source": [],
       "korean": [],
       "match": true
@@ -25009,13 +23826,6 @@
     {
       "label": "future-19582-1230",
       "offset": "0x30169",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-19583-1231",
-      "offset": "0x3016F",
       "source": [],
       "korean": [],
       "match": true
@@ -25126,13 +23936,6 @@
       "match": true
     },
     {
-      "label": "future-19591-1247",
-      "offset": "0x30246",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-19592-1248",
       "offset": "0x3024D",
       "source": [],
@@ -25203,13 +24006,6 @@
       "match": true
     },
     {
-      "label": "future-19598-1258",
-      "offset": "0x306B4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-19599-1259",
       "offset": "0x306B7",
       "source": [],
@@ -25254,13 +24050,6 @@
     {
       "label": "future-19599-1265",
       "offset": "0x3070D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-19600-1266",
-      "offset": "0x30712",
       "source": [],
       "korean": [],
       "match": true
@@ -25380,20 +24169,6 @@
     {
       "label": "future-20605-1283",
       "offset": "0x307C1",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-20606-1284",
-      "offset": "0x307CE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-20607-1285",
-      "offset": "0x307D1",
       "source": [],
       "korean": [],
       "match": true
@@ -26036,13 +24811,6 @@
       "match": true
     },
     {
-      "label": "future-21640-1377",
-      "offset": "0x31CE3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-21641-1378",
       "offset": "0x31CE6",
       "source": [],
@@ -26127,13 +24895,6 @@
       "match": true
     },
     {
-      "label": "future-21647-1390",
-      "offset": "0x32CA6",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-21648-1391",
       "offset": "0x32CA9",
       "source": [],
@@ -26192,13 +24953,6 @@
     {
       "label": "future-21652-1399",
       "offset": "0x32CF4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-21653-1400",
-      "offset": "0x32CF8",
       "source": [],
       "korean": [],
       "match": true
@@ -26274,29 +25028,8 @@
       "match": true
     },
     {
-      "label": "future-21660-1411",
-      "offset": "0x1FD6F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-21661-1412",
-      "offset": "0x1FD70",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-21662-1413",
       "offset": "0x33BCA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-21663-1414",
-      "offset": "0x33BDD",
       "source": [],
       "korean": [],
       "match": true
@@ -26521,13 +25254,6 @@
     {
       "label": "future-21671-1446",
       "offset": "0x33DB8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-21672-1447",
-      "offset": "0x278D4",
       "source": [],
       "korean": [],
       "match": true
@@ -26911,13 +25637,6 @@
       "match": true
     },
     {
-      "label": "future-8101-196",
-      "offset": "0x22FA9",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-8101-197",
       "offset": "0x22FAF",
       "source": [],
@@ -26955,13 +25674,6 @@
     {
       "label": "future-8103-202",
       "offset": "0x22FF2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-8104-203",
-      "offset": "0x23003",
       "source": [],
       "korean": [],
       "match": true
@@ -27114,13 +25826,6 @@
       "match": true
     },
     {
-      "label": "future-22674-1455",
-      "offset": "0x27949",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-22675-1456",
       "offset": "0x27950",
       "source": [],
@@ -27219,13 +25924,6 @@
       "match": true
     },
     {
-      "label": "future-22681-1470",
-      "offset": "0x2F91A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-22682-1471",
       "offset": "0x2F91F",
       "source": [],
@@ -27235,13 +25933,6 @@
     {
       "label": "future-22682-1472",
       "offset": "0x2F92D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-22683-1473",
-      "offset": "0x2F930",
       "source": [],
       "korean": [],
       "match": true
@@ -27303,13 +25994,6 @@
       "match": true
     },
     {
-      "label": "future-22686-1482",
-      "offset": "0x2F9B3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-22687-1483",
       "offset": "0x2F9BA",
       "source": [],
@@ -27359,13 +26043,6 @@
       "match": true
     },
     {
-      "label": "future-22688-1490",
-      "offset": "0x2FA17",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-22689-1491",
       "offset": "0x2FA20",
       "source": [],
@@ -27401,22 +26078,8 @@
       "match": true
     },
     {
-      "label": "future-22692-1496",
-      "offset": "0x2FA71",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-22693-1497",
       "offset": "0x2FA78",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-22694-1498",
-      "offset": "0x2FA83",
       "source": [],
       "korean": [],
       "match": true
@@ -27975,13 +26638,6 @@
       "match": true
     },
     {
-      "label": "future-23718-1578",
-      "offset": "0x2FEAE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-23719-1579",
       "offset": "0x2FEB3",
       "source": [],
@@ -28290,20 +26946,6 @@
       "match": true
     },
     {
-      "label": "future-23730-1623",
-      "offset": "0x5FE1E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-23732-1624",
-      "offset": "0x5FE23",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-23732-1625",
       "offset": "0x5FE26",
       "source": [],
@@ -28327,13 +26969,6 @@
     {
       "label": "future-23733-1628",
       "offset": "0x400B4",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-23734-1629",
-      "offset": "0x400C3",
       "source": [],
       "korean": [],
       "match": true
@@ -28381,13 +27016,6 @@
       "match": true
     },
     {
-      "label": "future-23739-1636",
-      "offset": "0x4010A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-23740-1637",
       "offset": "0x40111",
       "source": [],
@@ -28397,13 +27025,6 @@
     {
       "label": "future-23741-1638",
       "offset": "0x40119",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-23742-1639",
-      "offset": "0x40123",
       "source": [],
       "korean": [],
       "match": true
@@ -28640,13 +27261,6 @@
       "match": true
     },
     {
-      "label": "future-24757-1673",
-      "offset": "0x402F8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24759-1674",
       "offset": "0x40300",
       "source": [],
@@ -28663,13 +27277,6 @@
     {
       "label": "future-24760-1676",
       "offset": "0x40315",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24761-1677",
-      "offset": "0x40322",
       "source": [],
       "korean": [],
       "match": true
@@ -28696,20 +27303,6 @@
       "match": true
     },
     {
-      "label": "future-24766-1681",
-      "offset": "0x40341",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24767-1682",
-      "offset": "0x40346",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24768-1683",
       "offset": "0x40350",
       "source": [],
@@ -28731,22 +27324,8 @@
       "match": true
     },
     {
-      "label": "future-24771-1686",
-      "offset": "0x4036A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24772-1687",
       "offset": "0x40373",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24773-1688",
-      "offset": "0x40380",
       "source": [],
       "korean": [],
       "match": true
@@ -29025,20 +27604,6 @@
       "match": true
     },
     {
-      "label": "future-24789-1728",
-      "offset": "0x40532",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24790-1729",
-      "offset": "0x40622",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24791-1730",
       "offset": "0x40627",
       "source": [],
@@ -29118,20 +27683,6 @@
     {
       "label": "future-24797-1741",
       "offset": "0x4069D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24798-1742",
-      "offset": "0x406AB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24799-1743",
-      "offset": "0x406AE",
       "source": [],
       "korean": [],
       "match": true
@@ -29221,20 +27772,6 @@
       "match": true
     },
     {
-      "label": "future-24804-1756",
-      "offset": "0x40771",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24805-1757",
-      "offset": "0x418DA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24806-1758",
       "offset": "0x418DF",
       "source": [],
@@ -29244,13 +27781,6 @@
     {
       "label": "future-24806-1759",
       "offset": "0x418EB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24806-1760",
-      "offset": "0x418F8",
       "source": [],
       "korean": [],
       "match": true
@@ -29284,13 +27814,6 @@
       "match": true
     },
     {
-      "label": "future-24810-1765",
-      "offset": "0x41925",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24811-1766",
       "offset": "0x4192E",
       "source": [],
@@ -29312,22 +27835,8 @@
       "match": true
     },
     {
-      "label": "future-24812-1769",
-      "offset": "0x4194B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24813-1770",
       "offset": "0x41954",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24814-1771",
-      "offset": "0x4195C",
       "source": [],
       "korean": [],
       "match": true
@@ -29347,13 +27856,6 @@
       "match": true
     },
     {
-      "label": "future-24816-1774",
-      "offset": "0x41988",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-24817-1775",
       "offset": "0x4198F",
       "source": [],
@@ -29363,13 +27865,6 @@
     {
       "label": "future-24817-1776",
       "offset": "0x4199A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-24818-1777",
-      "offset": "0x419A7",
       "source": [],
       "korean": [],
       "match": true
@@ -29391,13 +27886,6 @@
     {
       "label": "future-25821-1780",
       "offset": "0x419C2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25822-1781",
-      "offset": "0x419CF",
       "source": [],
       "korean": [],
       "match": true
@@ -29515,13 +28003,6 @@
       "match": true
     },
     {
-      "label": "future-25831-1798",
-      "offset": "0x41A4A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-25832-1799",
       "offset": "0x41A83",
       "source": [],
@@ -29627,13 +28108,6 @@
       "match": true
     },
     {
-      "label": "future-25839-1814",
-      "offset": "0x41B50",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-25840-1815",
       "offset": "0x41B53",
       "source": [],
@@ -29685,13 +28159,6 @@
     {
       "label": "future-25842-1822",
       "offset": "0x41BA9",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25843-1823",
-      "offset": "0x41BB3",
       "source": [],
       "korean": [],
       "match": true
@@ -29753,22 +28220,8 @@
       "match": true
     },
     {
-      "label": "future-25847-1832",
-      "offset": "0x41C36",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-25848-1833",
       "offset": "0x41C39",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25851-1834",
-      "offset": "0x41C46",
       "source": [],
       "korean": [],
       "match": true
@@ -29783,13 +28236,6 @@
     {
       "label": "future-25852-1836",
       "offset": "0x41C56",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25853-1837",
-      "offset": "0x41C60",
       "source": [],
       "korean": [],
       "match": true
@@ -29818,13 +28264,6 @@
     {
       "label": "future-25854-1841",
       "offset": "0x41C98",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25855-1842",
-      "offset": "0x41C9E",
       "source": [],
       "korean": [],
       "match": true
@@ -29893,13 +28332,6 @@
       "match": true
     },
     {
-      "label": "future-25862-1852",
-      "offset": "0x41D11",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-25863-1853",
       "offset": "0x41D17",
       "source": [],
@@ -29923,13 +28355,6 @@
     {
       "label": "future-25863-1856",
       "offset": "0x41D58",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25863-1857",
-      "offset": "0x41D66",
       "source": [],
       "korean": [],
       "match": true
@@ -29965,13 +28390,6 @@
     {
       "label": "future-25865-1862",
       "offset": "0x41DB0",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-25866-1863",
-      "offset": "0x41DC2",
       "source": [],
       "korean": [],
       "match": true
@@ -30264,29 +28682,8 @@
       "match": true
     },
     {
-      "label": "future-26882-1905",
-      "offset": "0x425CB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-26883-1906",
       "offset": "0x425D2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-26884-1907",
-      "offset": "0x425DE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-26885-1908",
-      "offset": "0x425E1",
       "source": [],
       "korean": [],
       "match": true
@@ -30455,13 +28852,6 @@
     {
       "label": "future-26893-1932",
       "offset": "0x19699",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-26893-1933",
-      "offset": "0x426B4",
       "source": [],
       "korean": [],
       "match": true
@@ -30754,13 +29144,6 @@
       "match": true
     },
     {
-      "label": "future-26919-1975",
-      "offset": "0x4506E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-26920-1976",
       "offset": "0x45073",
       "source": [],
@@ -30775,13 +29158,6 @@
       "match": true
     },
     {
-      "label": "future-26921-1978",
-      "offset": "0x4508D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-26922-1979",
       "offset": "0x45092",
       "source": [],
@@ -30791,13 +29167,6 @@
     {
       "label": "future-26922-1980",
       "offset": "0x450A3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-26923-1981",
-      "offset": "0x450AF",
       "source": [],
       "korean": [],
       "match": true
@@ -30924,13 +29293,6 @@
     {
       "label": "future-26930-1999",
       "offset": "0x45460",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-27931-2000",
-      "offset": "0x4546C",
       "source": [],
       "korean": [],
       "match": true
@@ -31069,13 +29431,6 @@
       "match": true
     },
     {
-      "label": "future-28005-2020",
-      "offset": "0x4B86F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28006-2021",
       "offset": "0x4B874",
       "source": [],
@@ -31202,13 +29557,6 @@
       "match": true
     },
     {
-      "label": "future-28014-2039",
-      "offset": "0x4B978",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28015-2040",
       "offset": "0x4B97F",
       "source": [],
@@ -31244,13 +29592,6 @@
       "match": true
     },
     {
-      "label": "future-28018-2045",
-      "offset": "0x4B9B0",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28019-2046",
       "offset": "0x4B9B5",
       "source": [],
@@ -31279,13 +29620,6 @@
       "match": true
     },
     {
-      "label": "future-28021-2050",
-      "offset": "0x4CDE3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28022-2051",
       "offset": "0x4CDE6",
       "source": [],
@@ -31295,13 +29629,6 @@
     {
       "label": "future-28022-2052",
       "offset": "0x4CDED",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-28023-2053",
-      "offset": "0x4CDFD",
       "source": [],
       "korean": [],
       "match": true
@@ -31363,13 +29690,6 @@
       "match": true
     },
     {
-      "label": "future-28026-2062",
-      "offset": "0x4CE6E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28026-2063",
       "offset": "0x4CE72",
       "source": [],
@@ -31393,13 +29713,6 @@
     {
       "label": "future-28026-2066",
       "offset": "0x4CE98",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-28027-2067",
-      "offset": "0x4CEA2",
       "source": [],
       "korean": [],
       "match": true
@@ -31468,29 +29781,8 @@
       "match": true
     },
     {
-      "label": "future-28031-2077",
-      "offset": "0x4CF26",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-27733-2078",
-      "offset": "0x5FE20",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-27738-2079",
       "offset": "0x400EA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-27768-2080",
-      "offset": "0x40341",
       "source": [],
       "korean": [],
       "match": true
@@ -31505,13 +29797,6 @@
     {
       "label": "future-28020-2082",
       "offset": "0x4CC56",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-28021-2083",
-      "offset": "0x4CC6A",
       "source": [],
       "korean": [],
       "match": true
@@ -31533,13 +29818,6 @@
     {
       "label": "future-28022-2086",
       "offset": "0x4CC82",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-28023-2087",
-      "offset": "0x4CC8C",
       "source": [],
       "korean": [],
       "match": true
@@ -31587,13 +29865,6 @@
       "match": true
     },
     {
-      "label": "future-28025-2094",
-      "offset": "0x4CCE3",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-28025-2095",
       "offset": "0x4CCE7",
       "source": [],
@@ -31631,13 +29902,6 @@
     {
       "label": "future-28026-2100",
       "offset": "0x4CD28",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-28026-2101",
-      "offset": "0x4CD30",
       "source": [],
       "korean": [],
       "match": true
@@ -31727,20 +29991,6 @@
       "match": true
     },
     {
-      "label": "future-9111-222",
-      "offset": "0x23121",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-9112-223",
-      "offset": "0x23125",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-9113-224",
       "offset": "0x23128",
       "source": [],
@@ -31785,13 +30035,6 @@
     {
       "label": "future-9115-230",
       "offset": "0x2317B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-9115-231",
-      "offset": "0x23188",
       "source": [],
       "korean": [],
       "match": true
@@ -32056,13 +30299,6 @@
       "match": true
     },
     {
-      "label": "future-9138-269",
-      "offset": "0x23BAE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-9141-270",
       "offset": "0x23BB5",
       "source": [],
@@ -32114,13 +30350,6 @@
     {
       "label": "future-9142-277",
       "offset": "0x23C20",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-9143-278",
-      "offset": "0x23C27",
       "source": [],
       "korean": [],
       "match": true
@@ -32203,13 +30432,6 @@
       "match": true
     },
     {
-      "label": "future-9149-290",
-      "offset": "0x23CBE",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-9151-291",
       "offset": "0x23CC5",
       "source": [],
@@ -32254,13 +30476,6 @@
     {
       "label": "future-9153-297",
       "offset": "0x23D1E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-9154-298",
-      "offset": "0x23D30",
       "source": [],
       "korean": [],
       "match": true
@@ -32338,13 +30553,6 @@
     {
       "label": "future-9160-309",
       "offset": "0x23DD5",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-10161-310",
-      "offset": "0x23DDC",
       "source": [],
       "korean": [],
       "match": true
@@ -32462,13 +30670,6 @@
       "match": true
     },
     {
-      "label": "future-10170-327",
-      "offset": "0x23EF5",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-10171-328",
       "offset": "0x23EF8",
       "source": [],
@@ -32490,13 +30691,6 @@
       "match": true
     },
     {
-      "label": "future-10173-331",
-      "offset": "0x23F0E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-10174-332",
       "offset": "0x23F11",
       "source": [],
@@ -32511,13 +30705,6 @@
       "match": true
     },
     {
-      "label": "future-10175-334",
-      "offset": "0x23F32",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-10176-335",
       "offset": "0x23F35",
       "source": [],
@@ -32527,13 +30714,6 @@
     {
       "label": "future-10177-336",
       "offset": "0x23F3B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-10177-337",
-      "offset": "0x23F42",
       "source": [],
       "korean": [],
       "match": true
@@ -32819,13 +30999,6 @@
       "match": true
     },
     {
-      "label": "future-10199-378",
-      "offset": "0x241B8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-10199-379",
       "offset": "0x241BD",
       "source": [],
@@ -32848,7 +31021,7 @@
     },
     {
       "label": "future-10200-382",
-      "offset": "0x241DF",
+      "offset": "0x241E0",
       "source": [],
       "korean": [],
       "match": true
@@ -33024,27 +31197,6 @@
     {
       "label": "future-11206-407",
       "offset": "0x24320",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-11208-408",
-      "offset": "0x2450C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-11209-409",
-      "offset": "0x2450F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-11211-410",
-      "offset": "0x24516",
       "source": [],
       "korean": [],
       "match": true
@@ -33302,13 +31454,6 @@
       "match": true
     },
     {
-      "label": "future-11229-447",
-      "offset": "0x246F0",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-11230-448",
       "offset": "0x1888D",
       "source": [],
@@ -33353,13 +31498,6 @@
     {
       "label": "future-11230-454",
       "offset": "0x188D8",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-11231-455",
-      "offset": "0x24B8C",
       "source": [],
       "korean": [],
       "match": true
@@ -33428,13 +31566,6 @@
       "match": true
     },
     {
-      "label": "future-11239-465",
-      "offset": "0x24BF7",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-11242-466",
       "offset": "0x24C01",
       "source": [],
@@ -33449,13 +31580,6 @@
       "match": true
     },
     {
-      "label": "future-11242-468",
-      "offset": "0x24C20",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-11243-469",
       "offset": "0x1FD58",
       "source": [],
@@ -33463,29 +31587,8 @@
       "match": true
     },
     {
-      "label": "future-11243-470",
-      "offset": "0x1FD61",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-11244-471",
-      "offset": "0x1FD62",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-12256-513",
       "offset": "0x280AA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-12257-514",
-      "offset": "0x280B8",
       "source": [],
       "korean": [],
       "match": true
@@ -33764,13 +31867,6 @@
       "match": true
     },
     {
-      "label": "future-12272-554",
-      "offset": "0x28328",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-12273-555",
       "offset": "0x2832B",
       "source": [],
@@ -33808,13 +31904,6 @@
     {
       "label": "future-12274-560",
       "offset": "0x28372",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-12275-561",
-      "offset": "0x28379",
       "source": [],
       "korean": [],
       "match": true
@@ -33890,13 +31979,6 @@
       "match": true
     },
     {
-      "label": "future-12280-572",
-      "offset": "0x2843A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-12280-573",
       "offset": "0x2843E",
       "source": [],
@@ -33934,13 +32016,6 @@
     {
       "label": "future-12281-578",
       "offset": "0x2849E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-12282-579",
-      "offset": "0x284A3",
       "source": [],
       "korean": [],
       "match": true
@@ -34184,20 +32259,6 @@
       "match": true
     },
     {
-      "label": "future-12295-614",
-      "offset": "0x28646",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-12296-615",
-      "offset": "0x28753",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-12297-616",
       "offset": "0x2875A",
       "source": [],
@@ -34282,13 +32343,6 @@
       "match": true
     },
     {
-      "label": "future-13300-628",
-      "offset": "0x2880D",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-13301-629",
       "offset": "0x28814",
       "source": [],
@@ -34305,13 +32359,6 @@
     {
       "label": "future-13301-631",
       "offset": "0x28837",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-13302-632",
-      "offset": "0x28843",
       "source": [],
       "korean": [],
       "match": true
@@ -34506,13 +32553,6 @@
       "match": true
     },
     {
-      "label": "future-13313-660",
-      "offset": "0x2926F",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-13314-661",
       "offset": "0x29272",
       "source": [],
@@ -34583,13 +32623,6 @@
       "match": true
     },
     {
-      "label": "future-13320-671",
-      "offset": "0x29318",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-13321-672",
       "offset": "0x2931B",
       "source": [],
@@ -34611,29 +32644,8 @@
       "match": true
     },
     {
-      "label": "future-13323-675",
-      "offset": "0x29344",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-13325-676",
       "offset": "0x2934A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-13326-677",
-      "offset": "0x2935B",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-13327-678",
-      "offset": "0x2935D",
       "source": [],
       "korean": [],
       "match": true
@@ -34690,13 +32702,6 @@
     {
       "label": "future-13333-686",
       "offset": "0x293C6",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-13333-687",
-      "offset": "0x293D8",
       "source": [],
       "korean": [],
       "match": true
@@ -34807,13 +32812,6 @@
       "match": true
     },
     {
-      "label": "future-13341-703",
-      "offset": "0x294CA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-13341-704",
       "offset": "0x294D3",
       "source": [],
@@ -34891,13 +32889,6 @@
       "match": true
     },
     {
-      "label": "future-13348-715",
-      "offset": "0x2956A",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-13349-716",
       "offset": "0x2956F",
       "source": [],
@@ -34907,13 +32898,6 @@
     {
       "label": "future-13350-717",
       "offset": "0x29586",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-13351-718",
-      "offset": "0x2958D",
       "source": [],
       "korean": [],
       "match": true
@@ -35066,13 +33050,6 @@
       "match": true
     },
     {
-      "label": "future-14359-740",
-      "offset": "0x29664",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-14360-741",
       "offset": "0x29FFE",
       "source": [],
@@ -35103,13 +33080,6 @@
     {
       "label": "future-14361-745",
       "offset": "0x2A030",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-14362-746",
-      "offset": "0x2A03E",
       "source": [],
       "korean": [],
       "match": true
@@ -35206,13 +33176,6 @@
       "match": true
     },
     {
-      "label": "future-14366-760",
-      "offset": "0x29F70",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-14367-761",
       "offset": "0x29F75",
       "source": [],
@@ -35283,13 +33246,6 @@
       "match": true
     },
     {
-      "label": "future-14373-771",
-      "offset": "0x2BB82",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-14374-772",
       "offset": "0x2BB87",
       "source": [],
@@ -35339,13 +33295,6 @@
       "match": true
     },
     {
-      "label": "future-14376-779",
-      "offset": "0x2BBF2",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-14377-780",
       "offset": "0x2BBF7",
       "source": [],
@@ -35376,13 +33325,6 @@
     {
       "label": "future-14378-784",
       "offset": "0x2BC2E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-14379-785",
-      "offset": "0x2BC37",
       "source": [],
       "korean": [],
       "match": true
@@ -35486,13 +33428,6 @@
       "match": true
     },
     {
-      "label": "future-14387-800",
-      "offset": "0x29C2E",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-14388-801",
       "offset": "0x29C33",
       "source": [],
@@ -35523,13 +33458,6 @@
     {
       "label": "future-14390-805",
       "offset": "0x29C6C",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-14392-806",
-      "offset": "0x29C83",
       "source": [],
       "korean": [],
       "match": true
@@ -35633,13 +33561,6 @@
       "match": true
     },
     {
-      "label": "future-15398-821",
-      "offset": "0x29D91",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-15399-822",
       "offset": "0x29D96",
       "source": [],
@@ -35675,13 +33596,6 @@
       "match": true
     },
     {
-      "label": "future-15403-827",
-      "offset": "0x2BCC6",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-15404-828",
       "offset": "0x2BCCB",
       "source": [],
@@ -35691,13 +33605,6 @@
     {
       "label": "future-15404-829",
       "offset": "0x2BCDB",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-15406-830",
-      "offset": "0x2BCEA",
       "source": [],
       "korean": [],
       "match": true
@@ -35773,13 +33680,6 @@
       "match": true
     },
     {
-      "label": "future-15409-841",
-      "offset": "0x2BDA1",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-15410-842",
       "offset": "0x2BDA6",
       "source": [],
@@ -35808,13 +33708,6 @@
       "match": true
     },
     {
-      "label": "future-15413-846",
-      "offset": "0x2BDDD",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
       "label": "future-15414-847",
       "offset": "0x2BDE2",
       "source": [],
@@ -35838,13 +33731,6 @@
     {
       "label": "future-15414-850",
       "offset": "0x2BE08",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-15415-851",
-      "offset": "0x2BE18",
       "source": [],
       "korean": [],
       "match": true
@@ -35929,13 +33815,6 @@
     {
       "label": "future-15418-863",
       "offset": "0x2BEDA",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-15420-864",
-      "offset": "0x2BEE2",
       "source": [],
       "korean": [],
       "match": true
@@ -36097,13 +33976,6 @@
     {
       "label": "future-15430-887",
       "offset": "0x2C042",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-15431-888",
-      "offset": "0x2C04F",
       "source": [],
       "korean": [],
       "match": true
@@ -36272,13 +34144,6 @@
     {
       "label": "future-16444-912",
       "offset": "0x2C370",
-      "source": [],
-      "korean": [],
-      "match": true
-    },
-    {
-      "label": "future-16446-913",
-      "offset": "0x2C375",
       "source": [],
       "korean": [],
       "match": true
@@ -36972,6 +34837,13 @@
     {
       "label": "future-90013-12",
       "offset": "0x510AD",
+      "source": [],
+      "korean": [],
+      "match": true
+    },
+    {
+      "label": "shared-place-new-york",
+      "offset": "0x1FA2A",
       "source": [],
       "korean": [],
       "match": true

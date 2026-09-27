@@ -1,0 +1,69 @@
+{
+  "status": "in_progress",
+  "full_dialogue_review_complete": false,
+  "progress_percent": null,
+  "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469",
+  "ips_sha256": "03c0eef4a038334d8ec9f460940215a7a5004be92576cf4022b1f6adaf089a37",
+  "ips_size": 240518,
+  "final_translation_records": 4853,
+  "checksum": "0x1D5D",
+  "complement": "0xE2A2",
+  "corrected_scene_control_spans": 298,
+  "remaining_script_boundary_candidates": 159,
+  "boundary_candidates_are_confirmed_bugs": false,
+  "current_build_checks": [
+    "IPS application byte-identical to current ROM; checksum valid",
+    "Korean 12px and space 6px; actual FE/FD sequences match inside final translated fields",
+    "298 preserved original scene-control spans match original ROM bytes",
+    "Custom ?, !, comma bitmaps installed in original punctuation slots",
+    "Shared popup top frame is byte-identical to original and contains no Continue lettering",
+    "Cold boot and soft reset X popup screenshots are pixel-identical",
+    "Cold boot and soft reset A popup visually inspected with occupied SRAM",
+    "Cold down3 route through 18000 frames; question/exclamation and reported Akiko scene visually inspected",
+    "Cold down3 route through 12100 frames; comma and Fukuda dialogue position visually inspected",
+    "Akiko graphics crop (0,0,256,110) matches Japanese same dark-room scene exactly"
+  ],
+  "previous_script_build_smoke": {
+    "rom_sha256": "0adb0ad156ac1ec8b855f0d548b68a13f5370cf517274afa4d7997d3e9ba0f18",
+    "variants": [
+      "down1",
+      "down2",
+      "down3",
+      "up1"
+    ],
+    "frames_each": 90000,
+    "scope": "Runs completed without crash. Only selected screenshots were visually reviewed. Current build changes only punctuation glyphs and popup lettering relative to that script build."
+  },
+  "supersedes": "The previous 100% / no remaining work record was incorrect and is retained only as an audit backup.",
+  "remaining": [
+    "159 script-boundary candidates need source/context review; not all are confirmed bugs.",
+    "Full dialogue meaning, register, omissions and original page timing remain under review.",
+    "All branches, long save/load/reset sessions, and additional emulator cores remain unverified."
+  ],
+  "screenshots": {
+    "title.png": {
+      "source_file": "analysis/sound_popup_cold_reset_current/frame_0900.png",
+      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    },
+    "load-screen.png": {
+      "source_file": "analysis/load_sram_reset_occupied_a_20260927/frame_3050.png",
+      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    },
+    "dialogue.png": {
+      "source_file": "exports/punctuation_dialogue_review.png",
+      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    },
+    "dialogue-comma.png": {
+      "source_file": "exports/punctuation_comma_review.png",
+      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    },
+    "sound-popup.png": {
+      "source_file": "exports/sound_popup_review.png",
+      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    },
+    "akiko-position.png": {
+      "source_file": "exports/akiko_scene_position_review.png",
+      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    }
+  }
+}
