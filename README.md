@@ -1,4 +1,5 @@
 # SFC 과장 시마 고사쿠 슈퍼 비즈니스 어드벤처 한글 패치
+테스트가 가능한 버젼이 아니니 아직 하지 마세요.
 
 ![Version](https://img.shields.io/badge/version-V0.2-blue)
 ![Status](https://img.shields.io/badge/status-public%20test-orange)
