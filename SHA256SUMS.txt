@@ -1,3 +1,3 @@
-03c0eef4a038334d8ec9f460940215a7a5004be92576cf4022b1f6adaf089a37  patches/Kachou_Shima_Kousaku_KR_V0.2.ips
-# Expected patched ROM SHA256: b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469
+73bea6a52c3cd0b794db6654c7323a58bd5d76e41b5f75994b48489850900d9d  patches/Kachou_Shima_Kousaku_KR_V0.2.ips
+# Expected patched ROM SHA256: c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67
 # Required original ROM SHA256: 988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7

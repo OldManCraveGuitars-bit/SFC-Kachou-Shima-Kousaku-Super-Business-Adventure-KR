@@ -2,12 +2,12 @@
   "status": "in_progress",
   "full_dialogue_review_complete": false,
   "progress_percent": null,
-  "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469",
-  "ips_sha256": "03c0eef4a038334d8ec9f460940215a7a5004be92576cf4022b1f6adaf089a37",
-  "ips_size": 240518,
+  "rom_sha256": "c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67",
+  "ips_sha256": "73bea6a52c3cd0b794db6654c7323a58bd5d76e41b5f75994b48489850900d9d",
+  "ips_size": 240545,
   "final_translation_records": 4853,
-  "checksum": "0x1D5D",
-  "complement": "0xE2A2",
+  "checksum": "0x3942",
+  "complement": "0xC6BD",
   "corrected_scene_control_spans": 298,
   "remaining_script_boundary_candidates": 159,
   "boundary_candidates_are_confirmed_bugs": false,
@@ -21,7 +21,8 @@
     "Cold boot and soft reset A popup visually inspected with occupied SRAM",
     "Cold down3 route through 18000 frames; question/exclamation and reported Akiko scene visually inspected",
     "Cold down3 route through 12100 frames; comma and Fukuda dialogue position visually inspected",
-    "Akiko graphics crop (0,0,256,110) matches Japanese same dark-room scene exactly"
+    "Akiko graphics crop (0,0,256,110) matches Japanese same dark-room scene exactly",
+    "Original Japanese street artwork matches source across 39 reset DATA 2 frames on each of A/X paths"
   ],
   "previous_script_build_smoke": {
     "rom_sha256": "0adb0ad156ac1ec8b855f0d548b68a13f5370cf517274afa4d7997d3e9ba0f18",
@@ -46,8 +47,8 @@
       "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
     },
     "load-screen.png": {
-      "source_file": "analysis/load_sram_reset_occupied_a_20260927/frame_3050.png",
-      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+      "source_file": "analysis/reset_occupied_slot_kr_a_public_original_bg_20261004/frame_3140.png",
+      "rom_sha256": "c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67"
     },
     "dialogue.png": {
       "source_file": "exports/punctuation_dialogue_review.png",
@@ -64,6 +65,20 @@
     "akiko-position.png": {
       "source_file": "exports/akiko_scene_position_review.png",
       "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+    },
+    "load-popup.png": {
+      "source_file": "analysis/reset_occupied_slot_kr_x_public_original_bg_20261004/frame_3210.png",
+      "rom_sha256": "c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67"
     }
-  }
+  },
+  "artwork_only_update_from_rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469",
+  "background_restoration": {
+    "description": "Japanese original street artwork restored; Korean load UI retained",
+    "source_artwork_sha256": "38790931adee0889287ae361bbea05b10cd6e861950ee30e1b25e614106ae448",
+    "rom_changed_byte_scope": "0x7FDC:0x7FE0 and 0x124000:0x126000 only",
+    "reset_data2_a_x_street_frames_identical_to_original_each": 39,
+    "evidence": "analysis/reset_occupied_slot_a_x_review_latest_public_original_bg_20261004.json",
+    "scope": "One generated DATA 2 SRAM, one reset/A path and one reset/X path."
+  },
+  "screenshot_provenance_note": "Other screenshots were captured from the previous ROM; only street artwork and checksum bytes changed in this update."
 }
