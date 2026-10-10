@@ -1,84 +1,68 @@
 {
   "status": "in_progress",
   "full_dialogue_review_complete": false,
-  "progress_percent": null,
-  "rom_sha256": "c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67",
-  "ips_sha256": "73bea6a52c3cd0b794db6654c7323a58bd5d76e41b5f75994b48489850900d9d",
-  "ips_size": 240545,
-  "final_translation_records": 4853,
-  "checksum": "0x3942",
-  "complement": "0xC6BD",
-  "corrected_scene_control_spans": 298,
-  "remaining_script_boundary_candidates": 159,
-  "boundary_candidates_are_confirmed_bugs": false,
-  "current_build_checks": [
-    "IPS application byte-identical to current ROM; checksum valid",
-    "Korean 12px and space 6px; actual FE/FD sequences match inside final translated fields",
-    "298 preserved original scene-control spans match original ROM bytes",
-    "Custom ?, !, comma bitmaps installed in original punctuation slots",
-    "Shared popup top frame is byte-identical to original and contains no Continue lettering",
-    "Cold boot and soft reset X popup screenshots are pixel-identical",
-    "Cold boot and soft reset A popup visually inspected with occupied SRAM",
-    "Cold down3 route through 18000 frames; question/exclamation and reported Akiko scene visually inspected",
-    "Cold down3 route through 12100 frames; comma and Fukuda dialogue position visually inspected",
-    "Akiko graphics crop (0,0,256,110) matches Japanese same dark-room scene exactly",
-    "Original Japanese street artwork matches source across 39 reset DATA 2 frames on each of A/X paths"
+  "date": "2026-10-10",
+  "source_rom_sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
+  "source_rom_size": 1048576,
+  "patched_rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394",
+  "patched_rom_size": 2097152,
+  "ips_sha256": "b88ba1859862272934ab2fde3b2c9dbea987f74e37ad4e75db45807ced99c972",
+  "ips_size": 244455,
+  "dialogue_editor_exe_sha256": "b31e4b7ede04988c1545443f73c26e8ca82c87341f4311ff79327ac6764074eb",
+  "dialogue_editor_exe_size": 32191572,
+  "checksum": "0x7330",
+  "complement": "0x8CCF",
+  "registered_dialogue_fields": 4879,
+  "japanese_source_fields": 4674,
+  "missing_japanese_source_fields": 205,
+  "approved_fields": 3233,
+  "unapproved_fields": 1646,
+  "missing_original_timed_calls": 64,
+  "page_turn_records": 4879,
+  "page_turn_mismatches": 0,
+  "checked": [
+    "IPS 적용 결과가 현 ROM과 바이트 단위로 일치",
+    "원판과 등록 대사의 화면 넘김 수 일치",
+    "새 게임의 초반·down1·down3 일부 화면에서 원판과 한글판 대조",
+    "DATA 2 재시작 뒤 A/X 선택 경로의 거리 배경 각 39프레임 원판과 일치",
+    "대본 수정 EXE 자체 검사, CSV 왕복, 창 실행 검사 통과"
   ],
-  "previous_script_build_smoke": {
-    "rom_sha256": "0adb0ad156ac1ec8b855f0d548b68a13f5370cf517274afa4d7997d3e9ba0f18",
-    "variants": [
-      "down1",
-      "down2",
-      "down3",
-      "up1"
-    ],
-    "frames_each": 90000,
-    "scope": "Runs completed without crash. Only selected screenshots were visually reviewed. Current build changes only punctuation glyphs and popup lettering relative to that script build."
-  },
-  "supersedes": "The previous 100% / no remaining work record was incorrect and is retained only as an audit backup.",
-  "remaining": [
-    "159 script-boundary candidates need source/context review; not all are confirmed bugs.",
-    "Full dialogue meaning, register, omissions and original page timing remain under review.",
-    "All branches, long save/load/reset sessions, and additional emulator cores remain unverified."
+  "not_checked": [
+    "전체 대사와 모든 분기의 문맥·화자·말투·화면 검수",
+    "다른 저장 슬롯과 장시간 저장·불러오기",
+    "모든 에뮬레이터의 재시작 동작"
   ],
-  "screenshots": {
+  "screenshot_provenance": {
     "title.png": {
-      "source_file": "analysis/sound_popup_cold_reset_current/frame_0900.png",
-      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+      "source_file": "analysis/branch_kr_first_1607_review_frames/frame_000900.png",
+      "sha256": "b101caa7a3f9a95f4f987f38edab935e29a9b28385b7549d2a39c482240724cd",
+      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
+    },
+    "opening-narration.png": {
+      "source_file": "analysis/branch_kr_first_3207_review_frames/frame_002200.png",
+      "sha256": "3f27d6558d9dc6b72756ccbc681a4e2a4ac126176dcd99a7748f2c2f6b0cc36e",
+      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
+    },
+    "opening-choice.png": {
+      "source_file": "analysis/branch_kr_first_7509_review_frames/frame_007200.png",
+      "sha256": "ca146f699521448bbd2476c4d15629789c36ceec48c98b7a4c2165965cdcb14b",
+      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
     },
     "load-screen.png": {
-      "source_file": "analysis/reset_occupied_slot_kr_a_public_original_bg_20261004/frame_3140.png",
-      "rom_sha256": "c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67"
-    },
-    "dialogue.png": {
-      "source_file": "exports/punctuation_dialogue_review.png",
-      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
-    },
-    "dialogue-comma.png": {
-      "source_file": "exports/punctuation_comma_review.png",
-      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
-    },
-    "sound-popup.png": {
-      "source_file": "exports/sound_popup_review.png",
-      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
-    },
-    "akiko-position.png": {
-      "source_file": "exports/akiko_scene_position_review.png",
-      "rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469"
+      "source_file": "analysis/reset_occupied_slot_kr_a_batch796final_20261010/frame_3140.png",
+      "sha256": "69be985b44059374d417853df4fb224796913dbbf0aaa9e424445867665f6d02",
+      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
     },
     "load-popup.png": {
-      "source_file": "analysis/reset_occupied_slot_kr_x_public_original_bg_20261004/frame_3210.png",
-      "rom_sha256": "c8797dd0782bcf2828a662a3a9d329a7821adc84633b5f46bcb85e3e08807a67"
+      "source_file": "analysis/reset_occupied_slot_kr_a_batch796final_20261010/frame_3210.png",
+      "sha256": "a7755f8c2f0bc660602bdabbed9d551f20eefbedf588ac18d296f865786eab33",
+      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
+    },
+    "timed-dialogue.png": {
+      "source_file": "analysis/branch_kr_down1_170219_review_frames/tracked_56DBF_168204.png",
+      "sha256": "50ab68a5ba5f41a5a2906ad53912ba4271125f07cab107d4f9f0f61e968d809a",
+      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
     }
   },
-  "artwork_only_update_from_rom_sha256": "b23c7f4fcf9efc1667bd06d408f2d7f64ed7c0c0dc8b4d4959c2f2ed46716469",
-  "background_restoration": {
-    "description": "Japanese original street artwork restored; Korean load UI retained",
-    "source_artwork_sha256": "38790931adee0889287ae361bbea05b10cd6e861950ee30e1b25e614106ae448",
-    "rom_changed_byte_scope": "0x7FDC:0x7FE0 and 0x124000:0x126000 only",
-    "reset_data2_a_x_street_frames_identical_to_original_each": 39,
-    "evidence": "analysis/reset_occupied_slot_a_x_review_latest_public_original_bg_20261004.json",
-    "scope": "One generated DATA 2 SRAM, one reset/A path and one reset/X path."
-  },
-  "screenshot_provenance_note": "Other screenshots were captured from the previous ROM; only street artwork and checksum bytes changed in this update."
+  "scope_note": "촬영·검수한 화면에 한정한 공개 테스트 빌드이며 완역 또는 전체 QA 완료가 아니다."
 }
