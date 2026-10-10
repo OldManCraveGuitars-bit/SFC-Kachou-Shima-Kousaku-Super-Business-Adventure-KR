@@ -24,6 +24,8 @@
 
 [V0.2 릴리스](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.2)에서 `Kachou_Shima_Kousaku_KR_V0.2.ips`를 받으세요. 헤더 없는 일본판 원본 ROM에 IPS 패처로 적용합니다. 원본 ROM과 패치 완료 ROM은 배포하지 않습니다. 이전 상태 저장에는 화면 메모리가 남을 수 있으므로 새 게임으로 먼저 확인하고, 사용 중인 SRAM은 백업해 주세요.
 
+GitHub가 자동으로 표시하는 `Source code (zip/tar.gz)`는 옛 V0.2 태그의 스냅샷입니다. **2026-10-10 빌드는 릴리스의 첨부 IPS와 EXE를 사용하세요.**
+
 | 파일 | 크기 | SHA-256 |
 | --- | ---: | --- |
 | 일본판 원본 ROM | 1,048,576 bytes | `988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7` |
