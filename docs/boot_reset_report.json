@@ -1,51 +1,35 @@
 {
-  "rom": "out\\Kachou Shima Kousaku (Japan) [KR Story Path Extended Preview].sfc",
-  "rom_sha256": "35291c3762f144fbbd6ef9c163723e8d17de21aaae47da09c20f56933656bade",
-  "cold_frames": 8000,
-  "reset_frames": 4000,
-  "sample_interval": 30,
-  "matching_sample_frames": [
-    0,
-    30,
-    60,
-    90,
-    120,
-    150,
-    180,
-    210,
-    240,
-    270,
-    300,
-    330,
-    360,
-    390,
-    420,
-    450,
-    480,
-    510,
-    540,
-    570,
-    600,
-    630,
-    660,
-    690,
-    720,
-    750,
-    780,
-    810,
-    840,
-    870,
-    900,
-    930,
-    960,
-    990,
-    1020,
-    1050,
-    1080,
-    1110,
-    1140
-  ],
-  "matching_sample_count": 39,
-  "common_sample_count": 134,
-  "output": "C:\\CODEX\\kachou-shima-kousaku-kr\\analysis\\boot_reset_Kachou_Shima_Kousaku_(Japan)_KR_Story_Path_Extended_Preview"
+  "version": "V0.8",
+  "target_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+  "captures": {
+    "release4316_idle": {
+      "frames": 22000,
+      "core": "snes9x_libretro.dll",
+      "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+    },
+    "release4316_bsnes": {
+      "frames": 12000,
+      "core": "bsnes_libretro.dll",
+      "core_sha256": "cb87808d136189c79aa9254599ed7f7d07c527ae528435a742ad9fb98f5cfcce"
+    },
+    "release4316_start": {
+      "frames": 4500,
+      "core": "snes9x_libretro.dll",
+      "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+    },
+    "release4316_reset": {
+      "frames": 8000,
+      "core": "snes9x_libretro.dll",
+      "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+    },
+    "release4316_skip": {
+      "frames": 4500,
+      "core": "snes9x_libretro.dll",
+      "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+    }
+  },
+  "repeated_title_pixels_exact": true,
+  "early_skip_closes_title_session": true,
+  "mode7_handoff_logo_stable": true,
+  "scope": "Native cold boot without state loads or RAM changes; ordinary Start, early skip, repeated attract demo and reset."
 }

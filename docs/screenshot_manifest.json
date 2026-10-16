@@ -1,0 +1,1007 @@
+{
+  "version": "V0.8",
+  "date": "2026-10-17",
+  "count": 49,
+  "target_rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+  "note": "Opening and start images are captured from the exact release ROM. Body images are native proofreading captures with final4 changed-page exclusion and an unchanged-story byte bridge. The ending image carries the independently verified unchanged ending/credit data. Capture entry paths do not prove every ordinary choice combination was replayed.",
+  "screenshots": [
+    {
+      "file": "screenshots/v0.8/01-opening.png",
+      "title": "한글 메인 타이틀",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "b101caa7a3f9a95f4f987f38edab935e29a9b28385b7549d2a39c482240724cd",
+      "sha256": "b94ecb7d6b8a340af91334ed04ece431b1ebc2d0a7232112099f7802bf6440c9",
+      "frame": 840,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/02-opening.png",
+      "title": "줌아웃 뒤 한글 로고",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "b91f7f0a724383dc64961ca59e43810b2ab6c953fab06a84f321bcdc006e4ad1",
+      "sha256": "cc91925c5888ac551368c509f80eec2b0a6af25549af39e0142be76ab7fdad8b",
+      "frame": 480,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/03-opening.png",
+      "title": "한글 임명장",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "975b1a7630947596e71453e8e6a8fe13ee3ce51e259876251da8ced0c899ded9",
+      "sha256": "dc22703c7762e0e3b5c175fae4bedef40b1cdb2d960f3e5e502559ed9209433a",
+      "frame": 1680,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/04-opening.png",
+      "title": "인물 소개 · 이름과 소속",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "8eb683102c42b863e0c73f75b8966f54cdb38ce6c44b5ad990d8ec93a83af4fd",
+      "sha256": "3b6fa74ea075fe2198020bd4ebcf760438c8180ac3f607476efa516bc794426c",
+      "frame": 2520,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/05-opening.png",
+      "title": "인물 소개 · 업무",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "6e805aace553be58ff7ed29cff4d8fd5bdcbc368277d914b591fda57483a25a7",
+      "sha256": "80dc1118298c15e0a9a036e2d46ceb0059a8af1713d445720f192d74e2f69db4",
+      "frame": 3120,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/06-opening.png",
+      "title": "인물 소개 · 후반 문구",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "d2369b50bf80ae3925bb40b858027e1c7e89f9d9d228bc47379b61ab9020ddb7",
+      "sha256": "6cf5c718f19fac11322a72548ce66e0ffcad1912d090bddbad6a4bc17e2a7133",
+      "frame": 3720,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/07-opening.png",
+      "title": "대기 데모 · 전화",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "ca4f10e1524b31441c53f4a55dfa0b1592a5d80cc40e159ab53b486cd88ba0a1",
+      "sha256": "ba79dfd82dd75f55cffffa149323daeb30610ef2ec2514118fd042d435abcd4c",
+      "frame": 4980,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/08-opening.png",
+      "title": "대기 데모 · 부하 직원",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "252c3f64593d028b47b94f1e947f7c137d18c39acc3e2b98cdfccd585ef7daac",
+      "sha256": "a1447fa2cc08549e73743c7f2d08209401f635344d183ffe3f4a25530da67c0c",
+      "frame": 5400,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/09-opening.png",
+      "title": "대기 데모 · 상사 지시",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "fe343b17fe0e6b1940bacf0177d378e3b51a8fce81cc0b4d414072a1072be09e",
+      "sha256": "c1d461e741bc97104efa80bfcb4c4bcac22b90ccb3430f45688f17a43deaaad9",
+      "frame": 6120,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/10-opening.png",
+      "title": "대기 데모 · 동료",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "4b1652fc02678c9b1a90e029eb78245a28dae4ec9ee08a56d20b98f4c94161bc",
+      "sha256": "42ce198bfee822fadafa4680091980cadb97e63b1c3e3c0e151e3449873fc298",
+      "frame": 7560,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/11-opening.png",
+      "title": "대기 데모 · 뉴욕",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "69e57cee91ab1d70c798df69f21551739abd07013d5a31635bceeab8a5d5e686",
+      "sha256": "dcb734c82358f8184edee6b7f60ed97671d456b6eb16209f2b63ccb4ede8ec5c",
+      "frame": 8400,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/12-opening.png",
+      "title": "원작 영어 로고와 도시 그림",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "df00c53486a3915dc06bc7d1a41b02ce767c932a32f6a27c9c950673e21a6383",
+      "sha256": "98ef17afc14f6750c24a2829cf5b005fd158afeecbe5a9d4aaa577b2a53193c5",
+      "frame": 9960,
+      "capture": "native V0.8 release ROM; no input",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/13-start.png",
+      "title": "이야기 도입",
+      "group": "start",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "ac2edbf473ef1b7ee00f2d92280891438f7fd292363139d2772c52f359e87053",
+      "sha256": "1cacc62f693e72e43ec496d27212ce9c5516a7352576025486758bbd2014e198",
+      "frame": 2400,
+      "capture": "native V0.8 Start/file selection",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/14-start.png",
+      "title": "DATA 선택 화면",
+      "group": "start",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "378eb874b81474d8fc94ffda4a35168335dcfb8cca3e7ed7d3e6ac9b2bea3966",
+      "sha256": "f82b4cad62bf9e262395a18afc00ee5750721154232a363bca7569a150220cd4",
+      "frame": 1200,
+      "capture": "native V0.8 Start/file selection",
+      "rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06"
+    },
+    {
+      "file": "screenshots/v0.8/15-chapter-0.png",
+      "title": "업무 선택지",
+      "group": "chapter-0",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "51a9bef9a643cd63b1a5f4fdb27148bcc39ba37fbdfeb7c7de971adebfe647a7",
+      "sha256": "65f25880c28e3a64737bf92d3324e1370b3c11e28e5d8a976b99d794099184bc",
+      "frame": 5160,
+      "sequence": 2831,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/16-chapter-0.png",
+      "title": "업무 선택지",
+      "group": "chapter-0",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "278ae10b5d893e8ab722ee68581a01325ad8725d344a9d671993621001db12a1",
+      "sha256": "c0eed7fa8e5b1d42c87d9c9caba4dbf8fc64018d5985344de5f9811db298a738",
+      "frame": 9024,
+      "sequence": 5547,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/17-chapter-1.png",
+      "title": "업무 선택지",
+      "group": "chapter-1",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "98aa46f81cab3592a35e5124752f740f2c41e49e9eb6b9cdb46ecff059c9ce11",
+      "sha256": "511fddd0dc8d8d83e761f27e0bf65540e69a0381aa85ecc58507206d35ce2478",
+      "frame": 18996,
+      "sequence": 4427,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/18-chapter-1.png",
+      "title": "업무 선택지",
+      "group": "chapter-1",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "c73654faae6f97ec15d1c91535ea4c782ba82e7d69e70d0a59bcc612ccdef411",
+      "sha256": "d8f2c09a2436b2ea73e1c3b7c1f44bd2aed75419e3ece46dcbff795bc736c5e1",
+      "frame": 22368,
+      "sequence": 10162,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/19-chapter-3.png",
+      "title": "본편 대사",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "c703f2d87e3b701a083a3f8d2d16f62a194dc006b86f12df03ab7add45a62edf",
+      "sha256": "afbe92b59f58c14615fbe4532fc7e4d1a1d849875bb8df70a89e2f1eba7300bd",
+      "frame": 6360,
+      "sequence": 3611,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/20-chapter-3.png",
+      "title": "업무 선택지",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "661da479483ee52f57a4ce9e661a41cfa1bda26e4906adc3b16efae9a1f9bc22",
+      "sha256": "a23ce7444296d99eccc7859a737eebd4f6895da066ccfd6e3507e39e57c513ad",
+      "frame": 26424,
+      "sequence": 3740,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/21-chapter-3.png",
+      "title": "본편 대사",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "b51a8132080dd61a609b48e66047c4a8a87fde76435aeae52060a6d95a15230c",
+      "sha256": "e86c2762098a06cee09199cc22c4fbe2274232da8fadaafb0512c848f63859d0",
+      "frame": 50796,
+      "sequence": 3881,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/22-chapter-3.png",
+      "title": "본편 대사",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "2d93242a7cf883c2c6b43fe9e75b7da681003f21158721c78ed1a4f57819d479",
+      "sha256": "0609d91abee2525940b165f1e71c9a57f0f4f821400d88729d660e3212df0302",
+      "frame": 16248,
+      "sequence": 6747,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/23-chapter-3.png",
+      "title": "본편 대사",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "ed5dd532d2cd82d507746fb3f9ca53c9bdaa2d43ba741a9697766519acd6bced",
+      "sha256": "fc0400f207529cd4c2d1f849b23d6ba8968a1f001fcdc8379bbf956b2933201f",
+      "frame": 26988,
+      "sequence": 6851,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/24-chapter-3.png",
+      "title": "본편 대사",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "1f8f5a1f33e0f65cb946ff9a30a7a44c9bed21db69747a4d695244bb887fa90c",
+      "sha256": "ec5312f324721404361bd929d80d293aff63437a38595602912553652cb7c72b",
+      "frame": 34776,
+      "sequence": 6879,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/25-chapter-3.png",
+      "title": "본편 대사",
+      "group": "chapter-3",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "c5a4b19881547c1461e1d9cc5fa6cdd8a57d6c0242ff51ecd1d50b7bed9bf961",
+      "sha256": "da3df9caf94af665f399ca53c6b859acb789a2f0fe69d428858e47c9b3816e7d",
+      "frame": 43548,
+      "sequence": 7009,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/26-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "6dd0213f353b8631d7b8497ffb23614f64321f386f2ac81de4cbae8aaba9081d",
+      "sha256": "f216783c75ca3aa0d5f31588d816fec3b8c124a1f9b330efb50a2c82e5fe2506",
+      "frame": 4356,
+      "sequence": 7255,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/27-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "f68a983c9728731543215eb5d70fd4245ec2b1a3f4689a90020aec58a89c182d",
+      "sha256": "0153084154f21337586ce02dea1a3bce5d6aea38276e4aa6a712056b129f52fc",
+      "frame": 5460,
+      "sequence": 7260,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/28-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "10c0df4972f0d088de203eca96ec41afeff47416717ecd66146546c100a7a284",
+      "sha256": "56cff5eeb811dba9702fba0637dde3e876df359f674a056bc09175740c222947",
+      "frame": 8808,
+      "sequence": 7270,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/29-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "7b3db264ba4576f9ee06cb2a8ce778e1a107360040efdb5d4a30c37938d4c385",
+      "sha256": "067348ac7443ebf59c25a5bd42beffbb4ce6775654e0485b53b72b3e3b13433e",
+      "frame": 13452,
+      "sequence": 7295,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/30-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "676096f60f3bc5836e556051b52f0c7c673c4bd02571002063ab8f415dfab8af",
+      "sha256": "ac34c77db8859d6d0e5443f0efeb9b2ba812fb61db84468c46d427e5ec1268cb",
+      "frame": 19968,
+      "sequence": 7344,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/31-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "a371878ffd81954064a62a6576465ba447a71172645d4da80d10c4a312d89a08",
+      "sha256": "37e9f39f3f8c4c853ed7ee26482151f68e54bf538a81578b9a6442e31834a34f",
+      "frame": 21216,
+      "sequence": 7351,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/32-chapter-4.png",
+      "title": "본편 대사",
+      "group": "chapter-4",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "08b54ace8301c588c02aedb7aa73595b42169a58cb21fb26fa940fd5b3ec20ec",
+      "sha256": "8cd67768dceab8e6b75c8e92adfeb3f9b228fa5a53546a5cde7d24a17de06a59",
+      "frame": 23868,
+      "sequence": 7365,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/33-chapter-5.png",
+      "title": "교토 지사 소개",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "1159447a6c723721130a537e13ea6fdf4bbf28c536c21904982167b417cc0d5f",
+      "sha256": "744b72880a4a54e6cef3fa6f0258cdb233e60b5fa92aff619cd3b704a2f9d127",
+      "frame": 10236,
+      "sequence": 254,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/34-chapter-5.png",
+      "title": "업무 선택지",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "e295d9e7b2f845a223fb69037c3aaf61127e0b24afac5da68e07f1afc515fd0c",
+      "sha256": "6a6f8cfc685e8e5ba0a91bb42d9f9e5344214190e2b1bb43f602bbcfa9ab62b4",
+      "frame": 107892,
+      "sequence": 637,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/35-chapter-5.png",
+      "title": "본편 대사",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "36626c9dbbdc1eea7ea3cc1d2d1177f5246b7f74098fb9bd92dd7a7efeb48afc",
+      "sha256": "41d1a16196b7b482eb5d8c7a4682eee48ff39c12f9a363d5267a5a6df9a3f6a8",
+      "frame": 20568,
+      "sequence": 1105,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/36-chapter-5.png",
+      "title": "업무 선택지",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "289b0b6eb65df599903a6b1df52a11bf9feb6e27dcc5877ac1341453a3172ad8",
+      "sha256": "1f0fafdd807a362c02ae7a8af167e34296ae22033d7e888a1c0f816eb4166fd0",
+      "frame": 54120,
+      "sequence": 2444,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/37-chapter-5.png",
+      "title": "본편 대사",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "444f7e2c6d0c05deaf8ac56f2ebb6d610980fa2a3d81eb114e6c7b5a8beb41f1",
+      "sha256": "9cb307635998d8ee0b69b2906c85d21260b8d4687385f0c4cb6714dc6894b138",
+      "frame": 122388,
+      "sequence": 2667,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/38-chapter-5.png",
+      "title": "비즈니스 칼럼",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "c5a6ea6edec9dc157b401ab07bea6dd1f6760fdb93b6824beeab61fd8b13435c",
+      "sha256": "c21b352909ab52902a3d95a5ae30d334462399ca6117a0f466485a1b64556c6a",
+      "frame": 163704,
+      "sequence": 2795,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/39-chapter-5.png",
+      "title": "본편 대사",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "df999773df7e86af98a95845680cd85c480ff332158106f2e40f7e0688529d74",
+      "sha256": "b0b563595af7bdca4b351438ff1e2a2e222adf2f29f12c5c456c749f32376770",
+      "frame": 23484,
+      "sequence": 7483,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/40-chapter-5.png",
+      "title": "본편 대사",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "36b86e76c258553316cba203da4b6c432f4644c63ca7b81557197cef84794ec6",
+      "sha256": "8740ade7d33f116053c3cc3e9096d843e09b215be0276c3dc7aef13afb41f89a",
+      "frame": 79680,
+      "sequence": 7649,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/41-chapter-5.png",
+      "title": "본편 대사",
+      "group": "chapter-5",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "01590ca6baa76d581dc91a97929feac3e9b3cf471f5d6401b245277e9e16cb49",
+      "sha256": "6d82cef3026d93c9162f58bc832a6316fc9364504aa7ba07ad9be5722fb555a0",
+      "frame": 101184,
+      "sequence": 7734,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/42-chapter-6.png",
+      "title": "본편 대사",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "ede9311afb5180cb80fefe01d8ea7d7d915b079297b9c846c48d07f5f97ed54c",
+      "sha256": "06d58ed69ba15ca66e659ab1548206f3fc401197f3f33fe42944ad3d055d785f",
+      "frame": 54036,
+      "sequence": 2131,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/43-chapter-6.png",
+      "title": "본편 대사",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "bc76175c87f2ee6264c6e570c6d1a0984bbc9a15ee9d05b311cb294b0fc152f6",
+      "sha256": "fd0035127494d32a3b514a1689c8477cc9ecee7254791b75d91bbeaa9c429358",
+      "frame": 45516,
+      "sequence": 8232,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/44-chapter-6.png",
+      "title": "본편 대사",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "784f6384d3f62c10f5df43abd24eea912d74aa880d8f80f0f0a31a4682f95725",
+      "sha256": "05b956cd11a123359575d466de3470ac41957dd7c005530b117c896e74f33e89",
+      "frame": 77172,
+      "sequence": 8492,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/45-chapter-6.png",
+      "title": "본편 대사",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "7557aaed52d13a33b97c6e71dffc49c385296a83ac39d46ceeb7dc2ec04d4723",
+      "sha256": "cf2954f3c3321b46daaa56bbbcffa7ea2deb2884a25b80cc63b96af8b27952f6",
+      "frame": 167304,
+      "sequence": 9321,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/46-chapter-6.png",
+      "title": "본편 대사",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "19375b7c49b695d182759edae8c2eba2b894df182a3d2c9acaf3e3b0aa076f13",
+      "sha256": "2138408c5b260ed81002b4c3756b31d29baa39aa98fdcd7fb944d825d94100f1",
+      "frame": 207900,
+      "sequence": 9568,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/47-chapter-6.png",
+      "title": "본편 대사",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "d15971325cd39d7c142c272543feee60eee6e407f1acf857b7f40b5a146cf40b",
+      "sha256": "fd4c05cfb755ea1d61f21d98d47591b55a8c801b7e1ff1fe5cabd7f15fc85a78",
+      "frame": 47052,
+      "sequence": 9747,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/48-chapter-6.png",
+      "title": "인물 직함 표기",
+      "group": "chapter-6",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "a4a9c6e7c78c59e6b1a978f0ae5f40ae1575980e21d91d6f28fc93060705dfb5",
+      "sha256": "c0b9d7cfaf8d116db70336128fa42657a6d1a544a01f8538d2085e2e4004ceae",
+      "frame": 88992,
+      "sequence": 9976,
+      "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
+      "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
+      "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.8/49-ending.png",
+      "title": "完과 중앙 한글화 크레딧",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "0e6271ba558368df7f8ef4bd5d049ba00fb36e0904a6180aee7dae2b07c11e9a",
+      "sha256": "3bae66230fa6df9e7528ab16f76f2301a08655a36b8fec911b05dd713c7743ae",
+      "capture": "native credit verification4196; ending art/call/data carried byte-identically",
+      "review_base_sha256": "08696eb2048c4aa38af09fd338cb65cb215d16fb7f49c67c125b10a02dfbf313"
+    }
+  ]
+}

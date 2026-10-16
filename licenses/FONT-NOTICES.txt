@@ -1,0 +1,15 @@
+폰트 표시 및 라이선스 안내
+
+NeoDunggeunmo
+Original font was released under the public domain by Jungtae Kim in 1990s.
+Conversion and additional character design by Dalgona. <me@dalgona.dev>
+
+x12y12pxMaruMinyaHangul
+Copyright (c) 2026 The x12y12pxMaruMinya Project Authors; Copyright (c) 2026 quiple
+
+Galmuri11 Condensed
+Copyright (c) 2019–2025 Lee Minseo (quiple@quiple.dev)
+
+위 폰트의 글리프를 화면에 맞게 사용했습니다. 원본 TTF 파일은 이 배포 묶음에 포함하지 않습니다.
+세 폰트의 로컬 원본 메타데이터는 SIL Open Font License 1.1을 명시합니다.
+OFL 전문: Galmuri-OFL-1.1.txt / https://openfontlicense.org

@@ -1,3 +1,5 @@
+> 이 문서는 이전 V0.2 공개 테스트의 이력입니다. 현재판은 [V0.8](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.8)입니다.
+
 # 과장 시마 고사쿠 슈퍼 비즈니스 어드벤처 한글 패치 V0.2
 
 《과장 시마 고사쿠》는 회사원 시마 고사쿠의 업무와 인간관계를 선택지로 따라가는 슈퍼패미컴 어드벤처 게임입니다. 일본판의 대사·선택지와 일부 화면 글씨를 한국어로 옮긴 비공식 IPS 패치입니다. 원래 영어인 문구는 영어로 유지합니다.

@@ -1,0 +1,54 @@
+{
+  "version": "V0.8",
+  "date": "2026-10-17",
+  "repository": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR",
+  "release": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.8",
+  "source_rom": {
+    "bytes": 1048576,
+    "sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
+    "sha1": "18f6451f3973f2c649726cb719b9e383fb13eac6",
+    "md5": "6abe2920bc017a66665ae114ffa2bf0f",
+    "crc32": "B9DCA26D"
+  },
+  "patched_rom": {
+    "bytes": 2097152,
+    "sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+    "sha1": "3683f8665441e19537d17a1658f8a3cd9282be43",
+    "md5": "c54439228e776afbbb4c152fa16c4a41",
+    "crc32": "A57715B4"
+  },
+  "files": {
+    "KachouShimaKRPatcher-V0.8.exe": {
+      "bytes": 11757600,
+      "sha256": "99a930169f0f561356eda963bdbd082546d33cb23618222e375fdfcbd9d6b9eb",
+      "sha1": "e9adfee3de4580f8e79a1687c9a6251def49eb82",
+      "md5": "f28f11d2a85e7268f8c0e82dc6f8be5d",
+      "crc32": "8CEB55EE"
+    },
+    "Kachou_Shima_Kousaku_KR_V0.8.ips": {
+      "bytes": 465823,
+      "sha256": "b76f7b1e1136cfb6d5beada07d53b501fdf66f9a740d36f63b4510e7e959dfe9",
+      "sha1": "94477eafab5bea80e599a321ff3968449ffe9800",
+      "md5": "3c58e4a47e69c8f6026c0c9e1bbc1183",
+      "crc32": "91064276"
+    },
+    "KachouShimaDialogueEditor-V0.8.exe": {
+      "bytes": 34501684,
+      "sha256": "71fa39ab17dad3a28259f24a1b652b0fabaf60696270fb5723136e5c6ee7856e",
+      "sha1": "f393db3b088194b0689d233789ba77426254313c",
+      "md5": "8ad8da786f15e24826b473009cc04fe9",
+      "crc32": "759C72AB"
+    },
+    "Kachou_Shima_Kousaku_KR_V0.8.zip": {
+      "bytes": 11798893,
+      "sha256": "2a5cc06297793f1bdcc8326b1f7e3e5a5f57bf55418768813d1be492a88d1c7a",
+      "sha1": "fc38281b51b608f9f062e606c91670b342ce781a",
+      "md5": "b70510bb8e9c9d0c024bbf2c49bf9157",
+      "crc32": "3DCC8424"
+    }
+  },
+  "original_rom_included": false,
+  "patched_rom_included": false,
+  "source_copier_header": "Optional512-byte copier header is stripped only when the remaining1MiB matches source SHA-256.",
+  "checksum_policy": "SHA-256 is authoritative; SHA-1/MD5/CRC32 are identification aids."
+}

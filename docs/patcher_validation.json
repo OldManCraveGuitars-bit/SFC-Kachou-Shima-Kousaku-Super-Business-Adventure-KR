@@ -1,0 +1,62 @@
+{
+  "result": "pass",
+  "version": "V0.8",
+  "executable_sha256": "99a930169f0f561356eda963bdbd082546d33cb23618222e375fdfcbd9d6b9eb",
+  "source_sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
+  "target_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+  "source_preserved": true,
+  "cases": [
+    {
+      "case": "headerless_unicode_paths",
+      "result": "pass",
+      "expected_acceptance": true,
+      "exit_code": 0,
+      "output_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+      "copier_header_removed": false
+    },
+    {
+      "case": "copier_header_removed",
+      "result": "pass",
+      "expected_acceptance": true,
+      "exit_code": 0,
+      "output_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+      "copier_header_removed": true
+    },
+    {
+      "case": "same_size_wrong_hash_rejected",
+      "result": "pass",
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "case": "already_patched_rejected",
+      "result": "pass",
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "case": "existing_output_preserved",
+      "result": "pass",
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "case": "same_path_rejected",
+      "result": "pass",
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "case": "wrong_size_rejected",
+      "result": "pass",
+      "expected_acceptance": false,
+      "exit_code": 1
+    },
+    {
+      "case": "gui_constructed_and_embedded_patch_checked",
+      "result": "pass",
+      "expected_acceptance": true,
+      "exit_code": 0
+    }
+  ]
+}

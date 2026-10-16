@@ -1,68 +1,108 @@
 {
-  "status": "in_progress",
-  "full_dialogue_review_complete": false,
-  "date": "2026-10-10",
-  "source_rom_sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
-  "source_rom_size": 1048576,
-  "patched_rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394",
-  "patched_rom_size": 2097152,
-  "ips_sha256": "b88ba1859862272934ab2fde3b2c9dbea987f74e37ad4e75db45807ced99c972",
-  "ips_size": 244455,
-  "dialogue_editor_exe_sha256": "b31e4b7ede04988c1545443f73c26e8ca82c87341f4311ff79327ac6764074eb",
-  "dialogue_editor_exe_size": 32191572,
-  "checksum": "0x7330",
-  "complement": "0x8CCF",
-  "registered_dialogue_fields": 4879,
-  "japanese_source_fields": 4674,
-  "missing_japanese_source_fields": 205,
-  "approved_fields": 3233,
-  "unapproved_fields": 1646,
-  "missing_original_timed_calls": 64,
-  "page_turn_records": 4879,
-  "page_turn_mismatches": 0,
-  "checked": [
-    "IPS 적용 결과가 현 ROM과 바이트 단위로 일치",
-    "원판과 등록 대사의 화면 넘김 수 일치",
-    "새 게임의 초반·down1·down3 일부 화면에서 원판과 한글판 대조",
-    "DATA 2 재시작 뒤 A/X 선택 경로의 거리 배경 각 39프레임 원판과 일치",
-    "대본 수정 EXE 자체 검사, CSV 왕복, 창 실행 검사 통과"
-  ],
-  "not_checked": [
-    "전체 대사와 모든 분기의 문맥·화자·말투·화면 검수",
-    "다른 저장 슬롯과 장시간 저장·불러오기",
-    "모든 에뮬레이터의 재시작 동작"
-  ],
-  "screenshot_provenance": {
-    "title.png": {
-      "source_file": "analysis/branch_kr_first_1607_review_frames/frame_000900.png",
-      "sha256": "b101caa7a3f9a95f4f987f38edab935e29a9b28385b7549d2a39c482240724cd",
-      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
-    },
-    "opening-narration.png": {
-      "source_file": "analysis/branch_kr_first_3207_review_frames/frame_002200.png",
-      "sha256": "3f27d6558d9dc6b72756ccbc681a4e2a4ac126176dcd99a7748f2c2f6b0cc36e",
-      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
-    },
-    "opening-choice.png": {
-      "source_file": "analysis/branch_kr_first_7509_review_frames/frame_007200.png",
-      "sha256": "ca146f699521448bbd2476c4d15629789c36ceec48c98b7a4c2165965cdcb14b",
-      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
-    },
-    "load-screen.png": {
-      "source_file": "analysis/reset_occupied_slot_kr_a_batch796final_20261010/frame_3140.png",
-      "sha256": "69be985b44059374d417853df4fb224796913dbbf0aaa9e424445867665f6d02",
-      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
-    },
-    "load-popup.png": {
-      "source_file": "analysis/reset_occupied_slot_kr_a_batch796final_20261010/frame_3210.png",
-      "sha256": "a7755f8c2f0bc660602bdabbed9d551f20eefbedf588ac18d296f865786eab33",
-      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
-    },
-    "timed-dialogue.png": {
-      "source_file": "analysis/branch_kr_down1_170219_review_frames/tracked_56DBF_168204.png",
-      "sha256": "50ab68a5ba5f41a5a2906ad53912ba4271125f07cab107d4f9f0f61e968d809a",
-      "rom_sha256": "adeccae271103783dfe68df0c8c8cf730a9dd7dd078af09383eff55595ed5394"
-    }
+  "version": "V0.8",
+  "date": "2026-10-17",
+  "result": "pass",
+  "source_rom": {
+    "bytes": 1048576,
+    "sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
+    "sha1": "18f6451f3973f2c649726cb719b9e383fb13eac6",
+    "md5": "6abe2920bc017a66665ae114ffa2bf0f",
+    "crc32": "B9DCA26D"
   },
-  "scope_note": "촬영·검수한 화면에 한정한 공개 테스트 빌드이며 완역 또는 전체 QA 완료가 아니다."
+  "patched_rom": {
+    "bytes": 2097152,
+    "sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+    "sha1": "3683f8665441e19537d17a1658f8a3cd9282be43",
+    "md5": "c54439228e776afbbb4c152fa16c4a41",
+    "crc32": "A57715B4"
+  },
+  "patch": {
+    "bytes": 465823,
+    "sha256": "b76f7b1e1136cfb6d5beada07d53b501fdf66f9a740d36f63b4510e7e959dfe9",
+    "sha1": "94477eafab5bea80e599a321ff3968449ffe9800",
+    "md5": "3c58e4a47e69c8f6026c0c9e1bbc1183",
+    "crc32": "91064276"
+  },
+  "registered_records": 10414,
+  "approved_records": 10406,
+  "preserved_non_dialogue_records": 8,
+  "full_text_review": {
+    "previous_registered_records": 10405,
+    "review_batches": 58,
+    "opening_demo_records_added": 9,
+    "scope": "Meaning, speech level, names/titles, particles, shared phrases and line wrapping. Registered fragments are not a count of complete dialogue pages."
+  },
+  "native_effects": {
+    "event_entries": 604,
+    "nonnull_scripts": 561,
+    "menus": 150,
+    "opening_attract_roots": 1,
+    "differences": 0,
+    "parse_errors": 0
+  },
+  "page_turns": {
+    "records": 10414,
+    "mismatches": 0
+  },
+  "opening": {
+    "captures": {
+      "release4316_idle": {
+        "frames": 22000,
+        "core": "snes9x_libretro.dll",
+        "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+      },
+      "release4316_bsnes": {
+        "frames": 12000,
+        "core": "bsnes_libretro.dll",
+        "core_sha256": "cb87808d136189c79aa9254599ed7f7d07c527ae528435a742ad9fb98f5cfcce"
+      },
+      "release4316_start": {
+        "frames": 4500,
+        "core": "snes9x_libretro.dll",
+        "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+      },
+      "release4316_reset": {
+        "frames": 8000,
+        "core": "snes9x_libretro.dll",
+        "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+      },
+      "release4316_skip": {
+        "frames": 4500,
+        "core": "snes9x_libretro.dll",
+        "core_sha256": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd"
+      }
+    },
+    "handoff_logo_frames442_to447_identical": true,
+    "repeated_title_pixels_exact": true,
+    "early_skip_closes_title_session": true,
+    "native_profile_art_top128_exact": true
+  },
+  "prior_story_and_ending_validation": {
+    "native_reachable_terminal_bodies": 15,
+    "all_15_replayed_for_v08": false,
+    "bridge": "Original10405 fields and ending/credit data are identical to the reviewed4308 baseline. The opening-only allowed changes are isolated.",
+    "scope": "Prior ordinary-route, SRAM and ending proofs are carried with this exact-data comparison. This is not an exhaustive test of all choice combinations."
+  },
+  "editor": {
+    "sha256": "71fa39ab17dad3a28259f24a1b652b0fabaf60696270fb5723136e5c6ee7856e",
+    "embedded_records": 10414,
+    "actual_saved_edits": 8,
+    "rebuild_and_extract": true,
+    "production_project_untouched": true
+  },
+  "patcher": {
+    "sha256": "99a930169f0f561356eda963bdbd082546d33cb23618222e375fdfcbd9d6b9eb",
+    "unit_test_cases": 12,
+    "actual_packaged_exe_cases": 8,
+    "result": "pass"
+  },
+  "screenshots": 49,
+  "hardware_scope": "Snes9x and bsnes emulator checks; no claim that every handheld/device was tested.",
+  "original_ending_character": "完",
+  "centered_credit": "한글화 기타 깎는 노인",
+  "known_limits": [
+    "All combinatorial choice sequences were not replayed for this release.",
+    "Old emulator save states can contain pre-update graphics memory.",
+    "27 source metadata fragments have no standalone Japanese sentence; these were classified in the prior full review and are not27 untranslated dialogue pages."
+  ]
 }
