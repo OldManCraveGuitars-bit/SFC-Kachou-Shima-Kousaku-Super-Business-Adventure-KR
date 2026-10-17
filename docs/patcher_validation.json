@@ -1,9 +1,9 @@
 {
   "result": "pass",
-  "version": "V0.8",
-  "executable_sha256": "99a930169f0f561356eda963bdbd082546d33cb23618222e375fdfcbd9d6b9eb",
+  "version": "V0.81",
+  "executable_sha256": "1099d9c0de93c61c1af7e3679963bca62ddf2db3d787fdd19cd85e8fb757b1b1",
   "source_sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
-  "target_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+  "target_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
   "source_preserved": true,
   "cases": [
     {
@@ -11,7 +11,7 @@
       "result": "pass",
       "expected_acceptance": true,
       "exit_code": 0,
-      "output_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+      "output_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
       "copier_header_removed": false
     },
     {
@@ -19,7 +19,7 @@
       "result": "pass",
       "expected_acceptance": true,
       "exit_code": 0,
-      "output_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+      "output_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
       "copier_header_removed": true
     },
     {

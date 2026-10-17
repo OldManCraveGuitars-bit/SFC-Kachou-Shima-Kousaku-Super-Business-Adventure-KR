@@ -1,5 +1,13 @@
 # 변경 기록
 
+## V0.81 · 2026-10-17
+
+- 누락된 뉴욕 편·내부자 거래 편·사장 교체극 편을 한글화했습니다.
+- 교토 편을 뉴욕 편과 같이 가운데로 모아 띄어 썼습니다.
+- 장 제목 5종 네이티브 캡처를 추가해 공개 스크린샷 54장이 되었습니다.
+- 제목 4종과 체크섬만 변경했습니다. 기존 대사 10,414항목·오프닝·배경·엔딩·크레딧은 같습니다.
+- V0.81 결과를 검증하는 패처·IPS·해시·문서를 갱신했습니다.
+
 ## V0.8 · 2026-10-17
 
 - V0.2 공개본 이후 누적된 대사·선택지 번역과 재검수를 반영했습니다. 등록 4,879항목에서 10,414항목, 승인 3,233항목에서 10,406항목으로 늘었습니다. 비대사 8항목은 원판 제어를 보존합니다.
@@ -11,4 +19,4 @@
 
 ## V0.2 · 이전 공개 테스트
 
-원본과 결과는 [V0.2 릴리스](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.2)와 [당시 태그](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/tree/V0.2)에 보존되어 있습니다. V0.2에 기록된 미승인 수치와 누락 목록은 당시 상태입니다. 현재 다운로드는 V0.8을 사용하세요.
+원본과 결과는 [V0.2 릴리스](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.2)와 [당시 태그](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/tree/V0.2)에 보존되어 있습니다. V0.2에 기록된 미승인 수치와 누락 목록은 당시 상태입니다. 현재 다운로드는 V0.81을 사용하세요.

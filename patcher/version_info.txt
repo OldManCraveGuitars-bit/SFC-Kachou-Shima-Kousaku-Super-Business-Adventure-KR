@@ -1,12 +1,12 @@
 VSVersionInfo(
-  ffi=FixedFileInfo(filevers=(0, 8, 0, 0), prodvers=(0, 8, 0, 0), mask=0x3f,
+  ffi=FixedFileInfo(filevers=(0, 8, 1, 0), prodvers=(0, 8, 1, 0), mask=0x3f,
                     flags=0x0, OS=0x40004, fileType=0x1, subtype=0x0, date=(0, 0)),
   kids=[StringFileInfo([StringTable('041204b0', [
     StringStruct('CompanyName', '기타 깎는 노인'),
-    StringStruct('FileDescription', '시마과장 V0.8 한글 패처'),
-    StringStruct('FileVersion', '0.8.0.0'),
+    StringStruct('FileDescription', '시마과장 V0.81 한글 패처'),
+    StringStruct('FileVersion', '0.8.1.0'),
     StringStruct('InternalName', 'KachouShimaKRPatcher'),
-    StringStruct('OriginalFilename', 'KachouShimaKRPatcher-V0.8.exe'),
+    StringStruct('OriginalFilename', 'KachouShimaKRPatcher-V0.81.exe'),
     StringStruct('ProductName', '시마과장 한글 패처'),
-    StringStruct('ProductVersion', 'V0.8')])]),
+    StringStruct('ProductVersion', 'V0.81')])]),
     VarFileInfo([VarStruct('Translation', [1042, 1200])])])

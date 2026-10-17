@@ -1,4 +1,4 @@
-"""V0.8 Korean patcher. Standard-library CLI and a standalone Windows GUI."""
+"""V0.81 Korean patcher. Standard-library CLI and a standalone Windows GUI."""
 from __future__ import annotations
 
 import argparse
@@ -8,13 +8,13 @@ import os
 from pathlib import Path
 import sys
 
-VERSION = 'V0.8'
+VERSION = 'V0.81'
 SOURCE_SIZE = 1_048_576
 TARGET_SIZE = 2_097_152
 SOURCE_SHA256 = '988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7'
-TARGET_SHA256 = '92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06'
-PATCH_SHA256 = 'b76f7b1e1136cfb6d5beada07d53b501fdf66f9a740d36f63b4510e7e959dfe9'
-PATCH_NAME = 'Kachou_Shima_Kousaku_KR_V0.8.ips'
+TARGET_SHA256 = '3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f'
+PATCH_SHA256 = '37e564ef4d7787a5ee1e8ebea08c6b890e6551b17517549cee70d4843346b191'
+PATCH_NAME = 'Kachou_Shima_Kousaku_KR_V0.81.ips'
 
 
 class PatchError(ValueError):
@@ -27,7 +27,7 @@ def digest(data: bytes) -> str:
 
 def normalize_source(data: bytes) -> tuple[bytes, bool]:
     if len(data) == TARGET_SIZE and digest(data) == TARGET_SHA256:
-        raise PatchError('이미 V0.8 한글 패치가 적용된 ROM입니다.')
+        raise PatchError('이미 V0.81 한글 패치가 적용된 ROM입니다.')
     header_removed = len(data) == SOURCE_SIZE + 512
     body = data[512:] if header_removed else data
     if len(body) != SOURCE_SIZE or digest(body) != SOURCE_SHA256:
@@ -139,7 +139,7 @@ def launch_gui(smoke: bool = False) -> None:
     root = tk.Tk()
     if smoke:
         root.withdraw()
-    root.title('시마과장 V0.8 한글 패처')
+    root.title('시마과장 V0.81 한글 패처')
     root.geometry('740x430')
     root.minsize(660, 420)
     root.option_add('*Font', ('맑은 고딕', 10))
@@ -149,7 +149,7 @@ def launch_gui(smoke: bool = False) -> None:
     panel = ttk.Frame(root, padding=24)
     panel.pack(fill='both', expand=True)
     panel.columnconfigure(0, weight=1)
-    ttk.Label(panel, text='시마과장 V0.8', font=('맑은 고딕', 21, 'bold')).grid(row=0, column=0, columnspan=2, sticky='w')
+    ttk.Label(panel, text='시마과장 V0.81', font=('맑은 고딕', 21, 'bold')).grid(row=0, column=0, columnspan=2, sticky='w')
     ttk.Label(panel, text='일본판 원본 ROM을 선택하면 원본을 보존하고 한글 ROM을 새로 만듭니다.').grid(row=1, column=0, columnspan=2, sticky='w', pady=(8, 22))
     source = tk.StringVar()
     destination = tk.StringVar()
@@ -162,14 +162,14 @@ def launch_gui(smoke: bool = False) -> None:
         if path:
             source.set(path)
             p = Path(path)
-            destination.set(str(p.with_name(p.stem + ' [KR V0.8].sfc')))
+            destination.set(str(p.with_name(p.stem + ' [KR V0.81].sfc')))
 
     ttk.Button(panel, text='원본 선택', command=choose_source).grid(row=3, column=1, padx=(10, 0), pady=(6, 16))
     ttk.Label(panel, text='저장할 한글 ROM').grid(row=4, column=0, sticky='w')
     ttk.Entry(panel, textvariable=destination, state='readonly').grid(row=5, column=0, sticky='ew', pady=(6, 20))
 
     def choose_destination():
-        path = filedialog.asksaveasfilename(parent=root, title='한글 ROM 저장 위치', defaultextension='.sfc', initialfile=Path(destination.get()).name if destination.get() else 'Shima_KR_V0.8.sfc', filetypes=[('SFC ROM', '*.sfc')])
+        path = filedialog.asksaveasfilename(parent=root, title='한글 ROM 저장 위치', defaultextension='.sfc', initialfile=Path(destination.get()).name if destination.get() else 'Shima_KR_V0.81.sfc', filetypes=[('SFC ROM', '*.sfc')])
         if path:
             destination.set(path)
 
@@ -208,7 +208,7 @@ def launch_gui(smoke: bool = False) -> None:
 
 
 def main(argv=None) -> int:
-    parser = argparse.ArgumentParser(description='시마과장 V0.8 한글 패처')
+    parser = argparse.ArgumentParser(description='시마과장 V0.81 한글 패처')
     parser.add_argument('--input', type=Path)
     parser.add_argument('--output', type=Path)
     parser.add_argument('--report', type=Path, help='검사 결과 JSON 저장 위치')

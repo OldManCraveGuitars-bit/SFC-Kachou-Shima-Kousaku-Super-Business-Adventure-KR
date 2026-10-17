@@ -1,5 +1,5 @@
 {
-  "version": "V0.8",
+  "version": "V0.81",
   "date": "2026-10-17",
   "result": "pass",
   "source_rom": {
@@ -11,17 +11,17 @@
   },
   "patched_rom": {
     "bytes": 2097152,
-    "sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
-    "sha1": "3683f8665441e19537d17a1658f8a3cd9282be43",
-    "md5": "c54439228e776afbbb4c152fa16c4a41",
-    "crc32": "A57715B4"
+    "sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+    "sha1": "1b6bed3dd75df4c87e3dfb67c4b6eade1a23de33",
+    "md5": "94c447352cb8998161351cda1691ec06",
+    "crc32": "F52CD2B8"
   },
   "patch": {
-    "bytes": 465823,
-    "sha256": "b76f7b1e1136cfb6d5beada07d53b501fdf66f9a740d36f63b4510e7e959dfe9",
-    "sha1": "94477eafab5bea80e599a321ff3968449ffe9800",
-    "md5": "3c58e4a47e69c8f6026c0c9e1bbc1183",
-    "crc32": "91064276"
+    "bytes": 464871,
+    "sha256": "37e564ef4d7787a5ee1e8ebea08c6b890e6551b17517549cee70d4843346b191",
+    "sha1": "26359e537e2f4b3051ceaec56b0ff158a8e526bb",
+    "md5": "87747b780f6a15261dfb15f75926deac",
+    "crc32": "C492D58C"
   },
   "registered_records": 10414,
   "approved_records": 10406,
@@ -44,7 +44,194 @@
     "records": 10414,
     "mismatches": 0
   },
+  "chapter_cards": {
+    "result": "pass",
+    "version": "V0.81",
+    "baseline_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+    "target_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+    "changed_bytes": 2312,
+    "allowed_spans": [
+      [
+        "0x7FDC",
+        "0x7FE0"
+      ],
+      [
+        "0x122C00",
+        "0x123C00"
+      ]
+    ],
+    "only_four_chapter_tiles_and_checksum_changed": true,
+    "registered_records": 10414,
+    "all_registered_fields_identical": true,
+    "opening_fonts_engine_ending_and_credit_identical": true,
+    "native_titles_exact": true,
+    "chapter_to_tile": [
+      "0x40",
+      "0x60",
+      "0x80",
+      "0x80",
+      "0x80",
+      "0xa0",
+      "0xc0"
+    ],
+    "unique_chapter_titles": 5,
+    "new_translated_titles": 3,
+    "recentered_titles": 1,
+    "cards": [
+      {
+        "chapter": 0,
+        "japanese": "鳥海赫子事件編",
+        "korean": "토리우미 아키코 사건편",
+        "tile_base": "0x40",
+        "native_image": "analysis/chapter_cards4317/final_ch0/frame_001770.png",
+        "native_origin": [
+          64,
+          136
+        ],
+        "native_pixels_exact": true,
+        "background_unchanged": true,
+        "diagnostic": false
+      },
+      {
+        "chapter": 1,
+        "japanese": "ニューヨーク編",
+        "korean": "뉴욕 편",
+        "tile_base": "0x60",
+        "native_image": "analysis/chapter_cards4317/final_ch1/frame_004650.png",
+        "native_origin": [
+          64,
+          136
+        ],
+        "native_pixels_exact": true,
+        "background_unchanged": true,
+        "diagnostic": true
+      },
+      {
+        "chapter": 2,
+        "japanese": "インサイダー取引編",
+        "korean": "내부자 거래 편",
+        "tile_base": "0x80",
+        "native_image": "analysis/chapter_cards4317/final_ch2/frame_004650.png",
+        "native_origin": [
+          64,
+          136
+        ],
+        "native_pixels_exact": true,
+        "background_unchanged": true,
+        "diagnostic": true
+      },
+      {
+        "chapter": 5,
+        "japanese": "京都編",
+        "korean": "교토 편",
+        "tile_base": "0xa0",
+        "native_image": "analysis/chapter_cards4317/final_ch5/frame_004620.png",
+        "native_origin": [
+          64,
+          136
+        ],
+        "native_pixels_exact": true,
+        "background_unchanged": true,
+        "diagnostic": true
+      },
+      {
+        "chapter": 6,
+        "japanese": "社長交代劇編",
+        "korean": "사장 교체극 편",
+        "tile_base": "0xc0",
+        "native_image": "analysis/chapter_cards4317/final_ch6/frame_004650.png",
+        "native_origin": [
+          64,
+          136
+        ],
+        "native_pixels_exact": true,
+        "background_unchanged": true,
+        "diagnostic": true
+      }
+    ],
+    "screenshots": [
+      {
+        "path": "analysis/chapter_cards4317/final_ch0/frame_001770.png",
+        "sha256": "553f6df6cfaa7e80281cee404e60531e414f6a26ea5d4193b35acc32a41e05c0",
+        "frame": 1800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Unmodified production ROM cold boot. No state loads or RAM writes."
+      },
+      {
+        "path": "analysis/chapter_cards4317/final_ch1/frame_004650.png",
+        "sha256": "988a5d0215d60d6a7d1a5bb64069a4422d422a994073858194505704bf6dddb7",
+        "frame": 4800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/baseline_ny2/frame_004650.png",
+        "sha256": "b1dc5294ad1e9ce820eb13a4c957e1141f33961cc543d269952bddc3b24cdd60",
+        "frame": 4800,
+        "base_rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/final_ch2/frame_004650.png",
+        "sha256": "6dc4f5c85cb2f73743374ce136009101d616bd4361f6f72ed447135dcf9fd01b",
+        "frame": 4800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/baseline_ch2/frame_004650.png",
+        "sha256": "40cea80546ea7fa4c1fb68aec8854cd5a8845367b8ba4341c32ded0c8a83098c",
+        "frame": 4800,
+        "base_rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/final_ch5/frame_004620.png",
+        "sha256": "75d588b832514b7353343b922cfa4181cbbee6cb0f1b859b46437a049e94abe0",
+        "frame": 4800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/baseline_ch5/frame_004620.png",
+        "sha256": "0f9dc229eb9b7b07c8a15f2f3c7e004a1988b16985113946c1c1abfe6c451743",
+        "frame": 4800,
+        "base_rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/final_ch6/frame_004650.png",
+        "sha256": "0e79b5199d3f16e93d4e18456d22e59386c2e0edfe2f27a3d10c459dd717688f",
+        "frame": 4800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/baseline_ch6/frame_004650.png",
+        "sha256": "ae103e8ff69e879da6c47d0531fa2ec1b51d7da7dd4cab9bc2a0bda2cc93c7e7",
+        "frame": 4800,
+        "base_rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/bsnes_isolated_ch1/frame_004650.png",
+        "sha256": "33d6c5b7a8588254c39a7253aa314abda687dc1c950f628617df709ab408abce",
+        "frame": 4800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      },
+      {
+        "path": "analysis/chapter_cards4317/bsnes_isolated_ch5/frame_004620.png",
+        "sha256": "ad60f165ad3f65ec2f9ad92cc1849332a90c875e7ae307b26299697d85d587fc",
+        "frame": 4800,
+        "base_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+        "scope": "Cold boot with isolated dispatcher/vector changes for later chapter entry; original engine, scripts, graphics and fonts unchanged. No state loads or RAM writes. Ordinary reachability is not proved by this probe."
+      }
+    ],
+    "verification_scope": "All five distinct native chapter captions, with later chapters entered using isolated dispatcher/vector probes from a cold boot. Native engine scripts/fonts/art unchanged. New York and Kyoto independently checked in bsnes. The seven save-menu chapter IDs select the same five caption tile rows. Ordinary branch reachability and all save-slot combinations are not newly replayed."
+  },
   "opening": {
+    "capture_version": "V0.8; exact opening bytes unchanged in V0.81",
     "captures": {
       "release4316_idle": {
         "frames": 22000,
@@ -79,24 +266,24 @@
   },
   "prior_story_and_ending_validation": {
     "native_reachable_terminal_bodies": 15,
-    "all_15_replayed_for_v08": false,
-    "bridge": "Original10405 fields and ending/credit data are identical to the reviewed4308 baseline. The opening-only allowed changes are isolated.",
+    "all_15_replayed_for_v081": false,
+    "bridge": "All10414 registered fields, opening and ending/credit data are identical to V0.8. Only four128x16 chapter-caption tile rows and the checksum differ.",
     "scope": "Prior ordinary-route, SRAM and ending proofs are carried with this exact-data comparison. This is not an exhaustive test of all choice combinations."
   },
   "editor": {
-    "sha256": "71fa39ab17dad3a28259f24a1b652b0fabaf60696270fb5723136e5c6ee7856e",
+    "sha256": "400f70cc985a1bba1ff68c23a785ad9e15321193ae5406ceb6d3115ff4dff3d6",
     "embedded_records": 10414,
     "actual_saved_edits": 8,
     "rebuild_and_extract": true,
     "production_project_untouched": true
   },
   "patcher": {
-    "sha256": "99a930169f0f561356eda963bdbd082546d33cb23618222e375fdfcbd9d6b9eb",
+    "sha256": "1099d9c0de93c61c1af7e3679963bca62ddf2db3d787fdd19cd85e8fb757b1b1",
     "unit_test_cases": 12,
     "actual_packaged_exe_cases": 8,
     "result": "pass"
   },
-  "screenshots": 49,
+  "screenshots": 54,
   "hardware_scope": "Snes9x and bsnes emulator checks; no claim that every handheld/device was tested.",
   "original_ending_character": "完",
   "centered_credit": "한글화 기타 깎는 노인",

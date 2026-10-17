@@ -1,9 +1,9 @@
 {
-  "version": "V0.8",
+  "version": "V0.81",
   "date": "2026-10-17",
-  "count": 49,
-  "target_rom_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
-  "note": "Opening and start images are captured from the exact release ROM. Body images are native proofreading captures with final4 changed-page exclusion and an unchanged-story byte bridge. The ending image carries the independently verified unchanged ending/credit data. Capture entry paths do not prove every ordinary choice combination was replayed.",
+  "count": 54,
+  "target_rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+  "note": "Five chapter cards captured with V0.81. Prior 49 images retain their original capture versions and hashes; their displayed data are unchanged by the four-caption-only byte bridge. Later chapter cards use isolated native dispatcher probes, not an assertion of ordinary branch replay.",
   "screenshots": [
     {
       "file": "screenshots/v0.8/01-opening.png",
@@ -984,6 +984,101 @@
       "capture": "native proofreading capture4306; displayed page excluded from final4 edits; original10405 fields unchanged in V0.8",
       "review_base_sha256": "d607c2f41ef182323842027d7ec749cbdea25567602cfc156a783b84a424c363",
       "compatibility_baseline_sha256": "620f056c3cf71fd172e794e6469e596838effd6986ecd2b8bbec063cf8b94e26"
+    },
+    {
+      "file": "screenshots/v0.81/01-chapter-0.png",
+      "title": "토리우미 아키코 사건편",
+      "group": "chapter-card",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "553f6df6cfaa7e80281cee404e60531e414f6a26ea5d4193b35acc32a41e05c0",
+      "sha256": "b75b87440b6097c3a4d9f6f7b3bf16f9494583edcb8fe0369ee016fe781c804c",
+      "frame": 1800,
+      "capture": "Unmodified V0.81 ROM cold boot.",
+      "rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f"
+    },
+    {
+      "file": "screenshots/v0.81/02-chapter-1.png",
+      "title": "뉴욕 편",
+      "group": "chapter-card",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "988a5d0215d60d6a7d1a5bb64069a4422d422a994073858194505704bf6dddb7",
+      "sha256": "bfd04b8e36037769417d1e23dd1bb1f4aeb362fe46ee2c77bc770d3abd5bdeb9",
+      "frame": 4800,
+      "capture": "Exact V0.81 caption data; native cold-boot capture with isolated dispatcher entry for later chapters. Original engine/art/scripts/fonts unchanged; ordinary branch reachability not proved by probe.",
+      "rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f"
+    },
+    {
+      "file": "screenshots/v0.81/03-chapter-2.png",
+      "title": "내부자 거래 편",
+      "group": "chapter-card",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "6dc4f5c85cb2f73743374ce136009101d616bd4361f6f72ed447135dcf9fd01b",
+      "sha256": "5fcdb5f7e931880f355a4d836b2b9c08a0e06a00e45fd816fed945d258302c21",
+      "frame": 4800,
+      "capture": "Exact V0.81 caption data; native cold-boot capture with isolated dispatcher entry for later chapters. Original engine/art/scripts/fonts unchanged; ordinary branch reachability not proved by probe.",
+      "rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f"
+    },
+    {
+      "file": "screenshots/v0.81/04-chapter-5.png",
+      "title": "교토 편",
+      "group": "chapter-card",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "75d588b832514b7353343b922cfa4181cbbee6cb0f1b859b46437a049e94abe0",
+      "sha256": "b7628414689b79a740327ecf63e6644bfe0984969b3addd68b998aed7f78ab60",
+      "frame": 4800,
+      "capture": "Exact V0.81 caption data; native cold-boot capture with isolated dispatcher entry for later chapters. Original engine/art/scripts/fonts unchanged; ordinary branch reachability not proved by probe.",
+      "rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f"
+    },
+    {
+      "file": "screenshots/v0.81/05-chapter-6.png",
+      "title": "사장 교체극 편",
+      "group": "chapter-card",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        512,
+        448
+      ],
+      "transform": "nearest-neighbor 2x; no content changes",
+      "native_png_sha256": "0e79b5199d3f16e93d4e18456d22e59386c2e0edfe2f27a3d10c459dd717688f",
+      "sha256": "41cc9c8477912e7507ae7e0d7b66134f2232072d01856e2cbcfad9e72d2e5c25",
+      "frame": 4800,
+      "capture": "Exact V0.81 caption data; native cold-boot capture with isolated dispatcher entry for later chapters. Original engine/art/scripts/fonts unchanged; ordinary branch reachability not proved by probe.",
+      "rom_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f"
     },
     {
       "file": "screenshots/v0.8/49-ending.png",

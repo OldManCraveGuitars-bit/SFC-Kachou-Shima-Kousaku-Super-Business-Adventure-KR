@@ -1,4 +1,4 @@
-> 이 문서는 이전 V0.2 공개 테스트의 이력입니다. 현재판은 [V0.8](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.8)입니다.
+> 이 문서는 이전 V0.2 공개 테스트의 이력입니다. 현재판은 [V0.81](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.81)입니다.
 
 # 과장 시마 고사쿠 슈퍼 비즈니스 어드벤처 한글 패치 V0.2
 

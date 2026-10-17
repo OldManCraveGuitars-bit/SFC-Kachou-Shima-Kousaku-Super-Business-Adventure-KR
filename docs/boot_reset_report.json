@@ -1,6 +1,7 @@
 {
-  "version": "V0.8",
-  "target_sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
+  "version": "V0.81",
+  "target_sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+  "capture_version": "V0.8; opening code and graphics byte-identical in V0.81",
   "captures": {
     "release4316_idle": {
       "frames": 22000,

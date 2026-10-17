@@ -1,8 +1,8 @@
 {
-  "version": "V0.8",
+  "version": "V0.81",
   "date": "2026-10-17",
   "repository": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR",
-  "release": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.8",
+  "release": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.81",
   "source_rom": {
     "bytes": 1048576,
     "sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
@@ -12,39 +12,39 @@
   },
   "patched_rom": {
     "bytes": 2097152,
-    "sha256": "92f03ebb46760334a2d26daa21b74816031a4b0897987d32a5b2ed9db6330d06",
-    "sha1": "3683f8665441e19537d17a1658f8a3cd9282be43",
-    "md5": "c54439228e776afbbb4c152fa16c4a41",
-    "crc32": "A57715B4"
+    "sha256": "3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f",
+    "sha1": "1b6bed3dd75df4c87e3dfb67c4b6eade1a23de33",
+    "md5": "94c447352cb8998161351cda1691ec06",
+    "crc32": "F52CD2B8"
   },
   "files": {
-    "KachouShimaKRPatcher-V0.8.exe": {
-      "bytes": 11757600,
-      "sha256": "99a930169f0f561356eda963bdbd082546d33cb23618222e375fdfcbd9d6b9eb",
-      "sha1": "e9adfee3de4580f8e79a1687c9a6251def49eb82",
-      "md5": "f28f11d2a85e7268f8c0e82dc6f8be5d",
-      "crc32": "8CEB55EE"
+    "KachouShimaKRPatcher-V0.81.exe": {
+      "bytes": 11755467,
+      "sha256": "1099d9c0de93c61c1af7e3679963bca62ddf2db3d787fdd19cd85e8fb757b1b1",
+      "sha1": "69b469fd35d5cc00ff451ede8f1057a63a3fbd58",
+      "md5": "3c06db697d0966fc1bf62e7247c4e444",
+      "crc32": "FDDAB585"
     },
-    "Kachou_Shima_Kousaku_KR_V0.8.ips": {
-      "bytes": 465823,
-      "sha256": "b76f7b1e1136cfb6d5beada07d53b501fdf66f9a740d36f63b4510e7e959dfe9",
-      "sha1": "94477eafab5bea80e599a321ff3968449ffe9800",
-      "md5": "3c58e4a47e69c8f6026c0c9e1bbc1183",
-      "crc32": "91064276"
+    "Kachou_Shima_Kousaku_KR_V0.81.ips": {
+      "bytes": 464871,
+      "sha256": "37e564ef4d7787a5ee1e8ebea08c6b890e6551b17517549cee70d4843346b191",
+      "sha1": "26359e537e2f4b3051ceaec56b0ff158a8e526bb",
+      "md5": "87747b780f6a15261dfb15f75926deac",
+      "crc32": "C492D58C"
     },
-    "KachouShimaDialogueEditor-V0.8.exe": {
-      "bytes": 34501684,
-      "sha256": "71fa39ab17dad3a28259f24a1b652b0fabaf60696270fb5723136e5c6ee7856e",
-      "sha1": "f393db3b088194b0689d233789ba77426254313c",
-      "md5": "8ad8da786f15e24826b473009cc04fe9",
-      "crc32": "759C72AB"
+    "KachouShimaDialogueEditor-V0.81.exe": {
+      "bytes": 34502210,
+      "sha256": "400f70cc985a1bba1ff68c23a785ad9e15321193ae5406ceb6d3115ff4dff3d6",
+      "sha1": "8870d7771a0493e8a87cf329f3576de7b74551c2",
+      "md5": "7e8d2b1d5c18ae07dfbec76f3ffad866",
+      "crc32": "051DCC06"
     },
-    "Kachou_Shima_Kousaku_KR_V0.8.zip": {
-      "bytes": 11798893,
-      "sha256": "2a5cc06297793f1bdcc8326b1f7e3e5a5f57bf55418768813d1be492a88d1c7a",
-      "sha1": "fc38281b51b608f9f062e606c91670b342ce781a",
-      "md5": "b70510bb8e9c9d0c024bbf2c49bf9157",
-      "crc32": "3DCC8424"
+    "Kachou_Shima_Kousaku_KR_V0.81.zip": {
+      "bytes": 11796588,
+      "sha256": "b76d5dfaabd67c4f62308326eb705f8a247e8cc95617b4c9974f7a760c113050",
+      "sha1": "75282cfc0cce7ba1aed6d6cad9f6d034fa42c92f",
+      "md5": "33253c93dafdf053069a3568c697f0dc",
+      "crc32": "A0D893AA"
     }
   },
   "original_rom_included": false,
