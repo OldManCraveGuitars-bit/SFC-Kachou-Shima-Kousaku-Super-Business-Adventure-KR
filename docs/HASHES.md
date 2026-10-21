@@ -1,6 +1,6 @@
-# v1.0 해시와 파일 식별
+# v1.1 해시와 파일 식별
 
-SHA-256을 원본·패치·결과 검증에 사용합니다. SHA-1·MD5·CRC32는 파일 식별용입니다. 원본과 완성 ROM은 배포하지 않습니다.
+SHA-256을 원본·패치·결과 검증에 사용합니다. SHA-1·MD5·CRC32는 파일 식별용입니다. ROM은 배포하지 않습니다.
 
 ## 일본판 원본 ROM · 헤더 없음
 
@@ -12,29 +12,27 @@ SHA-256을 원본·패치·결과 검증에 사용합니다. SHA-1·MD5·CRC32�
 | MD5 | `6abe2920bc017a66665ae114ffa2bf0f` |
 | CRC32 | `B9DCA26D` |
 
-## 정상 패치 결과 ROM · 헤더 없음
+## v1.1 패치 결과 ROM · 헤더 없음
 
 | 항목 | 값 |
 | --- | --- |
 | 크기 | 2,097,152 bytes |
-| SHA256 | `91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b` |
-| SHA1 | `cdde8957740c8f26fcc7d2b5cd250d4917070e26` |
-| MD5 | `56c11da102ab943446428f85d0bc4fd2` |
-| CRC32 | `A01628FD` |
+| SHA256 | `191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12` |
+| SHA1 | `30e054c244ca7c296deca317951353250ad223d9` |
+| MD5 | `68b970ea87677f7252fdfbf30894058c` |
+| CRC32 | `CA41E474` |
 
 ## 배포 파일
 
 | 파일 | 크기(bytes) | SHA-256 |
 | --- | ---: | --- |
-| [KachouShimaKRPatcher-v1.0.exe](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/KachouShimaKRPatcher-v1.0.exe) | 11,755,386 | `c7f0b7fc3e187e84133b70a3afcab756d520448d0b1a3732d3357186098d98a0` |
-| [Kachou_Shima_Kousaku_KR_v1.0.ips](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/Kachou_Shima_Kousaku_KR_v1.0.ips) | 466,824 | `f56c8139ded46772b0a0bfb80fd714f13bf614378993cfd5cee8286201799039` |
-| [Kachou_Shima_Kousaku_KR_v1.0.zip](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/Kachou_Shima_Kousaku_KR_v1.0.zip) | 11,796,133 | `c3a8f1eb686877f364de0e02a01d1b09e79b1d3f2c23b57707a614b1579f86df` |
-| [release-manifest-v1.0.json](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/release-manifest-v1.0.json) | 2,031 | `c340b4daccf3dafee1d185e1fbedfc0660b7d8f1b82c9d8c9a94990a40f0c7d9` |
+| [KachouShimaKRPatcher-v1.1.exe](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.1/KachouShimaKRPatcher-v1.1.exe) | 11,762,413 | `fd39a5a028728f95a00ec9836d85e6771c23cef1af3890f11f97ca7019563a12` |
+| [Kachou_Shima_Kousaku_KR_v1.1.ips](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.1/Kachou_Shima_Kousaku_KR_v1.1.ips) | 483,991 | `bd88a120b13d963e32b52a3533ce51cc65d88b6f29a076c130d5589e1cf3692e` |
+| [Kachou_Shima_Kousaku_KR_v1.1.zip](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.1/Kachou_Shima_Kousaku_KR_v1.1.zip) | 11,810,265 | `ce09e76e83ec77849c1abbe4f95e5c4fb0fad292b519e8c6841f6e25c1f13a9e` |
+| [release-manifest-v1.1.json](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.1/release-manifest-v1.1.json) | 2,508 | `eb85b698f6ae958bbf3b4f528227783a2a36df52e9dad3fabb3ae059b9c0542b` |
 
-복사기 헤더가 있으면 패처는 512바이트를 제외한 본문으로 원본 해시를 검사합니다. 잘못된 원본, 이미 수정된 ROM, 기존 출력 파일 덮어쓰기는 거부합니다.
+[기계 판독용 목록](release_manifest.json) · [EXE 검사](patcher_validation.json)
 
 ```powershell
-Get-FileHash -Algorithm SHA256 .\KachouShimaKRPatcher-v1.0.exe
+Get-FileHash -Algorithm SHA256 .\KachouShimaKRPatcher-v1.1.exe
 ```
-
-[기계 판독용 목록](release_manifest.json) · [실제 EXE 검사 결과](patcher_validation.json)

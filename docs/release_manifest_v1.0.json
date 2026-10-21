@@ -1,0 +1,48 @@
+{
+  "version": "v1.0",
+  "date": "2026-10-21",
+  "title": "비공식 한글판 v1.0 정식 버전",
+  "repository": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR",
+  "release": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/v1.0",
+  "source_rom": {
+    "bytes": 1048576,
+    "sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
+    "sha1": "18f6451f3973f2c649726cb719b9e383fb13eac6",
+    "md5": "6abe2920bc017a66665ae114ffa2bf0f",
+    "crc32": "B9DCA26D"
+  },
+  "patched_rom": {
+    "bytes": 2097152,
+    "sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+    "sha1": "cdde8957740c8f26fcc7d2b5cd250d4917070e26",
+    "md5": "56c11da102ab943446428f85d0bc4fd2",
+    "crc32": "A01628FD"
+  },
+  "files": {
+    "KachouShimaKRPatcher-v1.0.exe": {
+      "bytes": 11755386,
+      "sha256": "c7f0b7fc3e187e84133b70a3afcab756d520448d0b1a3732d3357186098d98a0",
+      "sha1": "8f8e7a1fcc77e520b958ce9bb2182676b2d0961a",
+      "md5": "45466c30eb4bdf03cb3e9172246f6788",
+      "crc32": "3107A62D"
+    },
+    "Kachou_Shima_Kousaku_KR_v1.0.ips": {
+      "bytes": 466824,
+      "sha256": "f56c8139ded46772b0a0bfb80fd714f13bf614378993cfd5cee8286201799039",
+      "sha1": "30b7cc90c82353c91e4b77af84f728ec6143c47b",
+      "md5": "ab23bc21db4a4ebd1da7d01d54fe68c0",
+      "crc32": "A3F909E2"
+    },
+    "Kachou_Shima_Kousaku_KR_v1.0.zip": {
+      "bytes": 11796133,
+      "sha256": "c3a8f1eb686877f364de0e02a01d1b09e79b1d3f2c23b57707a614b1579f86df",
+      "sha1": "e9a6b54ecb021d977a4ce27ea3c33f54a9537984",
+      "md5": "b3d3fac94bc5b7377ae450a67dfbe3da",
+      "crc32": "6C96393B"
+    }
+  },
+  "original_rom_included": false,
+  "patched_rom_included": false,
+  "source_copier_header": "512-byte copier header accepted only if the remaining 1MiB matches the required SHA-256.",
+  "checksum_policy": "SHA-256 validates inputs and outputs; SHA-1, MD5 and CRC32 are identification aids."
+}

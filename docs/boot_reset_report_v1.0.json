@@ -1,0 +1,18 @@
+{
+  "version": "v1.0",
+  "target_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+  "current_exact_rom_cold_boot": {
+    "result": "pass",
+    "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+    "normal_cold_boot_no_input_frames": 4000,
+    "correct_author_in_opening_and_main_title": true,
+    "main_title_pixels_outside_copyright_caption_unchanged": true,
+    "attract_demo_after_frame1260_pixel_identical": true,
+    "reviewed_sheets": [
+      "analysis/title_fix4309/author4326b/sheet_01.png"
+    ],
+    "author_source": "https://morning.kodansha.co.jp/a/hirokanekenshi.html"
+  },
+  "prior_extended_boot_tests": "V0.8/V0.81 Snes9x/bsnes tests remain historical; current v1.0 4000-frame normal cold boot and title/intro comparison are recorded here.",
+  "full_long_replay_repeated_for_v1_0": false
+}

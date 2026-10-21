@@ -1,5 +1,5 @@
 {
-  "version": "v1.0",
+  "version": "v1.1",
   "date": "2026-10-21",
   "result": "pass",
   "source_rom": {
@@ -11,89 +11,39 @@
   },
   "patched_rom": {
     "bytes": 2097152,
-    "sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
-    "sha1": "cdde8957740c8f26fcc7d2b5cd250d4917070e26",
-    "md5": "56c11da102ab943446428f85d0bc4fd2",
-    "crc32": "A01628FD"
+    "sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
+    "sha1": "30e054c244ca7c296deca317951353250ad223d9",
+    "md5": "68b970ea87677f7252fdfbf30894058c",
+    "crc32": "CA41E474"
   },
-  "patch": {
-    "bytes": 466824,
-    "sha256": "f56c8139ded46772b0a0bfb80fd714f13bf614378993cfd5cee8286201799039",
-    "sha1": "30b7cc90c82353c91e4b77af84f728ec6143c47b",
-    "md5": "ab23bc21db4a4ebd1da7d01d54fe68c0",
-    "crc32": "A3F909E2"
-  },
-  "registered_records": 10419,
-  "approved_records": 10411,
-  "preserved_non_dialogue_records": 8,
-  "context_review": {
-    "connected_roots_reread": 712,
-    "new_ending_root": 1,
-    "latest_existing_fields_corrected": 198,
-    "new_ending_cards": 5
-  },
-  "native_review": {
-    "selected_fields": 301,
-    "unique_dialogue_pages": 279,
-    "ending_cards": 19,
-    "all_source_korean_pages_compared": true,
-    "all_text_fully_visible": false,
-    "visibility_limits": {
-      "4195": "원판부터 존재하는 전화기 그림이 대사 영역과 겹침. 4195는 원판 말미, 4196은 양쪽 화면의 중간 글자 일부가 가려짐. 문장 연결 및 가려지지 않은 텍스트 대조.",
-      "4196": "원판부터 존재하는 전화기 그림이 대사 영역과 겹침. 4195는 원판 말미, 4196은 양쪽 화면의 중간 글자 일부가 가려짐. 문장 연결 및 가려지지 않은 텍스트 대조.",
-      "737": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "738": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "2437": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "7443": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "7887": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "7888": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "8805": "원판부터 존재하는 전화기 그림이 원판/한글 화면의 대사 일부를 가림. 보이는 부분 및 전후 연결을 대조했고 가려진 문구는 원문 데이터와 교정 본문으로 검수. 전체 글자가 이 캡처에 보인다고 주장하지 않음.",
-      "7442": "원판의 긴 대사 일부가 원래 전화기 그림에 가려짐. 한글 대사는 짧아 전체가 보이며, 원판은 원문 데이터와 전후 화면을 함께 대조.",
-      "8804": "원판의 긴 대사 일부가 원래 전화기 그림에 가려짐. 한글 대사는 짧아 전체가 보이며, 원판은 원문 데이터와 전후 화면을 함께 대조."
-    },
-    "capture_mode": "Normal cold boot for opening; isolated native dispatcher entry probes for selected dialogue and ending cards."
-  },
-  "script_effects": {
-    "result": "pass",
-    "event_entries": 604,
-    "nonnull_script_roots": 561,
-    "menu_roots": 150,
-    "opening_roots": 1,
-    "ending_epilogue_roots": 1,
-    "differences": 0,
-    "parse_errors": 0
-  },
-  "page_turns": {
-    "records": 10419,
-    "mismatches": 0
-  },
-  "opening": {
-    "result": "pass",
-    "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
-    "normal_cold_boot_no_input_frames": 4000,
-    "correct_author_in_opening_and_main_title": true,
-    "main_title_pixels_outside_copyright_caption_unchanged": true,
-    "attract_demo_after_frame1260_pixel_identical": true,
-    "reviewed_sheets": [
-      "analysis/title_fix4309/author4326b/sheet_01.png"
+  "native_chapter_select": {
+    "cases": 25,
+    "chapters": 5,
+    "cores": [
+      "Snes9x",
+      "bsnes"
     ],
-    "author_source": "https://morning.kodansha.co.jp/a/hirokanekenshi.html"
+    "native_controller_input_only": true,
+    "all_three_slots_checked": true,
+    "other_slots_preserved": true,
+    "cancel_restores_identical_load_screen": true,
+    "original_ending_save_deletion_bytes_unchanged": true,
+    "detailed_report": "chapter_select_validation.json"
   },
-  "ending": {
-    "epilogue_cards": 5,
-    "staff_cards": 12,
-    "unchanged_english_staff_cards": 11,
-    "company_logo_background_clean": true,
-    "original_final_kanji_and_centered_credit_preserved": true
+  "inherited_v1_0": {
+    "dialogue_and_story_data_byte_identical": true,
+    "full_review_not_repeated_for_v1_1": true,
+    "report": "current_validation_v1.0.json",
+    "documentation": "VALIDATION_v1.0.md"
   },
   "patcher": {
     "unit_tests": 12,
     "packaged_exe_cases": 8,
     "result": "pass",
-    "sha256": "c7f0b7fc3e187e84133b70a3afcab756d520448d0b1a3732d3357186098d98a0"
+    "sha256": "fd39a5a028728f95a00ec9836d85e6771c23cef1af3890f11f97ca7019563a12"
   },
-  "screenshots": 40,
+  "screenshots": 16,
+  "historical_v1_0_screenshots": 40,
   "full_combinatorial_replay": false,
-  "all_hardware_tested": false,
-  "prior_editor_not_rebranded_as_v1_0": true
+  "all_hardware_tested": false
 }

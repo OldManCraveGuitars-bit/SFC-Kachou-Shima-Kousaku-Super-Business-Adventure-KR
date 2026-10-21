@@ -1,0 +1,757 @@
+{
+  "version": "v1.0",
+  "date": "2026-10-21",
+  "count": 40,
+  "target_rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+  "note": "All 40 PNGs show the current v1.0 text and graphics. Four opening images are exact-ROM normal cold boot; story/ending images are native dispatcher-entry diagnostics. Images retain native 256x224 pixels without resizing, cropping, retouching or text overlays. Earlier 54 images remain a separately labelled historical gallery.",
+  "screenshots": [
+    {
+      "file": "screenshots/v1.0/01-opening.png",
+      "title": "메인 타이틀",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "f8a8f8a033fc7f35137287e5f5abee10ee49c9cc1c0c2313ab7554d56d2c2e86",
+      "frame": 797,
+      "capture": "normal cold boot of the exact v1.0 ROM; no input or state load",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/02-opening.png",
+      "title": "오프닝 로고",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "e5b8ede603103503583b3475edf7c824e882f5e0fc48de216c3b8fac16a59b7f",
+      "frame": 440,
+      "capture": "normal cold boot of the exact v1.0 ROM; no input or state load",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/03-opening.png",
+      "title": "과장 임명장",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "975b1a7630947596e71453e8e6a8fe13ee3ce51e259876251da8ced0c899ded9",
+      "frame": 1680,
+      "capture": "normal cold boot of the exact v1.0 ROM; no input or state load",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/04-opening.png",
+      "title": "시마 고사쿠 인물 소개",
+      "group": "opening",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "e8bda30283d195cc75b0d169f151afef3075e4fb7563a62c626b3777cb961fe1",
+      "frame": 2760,
+      "capture": "normal cold boot of the exact v1.0 ROM; no input or state load",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/05-story.png",
+      "title": "인쇄소 정보 유출",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "5f969a6a8997139ed723021c0041658d54c02fc09e231bef6fd555bede92b7d0",
+      "frame": 9647,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 111
+    },
+    {
+      "file": "screenshots/v1.0/06-story.png",
+      "title": "관리자의 역할",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "522a39bd8c01046e3f372e7bd4ca47b72418a97d59f689428b9fa5a102f1ef43",
+      "frame": 14256,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 142
+    },
+    {
+      "file": "screenshots/v1.0/07-story.png",
+      "title": "야베와의 대화 뒤",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "a7ce3ec8a2e2b3cb6a924812c247eeef7a9df8100f6a581db265654f1c33b62d",
+      "frame": 7260,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 4995
+    },
+    {
+      "file": "screenshots/v1.0/08-story.png",
+      "title": "가족을 돌아보는 시마",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "f966ba1bf7dd2197bcfd8e215006c0e0cb915a6ee4984fd15fd1ca04571ee305",
+      "frame": 8028,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 4998
+    },
+    {
+      "file": "screenshots/v1.0/09-story.png",
+      "title": "브로드웨이 제작비",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "ed0d9355942474e656b9cb9d7593ef1f42624f66d2c8d33e21aa4f8455643d8a",
+      "frame": 22788,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 5698
+    },
+    {
+      "file": "screenshots/v1.0/10-story.png",
+      "title": "뮤지컬 공연",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "2f29223ea6c7462d9180af9dc977541d2d71c9136864ac7e8fcf8724cb80f05b",
+      "frame": 24432,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 5717
+    },
+    {
+      "file": "screenshots/v1.0/11-story.png",
+      "title": "다음 만남을 기약하며",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "2228bbff665d54c789458dbf2e3e35aac89518e2caa0de921b22e73e19401a4f",
+      "frame": 28308,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 5837
+    },
+    {
+      "file": "screenshots/v1.0/12-story.png",
+      "title": "뉴욕에서의 업무",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "12e629e45854b40eac1c39e6c1e738e0539ef9a66533716ddb654c34d9261ee7",
+      "frame": 39648,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 5956
+    },
+    {
+      "file": "screenshots/v1.0/13-story.png",
+      "title": "투자금에 관한 대화",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "a2a89f6c41870e0133d7e1cefcfcb743f2c5d1f32b4e0708948df97b1f0e694b",
+      "frame": 43992,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 6334
+    },
+    {
+      "file": "screenshots/v1.0/14-story.png",
+      "title": "사건을 돌아보는 독백",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "c895273f706b3d213c57e198429386baf9f411c3ace80b14ec232004d8fd8ac3",
+      "frame": 8160,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 3599
+    },
+    {
+      "file": "screenshots/v1.0/15-story.png",
+      "title": "가시무라의 연락",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "2a15a89e5061f0a52f8c88e6528fb4a60e533461c01d1636ddc9fb51a6ea137c",
+      "frame": 9516,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 6708
+    },
+    {
+      "file": "screenshots/v1.0/16-story.png",
+      "title": "상사들의 반응",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "2815caae452fbca0e5a48e22fa538d32b6492770651473e380a467c327d49e3d",
+      "frame": 13896,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 6894
+    },
+    {
+      "file": "screenshots/v1.0/17-story.png",
+      "title": "내부자 거래를 둘러싼 고민",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "44a1ac2d0898b051f36ea7a52988bdaf1c21933dc4f22fe1ef0f757cf19439e3",
+      "frame": 16440,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 6943
+    },
+    {
+      "file": "screenshots/v1.0/18-story.png",
+      "title": "동료와의 대화",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "f551a516f959286313ea4b1e672fefa9f242abb358992b9ba52568754c7af2f6",
+      "frame": 23400,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 7043
+    },
+    {
+      "file": "screenshots/v1.0/19-story.png",
+      "title": "술자리의 가시무라",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "d75115aab5163b6c311c6ae73a8779cf52e3799ad33fba2757af4ae456a72148",
+      "frame": 23052,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 7359
+    },
+    {
+      "file": "screenshots/v1.0/20-story.png",
+      "title": "동료 사이의 오해",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "64d9aa040d3b34a6736975d6e00fdff859e07d9774f0c7735bdbb3b7a70c3e42",
+      "frame": 24840,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 7374
+    },
+    {
+      "file": "screenshots/v1.0/21-story.png",
+      "title": "교토 지사의 상품 소개",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "972b9956ac2152b629e5e8339fc06450afae7f482d563a49daaccda26c2cf4d9",
+      "frame": 14088,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 274
+    },
+    {
+      "file": "screenshots/v1.0/22-story.png",
+      "title": "마리코와의 대화",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "001775d8b90c282ac46082e937235c86818586841087c04bcc47bc8b9d1332d6",
+      "frame": 101100,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 1147
+    },
+    {
+      "file": "screenshots/v1.0/23-story.png",
+      "title": "인물 이름 표기",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "a87b84f1266f937880d54ffefa18db69c96c7a753a6c0868385fc5d537ae5679",
+      "frame": 25728,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 7479
+    },
+    {
+      "file": "screenshots/v1.0/24-story.png",
+      "title": "술자리의 말투",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "dae196d64c73313602bf4230f8a4f4d59ba9fe635a31a3450b35bb7b12894d20",
+      "frame": 57432,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 7557
+    },
+    {
+      "file": "screenshots/v1.0/25-story.png",
+      "title": "오마치와 샴페인",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "a40ed5e6e5aed5f7878b56e239dd07fb4adc722aa0dd3abf0bc0e5759b51251b",
+      "frame": 69432,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 8865
+    },
+    {
+      "file": "screenshots/v1.0/26-story.png",
+      "title": "오마치가 받은 엽서",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "b68311bcf549d737a27bdda68c6ab1a048b886af9bc1e87e42b2ea25776ee765",
+      "frame": 71352,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 8875
+    },
+    {
+      "file": "screenshots/v1.0/27-story.png",
+      "title": "오마치와의 여행 이야기",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "6ff1381a4c2609d2ab140aa0ea28da300ce91fdf0e7600cd27576ac4d7758dba",
+      "frame": 71712,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 8877
+    },
+    {
+      "file": "screenshots/v1.0/28-story.png",
+      "title": "아뇨 뒤 문장 간격",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "fb082e159a13f96b51a963c929b54f210c5cbbf50ca1b82947498dbde18e2b03",
+      "frame": 107004,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 9409
+    },
+    {
+      "file": "screenshots/v1.0/29-story.png",
+      "title": "어순과 어절을 다듬은 독백",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "0955a7bb17e2b933f35088807ae6e09290860f37fe6e91a6fe81226a74966f1a",
+      "frame": 110268,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 9421
+    },
+    {
+      "file": "screenshots/v1.0/30-story.png",
+      "title": "오마치와 공항으로",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "313381c53c11f4d07065e00dfa8d5a2901f61a957ebede74b42919bbced196b3",
+      "frame": 119376,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 9528
+    },
+    {
+      "file": "screenshots/v1.0/31-story.png",
+      "title": "사장실에서 밝히는 소신",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "5d3c5f65c54d750a5797c7c78484df196f6b27b380904bcea63fdf8937f12282",
+      "frame": 123564,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 9648
+    },
+    {
+      "file": "screenshots/v1.0/32-story.png",
+      "title": "동료들의 뜻을 전하며",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "4a1a152df83837228167248ab8f7953ab1ae92885c9def62b5c0271cd2ce94ba",
+      "frame": 126120,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+      "sequence": 9657
+    },
+    {
+      "file": "screenshots/v1.0/33-ending.png",
+      "title": "엔딩 후기 1",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "bd6e89561faaaa6ecf32b55f9fdd7b8fa361fbe41039bbb678e12cc2219f18a6",
+      "frame": 15180,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/34-ending.png",
+      "title": "엔딩 후기 2",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "58da6d5def36d640a3ea55ffc303911089c98254a816ec7ce2839716323b1a2a",
+      "frame": 15960,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/35-ending.png",
+      "title": "엔딩 후기 3",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "410fe3c47cd0933028c90076dab2e74034bd814668baa6329ba1774fd9d280cc",
+      "frame": 16500,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/36-ending.png",
+      "title": "엔딩 후기 4",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "9fe43a075d1f210c423ce9103c357f880531b4b19f16f7823cb9987ea858cff3",
+      "frame": 17100,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/37-ending.png",
+      "title": "엔딩 후기 5",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "0a692e5fbe343345b73983839a4f4a380736b33b67e75013f36d9bfed4410398",
+      "frame": 17880,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/38-ending.png",
+      "title": "원작·감수 크레딧",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "64852af0e047c1d1687a9f99ec28f3663f9959fa7d51a9943bb536bbeb9dd054",
+      "frame": 26160,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/39-ending.png",
+      "title": "유타카 한글 로고",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "cbcc59db98b9aeb44553d7b6d6a73f1da702e11bd639ba0a485f20faa64993a9",
+      "frame": 26700,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    },
+    {
+      "file": "screenshots/v1.0/40-ending.png",
+      "title": "完과 한글화 표기",
+      "group": "ending",
+      "native_size": [
+        256,
+        224
+      ],
+      "published_size": [
+        256,
+        224
+      ],
+      "transform": "none; native PNG copied byte-for-byte",
+      "sha256": "0e6271ba558368df7f8ef4bd5d049ba00fb36e0904a6180aee7dae2b07c11e9a",
+      "frame": 27540,
+      "capture": "native diagnostic replay of the v1.0 text/graphics; dispatcher-only entry changes",
+      "rom_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b"
+    }
+  ]
+}
