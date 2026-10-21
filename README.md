@@ -1,113 +1,94 @@
-# 과장 시마 고사쿠 슈퍼 비즈니스 어드벤처 한글 패치
+# 과장 시마 고사쿠 슈퍼 비즈니스 어드벤처
 
-**V0.81 · 2026-10-17 · 한글화 기타 깎는 노인**
+**비공식 한글판 v1.0 정식 버전 · 2026-10-21**
+한글화 **기타 깎는 노인**
 
-슈퍼패미컴 일본판 《과장 시마 고사쿠 슈퍼 비즈니스 어드벤처》의 비공식 한글 패치입니다. 회사원 시마 고사쿠의 업무와 인간관계를 대사와 선택지로 따라가는 게임입니다.
+슈퍼패미컴 일본판 《과장 시마 고사쿠 슈퍼 비즈니스 어드벤처》의 팬 한글 패치입니다. 본편 대사와 선택지, 주요 UI, 오프닝과 엔딩을 한국어로 즐길 수 있습니다.
 
-**[V0.81 다운로드](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.81) · [Windows 패처 포함 ZIP](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/Kachou_Shima_Kousaku_KR_V0.81.zip) · [스크린샷 54장](docs/SCREENSHOTS.md) · [파일별 전체 해시](docs/HASHES.md)**
+**[v1.0 다운로드](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/v1.0) · [패처 포함 ZIP](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/Kachou_Shima_Kousaku_KR_v1.0.zip) · [스크린샷 40장](docs/SCREENSHOTS.md) · [해시 확인](docs/HASHES.md)**
 
-## V0.81 주요 내용
+| 메인 타이틀 | 과장 임명장 |
+| --- | --- |
+| ![메인 타이틀](screenshots/v1.0/01-opening.png) | ![과장 임명장](screenshots/v1.0/03-opening.png) |
 
-- 누락된 장 제목 **뉴욕 편·내부자 거래 편·사장 교체극 편**을 한글화했습니다.
-- 요청에 따라 **교토 편**도 뉴욕 편처럼 띄어 쓰고 가운데로 모아 정렬했습니다.
-- 게임의 7개 장 ID가 사용하는 서로 다른 제목 5종을 확인했습니다. 같은 그래픽을 쓰는 데이터 선택 화면에도 적용됩니다.
-아래 대사·오프닝 관련 내용은 V0.8에서 이어지는 누적 변경입니다.
+## v1.0에서 달라진 점
 
-- 등록 10,414항목을 기준으로 검수 승인 10,406항목, 보존한 비대사 제어 8항목입니다. 본편 대사의 의미·말투·인명·직함·조사·공용 문구와 줄바꿈을 재검토했습니다.
-- 오프닝에서 빠져 있던 **인물 소개문·임명장·별도 대기 데모 대사 9곳**을 한글화했습니다.
-- 줌아웃 끝에서 로고가 잠깐 좌우로 벌어지는 현상과, 타이틀에서 기다리면 그래픽이 깨지는 현상을 수정했습니다. 시작 버튼으로 오프닝을 건너뛰는 경로도 보완했습니다.
-- 원판 그림과 원래 영어 문구를 유지합니다. 원판 **完**과 아래 중앙 정렬한 **한글화 기타 깎는 노인**도 유지합니다.
-- **설치 없는 Windows 64비트 패처**를 제공합니다. 원본 SHA-256 검사, 복사기 헤더 처리, 내장 IPS 적용, 저장 파일의 SHA-256 검사를 한 번에 수행합니다.
+- 대사와 선택지의 문맥·조사·띄어쓰기·어순을 다시 검수하고, 인물 관계에 맞게 호칭과 말투를 다듬었습니다.
+- 오마치와 마리코가 시마에게 하는 말의 존대 혼용을 후반 장면까지 정리했습니다. 시마의 독백과 상대별 말투는 구분했습니다.
+- 문장이 이어질 때 빠지던 공백과 어색한 줄 연결을 수정했습니다. 원래 영어 문구와 영어 느낌표도 보존했습니다.
+- 누락된 엔딩 후기 5장과 일본어 원작·감수 크레딧을 한글화했습니다. 원작자 이름은 오프닝·타이틀·크레딧에서 바로잡았습니다.
+- 유타카 로고를 원본과 비슷한 붉은 기울임 글씨로 디자인하고 주변의 깨진 그래픽을 수정했습니다.
+- 마지막 **完**과 그 아래 중앙 정렬한 **한글화 기타 깎는 노인**은 유지했습니다.
+- V0.8/V0.81의 오프닝 줌아웃·대기 데모 수정, 누락 장 제목 한글화와 **교토 편** 중앙 정렬을 포함합니다.
 
 ## 다운로드와 적용
 
-1. [패처 포함 ZIP](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/Kachou_Shima_Kousaku_KR_V0.81.zip)을 받아 압축을 풉니다.
-2. `KachouShimaKRPatcher-V0.81.exe`를 실행하고 일본판 원본 `.sfc` 또는 `.smc`를 선택합니다. ROM이 ZIP 안에 있으면 먼저 압축을 풉니다.
-3. 저장할 이름을 확인하고 **한글 패치 적용**을 누릅니다.
-4. 완료 메시지에 해시 검증 통과가 표시되면 새로 생성한 한글 ROM을 실행합니다.
+1. [패처 포함 ZIP](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/Kachou_Shima_Kousaku_KR_v1.0.zip)을 받아 압축을 풉니다.
+2. **KachouShimaKRPatcher-v1.0.exe**를 실행합니다. Windows 64비트용이며 설치나 Python 준비가 필요 없습니다.
+3. 일본판 원본 `.sfc` 또는 `.smc` 파일과 저장 위치를 선택한 뒤 **한글 패치 적용**을 누릅니다.
+4. 완료 메시지의 SHA-256 검증 통과를 확인하고 생성된 한글 ROM을 실행합니다.
 
-원본과 이미 존재하는 출력 파일을 덮어쓰지 않습니다. 지원하는 일본판 본문에 512바이트 복사기 헤더가 붙어 있으면 본문을 검증하고 헤더를 자동 제거합니다. 이전 패치가 적용된 ROM에는 원본용 IPS를 중복 적용하지 않습니다.
+원본과 기존 출력 파일을 덮어쓰지 않습니다. 지원 원본에 붙은 512바이트 복사기 헤더는 검사 후 자동 제거합니다. **이전 한글판에 덧씌우지 말고 일본판 원본에 적용하세요.**
 
-| 다운로드 | 내용 |
+| 파일 | 용도 |
 | --- | --- |
-| [패처 포함 ZIP](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/Kachou_Shima_Kousaku_KR_V0.81.zip) | 패처 EXE·IPS·적용 안내·해시·폰트 고지 |
-| [패처 EXE](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/KachouShimaKRPatcher-V0.81.exe) | IPS 내장, 별도 Python 설치 불필요 |
-| [IPS 파일](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/Kachou_Shima_Kousaku_KR_V0.81.ips) | 다른 IPS 도구로 직접 적용할 때 사용 |
-| [대본 도구](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/KachouShimaDialogueEditor-V0.81.exe) | 대본 검색·열람·CSV 내보내기/가져오기 |
-| [SHA256SUMS.txt](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/V0.81/SHA256SUMS.txt) | 배포 파일의 SHA-256 |
+| [패처 포함 ZIP](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/Kachou_Shima_Kousaku_KR_v1.0.zip) | EXE·IPS·사용 안내·해시·폰트 고지를 한 번에 받기 |
+| [Windows 패처 EXE](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/KachouShimaKRPatcher-v1.0.exe) | IPS가 내장된 단일 실행 파일 |
+| [IPS 패치](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/Kachou_Shima_Kousaku_KR_v1.0.ips) | 다른 IPS 도구로 직접 적용 |
+| [SHA256SUMS.txt](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/download/v1.0/SHA256SUMS.txt) | 다운로드 파일의 SHA-256 확인 |
 
-원본 ROM과 패치 완료 ROM은 배포하지 않습니다. GitHub의 `Source code`에는 이 버전의 IPS·패처 소스·문서·스크린샷이 들어 있습니다. 실행할 Windows EXE는 위 릴리스 첨부 파일로 받으세요.
+원본 ROM과 패치 완료 ROM은 배포하지 않습니다. GitHub의 `Source code`는 저장소 자료이며, 실행할 패처는 위 EXE 또는 ZIP으로 받으세요.
 
-## 원본과 결과 확인
+## 원본과 결과 해시
 
-| 파일 | 크기(bytes) | SHA-256 |
+| 대상 | 크기(bytes) | SHA-256 |
 | --- | ---: | --- |
-| 일본판 원본 ROM | 1,048,576 | `988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7` |
-| V0.81 IPS | 464,871 | `37e564ef4d7787a5ee1e8ebea08c6b890e6551b17517549cee70d4843346b191` |
-| 정상 패치 결과 ROM | 2,097,152 | `3ed1c3f092caa0cf6ae5dca73f06553e0f6a219416c481eb239ec2cfc29ce52f` |
+| 일본판 원본 · 헤더 없음 | 1,048,576 | `988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7` |
+| v1.0 패치 결과 · 헤더 없음 | 2,097,152 | `91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b` |
+| v1.0 IPS | 466,824 | `f56c8139ded46772b0a0bfb80fd714f13bf614378993cfd5cee8286201799039` |
 
-원본 이름: `Kachou Shima Kousaku (Japan)` · 헤더 없는 1MB 원본 → 헤더 없는 2MB 결과. [SHA-1·MD5·CRC32와 전체 파일 해시](docs/HASHES.md), [기계 판독용 목록](docs/release_manifest.json)을 함께 제공합니다.
+원본 이름은 `Kachou Shima Kousaku (Japan)`입니다. [전체 파일 해시와 SHA-1·MD5·CRC32](docs/HASHES.md), [기계 판독용 목록](docs/release_manifest.json)을 제공합니다.
 
-## 화면
+## 플레이 화면
 
-오프닝·본편·선택지를 포함한 **[전체 54장 갤러리](docs/SCREENSHOTS.md)** 입니다. 아래는 대표 화면입니다.
+현재 수정본의 **[전체 갤러리 40장](docs/SCREENSHOTS.md)**에서 오프닝·본편·엔딩을 확인할 수 있습니다. 엔딩 이미지는 접힌 영역에 있습니다.
 
-| 뉴욕 편 | 내부자 거래 편 |
+| 시마 고사쿠 인물 소개 | 인쇄소 정보 유출 |
 | --- | --- |
-| ![뉴욕 편](screenshots/v0.81/02-chapter-1.png) | ![내부자 거래 편](screenshots/v0.81/03-chapter-2.png) |
+| ![시마 고사쿠 인물 소개](screenshots/v1.0/04-opening.png) | ![인쇄소 정보 유출](screenshots/v1.0/05-story.png) |
 
-| 교토 편 | 사장 교체극 편 |
+| 브로드웨이 제작비 | 동료와의 대화 |
 | --- | --- |
-| ![교토 편](screenshots/v0.81/04-chapter-5.png) | ![사장 교체극 편](screenshots/v0.81/05-chapter-6.png) |
+| ![브로드웨이 제작비](screenshots/v1.0/09-story.png) | ![동료와의 대화](screenshots/v1.0/18-story.png) |
 
-| 한글 메인 타이틀 | 한글 임명장 |
+| 마리코와의 대화 | 오마치와 샴페인 |
 | --- | --- |
-| ![한글 메인 타이틀](screenshots/v0.8/01-opening.png) | ![한글 임명장](screenshots/v0.8/03-opening.png) |
+| ![마리코와의 대화](screenshots/v1.0/22-story.png) | ![오마치와 샴페인](screenshots/v1.0/25-story.png) |
 
-| 인물 소개 · 이름과 소속 | 대기 데모 · 부하 직원 |
+| 오마치와의 여행 이야기 | 오마치와 공항으로 |
 | --- | --- |
-| ![인물 소개 · 이름과 소속](screenshots/v0.8/04-opening.png) | ![대기 데모 · 부하 직원](screenshots/v0.8/08-opening.png) |
+| ![오마치와의 여행 이야기](screenshots/v1.0/27-story.png) | ![오마치와 공항으로](screenshots/v1.0/30-story.png) |
 
-| 업무 선택지 | 본편 대사 |
-| --- | --- |
-| ![업무 선택지](screenshots/v0.8/15-chapter-0.png) | ![본편 대사](screenshots/v0.8/21-chapter-3.png) |
+## 검수와 업데이트 안내
 
-| 교토 지사 소개 | 인물 직함 표기 |
-| --- | --- |
-| ![교토 지사 소개](screenshots/v0.8/33-chapter-5.png) | ![인물 직함 표기](screenshots/v0.8/48-chapter-6.png) |
+본편·선택지·오프닝의 712개 연결 본문을 다시 읽고, 별도 엔딩 후기 5장을 추가 검수했습니다. 최신 검수에서는 기존 198항목을 교정했습니다. 등록된 10,419항목 중 검수 승인 10,411항목과 비대사 제어 8항목을 구분합니다. 이 수치는 완전한 대화 화면 수가 아닌 데이터 항목 수입니다.
 
-## 검증 범위
+원문/한글 실행 화면 대조, 대기·페이지·화자 명령 검사, 원본→IPS→최종 ROM 일치 검증을 통과했습니다. 패처는 단위 검사 12개와 실제 EXE 검사 8개를 통과했습니다. 자세한 범위와 표시 제한은 [검증 기록](docs/VALIDATION.md)에 있습니다.
 
-- V0.8과의 차이는 장 제목 4종 그래픽 4,096바이트 영역과 체크섬에 한정됩니다. 실제 변경은 2,312바이트입니다. 본편 10,414항목·오프닝·배경·엔딩·크레딧은 동일합니다.
-- 제목 5종을 Snes9x에서, 뉴욕·교토 제목을 bsnes에서도 확인했습니다. 이후 장은 원래 게임 코드를 실행하는 진입 진단이며 일반 경로 전체 재생 검증은 아닙니다.
-- 아래 오프닝 재생 검증은 표시 데이터가 동일한 V0.8 기록을 이어받습니다.
+- 업데이트 전 SRAM(`.srm`)을 백업하세요. 이전 버전의 강제 저장 상태에는 옛 화면 데이터가 남을 수 있으므로 새 ROM을 완전히 다시 시작해 확인하세요.
+- 모든 선택 조합과 모든 휴대 기기에서 다시 완주한 검사는 아닙니다. 일부 전화 장면의 그림 겹침은 검증 기록에 별도로 남겼습니다.
+- 오류 제보는 [Issues](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/issues)에 버전, 사용 에뮬레이터/기기, 장면과 스크린샷을 함께 남겨 주세요.
 
-- 원본에 IPS를 적용한 결과가 위의 최종 ROM SHA-256과 일치합니다.
-- **561본문·150선택지표·별도 오프닝 대본**의 화자·대기·장면·페이지 명령을 대조했고 차이 0건입니다. 등록 10,414항목의 페이지 넘김 불일치도 0건입니다.
-- Snes9x 22,000프레임의 연속 데모와 bsnes 12,000프레임의 데모·다음 타이틀, 시작 버튼·조기 건너뛰기·리셋을 확인했습니다.
-- 기존에 확인한 15개 연결 결말과 대표 SRAM 저장 검증은 본편·결말 데이터의 동일성 대조와 함께 유지했습니다. 이번 버전으로 15결말을 모두 새로 재생한 검사는 아닙니다.
-- 대본 도구는 10,414항목을 내장하며, 실제 8개 대사의 수정·저장·ROM 재생성·재추출을 확인했습니다. 전용 패처는 단위 검사 12개와 실제 EXE 검사 8개를 통과했습니다.
+## 제작과 배포
 
-모든 선택 조합과 모든 휴대 기기에서의 동작을 보장하는 검사는 아닙니다. [검증 기록](docs/current_validation.json)과 [스크린샷 출처](docs/screenshot_manifest.json)에 범위를 명시했습니다.
+한글화: **기타 깎는 노인**. 원작·게임·등장인물·원본 그래픽과 음악의 권리는 각 권리자에게 있습니다. 이 프로젝트는 비공식 팬 한글화이며, ‘정식 버전’은 이 팬 패치의 배포 단계를 뜻합니다.
 
-## 저장 파일과 대본 도구
+[변경 이력](CHANGELOG.md) · [배포 및 권리 안내](NOTICE.md) · [폰트 고지](licenses/FONT-NOTICES.txt) · [이전 V0.81 화면](docs/SCREENSHOTS_V0.81.md)
 
-업데이트 전에는 `.srm` SRAM을 백업해 주세요. 변경 전의 에뮬레이터 저장 상태에는 화면 메모리가 남을 수 있으므로, 업데이트 확인은 ROM을 완전히 다시 시작한 뒤 진행하는 편이 좋습니다.
+## 패처 소스 사용
 
-대본 도구는 일본어 원문·한글·문맥·화자·말투·원판 바이트·줄바꿈을 검색하고 CSV로 내보내거나 가져올 수 있습니다. **수정한 대본으로 ROM을 다시 만드는 기능은 원본 ROM과 개발 프로젝트가 있는 환경에서 사용합니다.** 패처 ZIP은 일반 사용자용 적용 묶음입니다.
+Python 3.10 이상에서는 `python patcher/patcher.py`로 GUI를 실행하거나 다음과 같이 적용할 수 있습니다. Windows EXE 빌드 절차는 `patcher/build_windows.ps1`에 있습니다.
 
-## 패처 소스
-
-Python CLI는 외부 패키지 없이 실행할 수 있습니다. Python 3.10 이상에서 저장소 소스를 내려받은 뒤 실행합니다.
-
-```sh
-python3 patcher/patcher.py --input "original.sfc" --output "Shima_KR_V0.81.sfc"
+```powershell
+python patcher/patcher.py --input "original.sfc" --output "Shima_KR_v1.0.sfc"
 ```
-
-Windows EXE 빌드: [`patcher/build_windows.ps1`](patcher/build_windows.ps1). 검사 코드는 [`tests/`](tests/)에 있습니다.
-
-## 제작·변경 기록
-
-**한글화: 기타 깎는 노인** · [변경 기록](CHANGELOG.md) · [V0.81 릴리스 노트](RELEASE_NOTES_V0.81.md) · [배포 및 권리 안내](NOTICE.md)
-
-게임·원작·등장인물·원본 그림과 음악의 권리는 각 권리자에게 있습니다. 이 작업은 비공식 팬 한글화입니다. 사용한 폰트의 저작권 표기와 OFL 전문은 [`licenses/`](licenses/)에 있습니다.

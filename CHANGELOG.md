@@ -1,4 +1,17 @@
-# 변경 기록
+# 변경 이력
+
+## v1.0 · 비공식 한글판 정식 버전 · 2026-10-21
+
+- 대사와 선택지의 문맥·조사·띄어쓰기·어순을 다시 검수하고, 인물 관계에 맞게 호칭과 말투를 다듬었습니다.
+- 오마치와 마리코가 시마에게 하는 말의 존대 혼용을 후반 장면까지 정리했습니다. 시마의 독백과 상대별 말투는 구분했습니다.
+- 문장이 이어질 때 빠지던 공백과 어색한 줄 연결을 수정했습니다. 원래 영어 문구와 영어 느낌표도 보존했습니다.
+- 누락된 엔딩 후기 5장과 일본어 원작·감수 크레딧을 한글화했습니다. 원작자 이름은 오프닝·타이틀·크레딧에서 바로잡았습니다.
+- 유타카 로고를 원본과 비슷한 붉은 기울임 글씨로 디자인하고 주변의 깨진 그래픽을 수정했습니다.
+- 마지막 **完**과 그 아래 중앙 정렬한 **한글화 기타 깎는 노인**은 유지했습니다.
+- V0.8/V0.81의 오프닝 줌아웃·대기 데모 수정, 누락 장 제목 한글화와 **교토 편** 중앙 정렬을 포함합니다.
+
+- Windows 패처와 IPS를 현재 최종본으로 갱신했습니다.
+- 현재 버전 스크린샷 40장, 적용 안내, 파일별 해시와 검증 범위를 정리했습니다.
 
 ## V0.81 · 2026-10-17
 
@@ -19,4 +32,4 @@
 
 ## V0.2 · 이전 공개 테스트
 
-원본과 결과는 [V0.2 릴리스](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.2)와 [당시 태그](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/tree/V0.2)에 보존되어 있습니다. V0.2에 기록된 미승인 수치와 누락 목록은 당시 상태입니다. 현재 다운로드는 V0.81을 사용하세요.
+원본과 결과의 해시는 [V0.2 릴리스](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/V0.2)와 [당시 태그](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/tree/V0.2)에 보존되어 있습니다. V0.2에 기록된 미승인 수치와 누락 목록은 당시 상태입니다. 현재 다운로드는 [v1.0](https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/v1.0)을 사용하세요.

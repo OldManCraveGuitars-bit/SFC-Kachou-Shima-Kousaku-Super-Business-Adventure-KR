@@ -1,128 +1,112 @@
-# V0.81 스크린샷 54장
+# 비공식 한글판 v1.0 스크린샷
 
-원본 게임 화면은 256×224이며, 이 갤러리는 가독성을 위해 가로·세로 2배 정수 확대했습니다. 픽셀 내용은 바꾸지 않았습니다. 장 제목 5장은 V0.81 네이티브 화면입니다. 기존 49장은 촬영 당시 버전과 PNG 해시를 유지하며, 이번 제목 수정과 관계없는 표시 데이터의 동일성을 대조했습니다. 이후 장 제목은 원래 게임 코드를 사용하는 진입 진단으로 촬영했습니다. [촬영 출처와 PNG 해시](screenshot_manifest.json)를 함께 제공합니다.
+이번 수정본에서 확인한 **40장**입니다. 256×224 원본 PNG를 그대로 실었습니다. 오프닝 4장은 최종 롬의 일반 실행 화면이며, 본편·엔딩은 해당 장면으로 진입하는 검증용 실행에서 촬영했습니다. [촬영 방식과 PNG 해시](screenshot_manifest.json)
 
-## V0.81 장 제목 전체
+## 타이틀과 오프닝
 
-| 토리우미 아키코 사건편 | 뉴욕 편 |
+| 메인 타이틀 | 오프닝 로고 |
 | --- | --- |
-| ![토리우미 아키코 사건편](../screenshots/v0.81/01-chapter-0.png) | ![뉴욕 편](../screenshots/v0.81/02-chapter-1.png) |
+| ![메인 타이틀](../screenshots/v1.0/01-opening.png) | ![오프닝 로고](../screenshots/v1.0/02-opening.png) |
 
-| 내부자 거래 편 | 교토 편 |
+| 과장 임명장 | 시마 고사쿠 인물 소개 |
 | --- | --- |
-| ![내부자 거래 편](../screenshots/v0.81/03-chapter-2.png) | ![교토 편](../screenshots/v0.81/04-chapter-5.png) |
+| ![과장 임명장](../screenshots/v1.0/03-opening.png) | ![시마 고사쿠 인물 소개](../screenshots/v1.0/04-opening.png) |
 
-| 사장 교체극 편 |  |
+## 본편 대사
+
+| 인쇄소 정보 유출 | 관리자의 역할 |
 | --- | --- |
-| ![사장 교체극 편](../screenshots/v0.81/05-chapter-6.png) |  |
+| ![인쇄소 정보 유출](../screenshots/v1.0/05-story.png) | ![관리자의 역할](../screenshots/v1.0/06-story.png) |
 
-## 오프닝과 대기 데모
-
-| 한글 메인 타이틀 | 줌아웃 뒤 한글 로고 |
+| 야베와의 대화 뒤 | 가족을 돌아보는 시마 |
 | --- | --- |
-| ![한글 메인 타이틀](../screenshots/v0.8/01-opening.png) | ![줌아웃 뒤 한글 로고](../screenshots/v0.8/02-opening.png) |
+| ![야베와의 대화 뒤](../screenshots/v1.0/07-story.png) | ![가족을 돌아보는 시마](../screenshots/v1.0/08-story.png) |
 
-| 한글 임명장 | 인물 소개 · 이름과 소속 |
+| 브로드웨이 제작비 | 뮤지컬 공연 |
 | --- | --- |
-| ![한글 임명장](../screenshots/v0.8/03-opening.png) | ![인물 소개 · 이름과 소속](../screenshots/v0.8/04-opening.png) |
+| ![브로드웨이 제작비](../screenshots/v1.0/09-story.png) | ![뮤지컬 공연](../screenshots/v1.0/10-story.png) |
 
-| 인물 소개 · 업무 | 인물 소개 · 후반 문구 |
+| 다음 만남을 기약하며 | 뉴욕에서의 업무 |
 | --- | --- |
-| ![인물 소개 · 업무](../screenshots/v0.8/05-opening.png) | ![인물 소개 · 후반 문구](../screenshots/v0.8/06-opening.png) |
+| ![다음 만남을 기약하며](../screenshots/v1.0/11-story.png) | ![뉴욕에서의 업무](../screenshots/v1.0/12-story.png) |
 
-| 대기 데모 · 전화 | 대기 데모 · 부하 직원 |
+| 투자금에 관한 대화 | 사건을 돌아보는 독백 |
 | --- | --- |
-| ![대기 데모 · 전화](../screenshots/v0.8/07-opening.png) | ![대기 데모 · 부하 직원](../screenshots/v0.8/08-opening.png) |
+| ![투자금에 관한 대화](../screenshots/v1.0/13-story.png) | ![사건을 돌아보는 독백](../screenshots/v1.0/14-story.png) |
 
-| 대기 데모 · 상사 지시 | 대기 데모 · 동료 |
+| 가시무라의 연락 | 상사들의 반응 |
 | --- | --- |
-| ![대기 데모 · 상사 지시](../screenshots/v0.8/09-opening.png) | ![대기 데모 · 동료](../screenshots/v0.8/10-opening.png) |
+| ![가시무라의 연락](../screenshots/v1.0/15-story.png) | ![상사들의 반응](../screenshots/v1.0/16-story.png) |
 
-| 대기 데모 · 뉴욕 | 원작 영어 로고와 도시 그림 |
+| 내부자 거래를 둘러싼 고민 | 동료와의 대화 |
 | --- | --- |
-| ![대기 데모 · 뉴욕](../screenshots/v0.8/11-opening.png) | ![원작 영어 로고와 도시 그림](../screenshots/v0.8/12-opening.png) |
+| ![내부자 거래를 둘러싼 고민](../screenshots/v1.0/17-story.png) | ![동료와의 대화](../screenshots/v1.0/18-story.png) |
 
-## 시작과 데이터 선택
-
-| 이야기 도입 | DATA 선택 화면 |
+| 술자리의 가시무라 | 동료 사이의 오해 |
 | --- | --- |
-| ![이야기 도입](../screenshots/v0.8/13-start.png) | ![DATA 선택 화면](../screenshots/v0.8/14-start.png) |
+| ![술자리의 가시무라](../screenshots/v1.0/19-story.png) | ![동료 사이의 오해](../screenshots/v1.0/20-story.png) |
 
-## 본편 대사와 선택지
-
-| 업무 선택지 | 업무 선택지 |
+| 교토 지사의 상품 소개 | 마리코와의 대화 |
 | --- | --- |
-| ![업무 선택지](../screenshots/v0.8/15-chapter-0.png) | ![업무 선택지](../screenshots/v0.8/16-chapter-0.png) |
+| ![교토 지사의 상품 소개](../screenshots/v1.0/21-story.png) | ![마리코와의 대화](../screenshots/v1.0/22-story.png) |
 
-| 업무 선택지 | 업무 선택지 |
+| 인물 이름 표기 | 술자리의 말투 |
 | --- | --- |
-| ![업무 선택지](../screenshots/v0.8/17-chapter-1.png) | ![업무 선택지](../screenshots/v0.8/18-chapter-1.png) |
+| ![인물 이름 표기](../screenshots/v1.0/23-story.png) | ![술자리의 말투](../screenshots/v1.0/24-story.png) |
 
-| 본편 대사 | 업무 선택지 |
+| 오마치와 샴페인 | 오마치가 받은 엽서 |
 | --- | --- |
-| ![본편 대사](../screenshots/v0.8/19-chapter-3.png) | ![업무 선택지](../screenshots/v0.8/20-chapter-3.png) |
+| ![오마치와 샴페인](../screenshots/v1.0/25-story.png) | ![오마치가 받은 엽서](../screenshots/v1.0/26-story.png) |
 
-| 본편 대사 | 본편 대사 |
+| 오마치와의 여행 이야기 | 아뇨 뒤 문장 간격 |
 | --- | --- |
-| ![본편 대사](../screenshots/v0.8/21-chapter-3.png) | ![본편 대사](../screenshots/v0.8/22-chapter-3.png) |
+| ![오마치와의 여행 이야기](../screenshots/v1.0/27-story.png) | ![아뇨 뒤 문장 간격](../screenshots/v1.0/28-story.png) |
 
-| 본편 대사 | 본편 대사 |
+| 어순과 어절을 다듬은 독백 | 오마치와 공항으로 |
 | --- | --- |
-| ![본편 대사](../screenshots/v0.8/23-chapter-3.png) | ![본편 대사](../screenshots/v0.8/24-chapter-3.png) |
+| ![어순과 어절을 다듬은 독백](../screenshots/v1.0/29-story.png) | ![오마치와 공항으로](../screenshots/v1.0/30-story.png) |
 
-| 본편 대사 | 본편 대사 |
+| 사장실에서 밝히는 소신 | 동료들의 뜻을 전하며 |
 | --- | --- |
-| ![본편 대사](../screenshots/v0.8/25-chapter-3.png) | ![본편 대사](../screenshots/v0.8/26-chapter-4.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/27-chapter-4.png) | ![본편 대사](../screenshots/v0.8/28-chapter-4.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/29-chapter-4.png) | ![본편 대사](../screenshots/v0.8/30-chapter-4.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/31-chapter-4.png) | ![본편 대사](../screenshots/v0.8/32-chapter-4.png) |
-
-| 교토 지사 소개 | 업무 선택지 |
-| --- | --- |
-| ![교토 지사 소개](../screenshots/v0.8/33-chapter-5.png) | ![업무 선택지](../screenshots/v0.8/34-chapter-5.png) |
-
-| 본편 대사 | 업무 선택지 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/35-chapter-5.png) | ![업무 선택지](../screenshots/v0.8/36-chapter-5.png) |
-
-| 본편 대사 | 비즈니스 칼럼 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/37-chapter-5.png) | ![비즈니스 칼럼](../screenshots/v0.8/38-chapter-5.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/39-chapter-5.png) | ![본편 대사](../screenshots/v0.8/40-chapter-5.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/41-chapter-5.png) | ![본편 대사](../screenshots/v0.8/42-chapter-6.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/43-chapter-6.png) | ![본편 대사](../screenshots/v0.8/44-chapter-6.png) |
-
-| 본편 대사 | 본편 대사 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/45-chapter-6.png) | ![본편 대사](../screenshots/v0.8/46-chapter-6.png) |
-
-| 본편 대사 | 인물 직함 표기 |
-| --- | --- |
-| ![본편 대사](../screenshots/v0.8/47-chapter-6.png) | ![인물 직함 표기](../screenshots/v0.8/48-chapter-6.png) |
+| ![사장실에서 밝히는 소신](../screenshots/v1.0/31-story.png) | ![동료들의 뜻을 전하며](../screenshots/v1.0/32-story.png) |
 
 <details>
-<summary>엔딩 크레딧 미리보기 · 스포일러</summary>
+<summary>엔딩 후기·크레딧 8장 보기 · 스포일러</summary>
 
-![完과 중앙 한글화 크레딧](../screenshots/v0.8/49-ending.png)
+### 엔딩 후기 1
 
-원판 `完`과 그 아래 중앙 한글화 크레딧을 유지합니다.
+![엔딩 후기 1](../screenshots/v1.0/33-ending.png)
+
+### 엔딩 후기 2
+
+![엔딩 후기 2](../screenshots/v1.0/34-ending.png)
+
+### 엔딩 후기 3
+
+![엔딩 후기 3](../screenshots/v1.0/35-ending.png)
+
+### 엔딩 후기 4
+
+![엔딩 후기 4](../screenshots/v1.0/36-ending.png)
+
+### 엔딩 후기 5
+
+![엔딩 후기 5](../screenshots/v1.0/37-ending.png)
+
+### 원작·감수 크레딧
+
+![원작·감수 크레딧](../screenshots/v1.0/38-ending.png)
+
+### 유타카 한글 로고
+
+![유타카 한글 로고](../screenshots/v1.0/39-ending.png)
+
+### 完과 한글화 표기
+
+![完과 한글화 표기](../screenshots/v1.0/40-ending.png)
 
 </details>
+
+## 이전 버전 기록
+
+[V0.81 갤러리 54장](SCREENSHOTS_V0.81.md)은 당시 촬영본입니다. v1.0 화면과 구분해 보존합니다.
