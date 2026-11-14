@@ -1,0 +1,518 @@
+{
+  "status": "passed",
+  "version": "v1.11",
+  "date": "2026-11-14",
+  "target_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+  "ips_sha256": "af64d0d4aa28ea7010539f5b45ac11274b665692988d010e5aecb6c72b839048",
+  "records_scanned": 10419,
+  "changed_fields": 32,
+  "name_fields": 30,
+  "additional_context_fields": 2,
+  "context_clauses_corrected": 4,
+  "native_fields_compared": 31,
+  "native_pages_compared": 28,
+  "wrong_toriumi_names": 0,
+  "yosano_akiko_preserved": true,
+  "main_name_spellings_reviewed": [
+    {
+      "japanese": "島耕作",
+      "korean": "시마 고사쿠",
+      "inline_fields": 8
+    },
+    {
+      "japanese": "鳥海赫子",
+      "korean": "도리우미 가쿠코",
+      "inline_fields": 0
+    },
+    {
+      "japanese": "福田",
+      "korean": "후쿠다",
+      "inline_fields": 25
+    },
+    {
+      "japanese": "樫村",
+      "korean": "가시무라",
+      "inline_fields": 23
+    },
+    {
+      "japanese": "健三",
+      "korean": "겐조",
+      "inline_fields": 3
+    },
+    {
+      "japanese": "木暮",
+      "korean": "고구레",
+      "inline_fields": 44
+    },
+    {
+      "japanese": "宇佐美",
+      "korean": "우사미",
+      "inline_fields": 18
+    },
+    {
+      "japanese": "大泉",
+      "korean": "오이즈미",
+      "inline_fields": 92
+    },
+    {
+      "japanese": "祐介",
+      "korean": "유스케",
+      "inline_fields": 19
+    },
+    {
+      "japanese": "吉原",
+      "korean": "요시하라",
+      "inline_fields": 2
+    },
+    {
+      "japanese": "初太郎",
+      "korean": "하쓰타로",
+      "inline_fields": 1
+    },
+    {
+      "japanese": "大町",
+      "korean": "오마치",
+      "inline_fields": 9
+    },
+    {
+      "japanese": "久美子",
+      "korean": "구미코",
+      "inline_fields": 9
+    },
+    {
+      "japanese": "野中",
+      "korean": "노나카",
+      "inline_fields": 3
+    },
+    {
+      "japanese": "中沢",
+      "korean": "나카자와",
+      "inline_fields": 6
+    },
+    {
+      "japanese": "中川",
+      "korean": "나카가와",
+      "inline_fields": 23
+    },
+    {
+      "japanese": "津本",
+      "korean": "쓰모토",
+      "inline_fields": 35
+    },
+    {
+      "japanese": "陽子／耀子",
+      "korean": "요코",
+      "inline_fields": 26
+    },
+    {
+      "japanese": "鈴鴨",
+      "korean": "스즈카모",
+      "inline_fields": 27
+    },
+    {
+      "japanese": "かつ子",
+      "korean": "가쓰코",
+      "inline_fields": 37
+    },
+    {
+      "japanese": "万里子",
+      "korean": "마리코",
+      "inline_fields": 43
+    },
+    {
+      "japanese": "典子",
+      "korean": "노리코",
+      "inline_fields": 24
+    },
+    {
+      "japanese": "田中",
+      "korean": "다나카",
+      "inline_fields": 13
+    },
+    {
+      "japanese": "哲夫",
+      "korean": "데쓰오",
+      "inline_fields": 1
+    },
+    {
+      "japanese": "水口",
+      "korean": "미즈구치",
+      "inline_fields": 4
+    },
+    {
+      "japanese": "治雄",
+      "korean": "하루오",
+      "inline_fields": 6
+    },
+    {
+      "japanese": "松本",
+      "korean": "마쓰모토",
+      "inline_fields": 23
+    },
+    {
+      "japanese": "瑞鶴",
+      "korean": "즈이카쿠",
+      "inline_fields": 7
+    },
+    {
+      "japanese": "市山団志郎",
+      "korean": "이치야마 단시로",
+      "inline_fields": 3
+    },
+    {
+      "japanese": "怜子",
+      "korean": "레이코",
+      "inline_fields": 7
+    },
+    {
+      "japanese": "奈美",
+      "korean": "나미",
+      "inline_fields": 14
+    },
+    {
+      "japanese": "アイリーン",
+      "korean": "아이린",
+      "inline_fields": 14
+    },
+    {
+      "japanese": "与謝野晶子",
+      "korean": "요사노 아키코",
+      "inline_fields": 1
+    }
+  ],
+  "shared_name_macros": [
+    "도리우미 가쿠코",
+    "도리우미",
+    "가쿠코"
+  ],
+  "glyph_codebook_unchanged": true,
+  "changed_bytes": 3771,
+  "allowed_spans": [
+    [
+      "0x200d2",
+      "0x200e3"
+    ],
+    [
+      "0x201b2",
+      "0x201db"
+    ],
+    [
+      "0x1819d",
+      "0x181a9"
+    ],
+    [
+      "0x20205",
+      "0x20216"
+    ],
+    [
+      "0x20247",
+      "0x2025a"
+    ],
+    [
+      "0x20347",
+      "0x20358"
+    ],
+    [
+      "0x2036a",
+      "0x2037c"
+    ],
+    [
+      "0x20383",
+      "0x20396"
+    ],
+    [
+      "0x20280",
+      "0x20292"
+    ],
+    [
+      "0x202bf",
+      "0x202ca"
+    ],
+    [
+      "0x181f8",
+      "0x18205"
+    ],
+    [
+      "0x1820d",
+      "0x1821c"
+    ],
+    [
+      "0x1821e",
+      "0x1822e"
+    ],
+    [
+      "0x204d9",
+      "0x204ea"
+    ],
+    [
+      "0x20644",
+      "0x20650"
+    ],
+    [
+      "0x2065f",
+      "0x20672"
+    ],
+    [
+      "0x1829b",
+      "0x182a4"
+    ],
+    [
+      "0x182b6",
+      "0x182c6"
+    ],
+    [
+      "0x184de",
+      "0x184eb"
+    ],
+    [
+      "0x26e77",
+      "0x26e86"
+    ],
+    [
+      "0x1899b",
+      "0x189ab"
+    ],
+    [
+      "0x23092",
+      "0x230a1"
+    ],
+    [
+      "0x20583",
+      "0x2059e"
+    ],
+    [
+      "0x1f844",
+      "0x1f847"
+    ],
+    [
+      "0x21dd7",
+      "0x21de6"
+    ],
+    [
+      "0x21ecd",
+      "0x21edc"
+    ],
+    [
+      "0x22c89",
+      "0x22ca3"
+    ],
+    [
+      "0x222fd",
+      "0x22322"
+    ],
+    [
+      "0x23a8b",
+      "0x23aa0"
+    ],
+    [
+      "0x25abf",
+      "0x25acb"
+    ],
+    [
+      "0x34aa1",
+      "0x34ad5"
+    ],
+    [
+      "0x5f08d",
+      "0x5f0de"
+    ],
+    [
+      "0x1f789",
+      "0x1f794"
+    ],
+    [
+      "0x1f83d",
+      "0x1f844"
+    ],
+    [
+      "0x7fdc",
+      "0x7fe0"
+    ],
+    [
+      "0x122800",
+      "0x122c00"
+    ],
+    [
+      "0x1f1000",
+      "0x1f12e5"
+    ],
+    [
+      "0x1f2000",
+      "0x1f4f60"
+    ],
+    [
+      "0x1f5040",
+      "0x1f5058"
+    ],
+    [
+      "0x1f8000",
+      "0x1fd000"
+    ]
+  ],
+  "menu_code_change": "Graphics DMA size immediate only: 377 to 379 tiles; all other chapter-picker code identical.",
+  "script_effect_roots": 561,
+  "menu_roots": 150,
+  "script_effect_differences": 0,
+  "original_ending_save_deletion_preserved": true,
+  "english_text_and_glyphs_preserved": true,
+  "existing_opening_ending_and_nonchapter_graphics_preserved": true,
+  "ips_roundtrip": true,
+  "runtime_cases": {
+    "bsnes_0": {
+      "frames": 9000,
+      "trace_sha256": "c1d038a8f99f24a02dc772b2d9d74f0038955b9298aaaa1f47b436f585e7a066",
+      "sram_sha256": "f9b41e0dde46603ba5cda46ef18a7134ad1aedea788f21f696920384aa9bd92b",
+      "core": "tools/external_cores/bsnes/bsnes_libretro.dll"
+    },
+    "bsnes_1": {
+      "frames": 9000,
+      "trace_sha256": "e3aef5ddb1ee7270dbf5f686f7b5f58df5799cb8240469fbc6103cb6ef2a1aed",
+      "sram_sha256": "aefa33280799a617bada5c599cacc815c0e212e8f6de9367763ae94b1eba0d6d",
+      "core": "tools/external_cores/bsnes/bsnes_libretro.dll"
+    },
+    "bsnes_2": {
+      "frames": 9000,
+      "trace_sha256": "5187f882c277c6c9bbc923b4e5150ea7bf1827ca5be83c1bfde59a635a5162be",
+      "sram_sha256": "87b20cb3e9de99ce30431e7b77982d051e4242706585df302e0997d9e24e22ac",
+      "core": "tools/external_cores/bsnes/bsnes_libretro.dll"
+    },
+    "bsnes_3": {
+      "frames": 9000,
+      "trace_sha256": "55392d271b0242b417f583b1e4f405d8c464a2d84f90687fa0074948eba028cb",
+      "sram_sha256": "7bbb7ae342cfa639e63a9e1a4b499e9149c67f30b0c6d81fa80aa0dc5a8ab4b9",
+      "core": "tools/external_cores/bsnes/bsnes_libretro.dll"
+    },
+    "bsnes_4": {
+      "frames": 9000,
+      "trace_sha256": "8f838d418b0465a430b75460a0121a235653b4345bd979f7581424b7aa1daf6b",
+      "sram_sha256": "3de49bb8050c4c0ee8594f5a03401c8f044a891584e08cd6fcf3363ff153c597",
+      "core": "tools/external_cores/bsnes/bsnes_libretro.dll"
+    },
+    "bsnes_reload": {
+      "frames": 6000,
+      "trace_sha256": "74143f334fc026bae086a756915605779a007c149a2ce61773a4be2918658dfd",
+      "sram_sha256": "a4af8023ce75ae21d096526a1233643bfa37a91bc22e76cbc4277099a1acc732",
+      "core": "tools/external_cores/bsnes/bsnes_libretro.dll"
+    },
+    "cancel": {
+      "frames": 2600,
+      "trace_sha256": "8f323ebb2fe83555f703701d87e02f58d2d9f3936b1f48fe8f4f884ff99935c0",
+      "sram_sha256": "48704e18925d2028fb24e795e48fd5a50f14e7897b55bf0f4e596395778b84ba",
+      "core": "Snes9x"
+    },
+    "filled_reload_0": {
+      "frames": 6000,
+      "trace_sha256": "fc0bec9bd8eeb2d24365410d36ea26b19229cf58d7d7559efab76ad30c523aff",
+      "sram_sha256": "2b0527451ccd229f77171b63d8a627ada0462d8c17fbe32bd613485fc884ae29",
+      "core": "Snes9x"
+    },
+    "filled_reload_1": {
+      "frames": 6000,
+      "trace_sha256": "e515fe5604820fbd660f592334399cf506666557a16004aaf14c1151da8a6a25",
+      "sram_sha256": "ea60a451f3e7b176cd1e441fbc16213bba8709914ddf88a77c96e99d7952a62c",
+      "core": "Snes9x"
+    },
+    "filled_reload_2": {
+      "frames": 6000,
+      "trace_sha256": "906df96e70e05329230c6a0f2a2d8bd847fcddea09b25c8e66f23d197a4a22fd",
+      "sram_sha256": "a4af8023ce75ae21d096526a1233643bfa37a91bc22e76cbc4277099a1acc732",
+      "core": "Snes9x"
+    },
+    "preserve_0": {
+      "frames": 5000,
+      "trace_sha256": "b202f4df9d0aea08808fc7518cf717d322486071260bc5bc19f9f543e62771ef",
+      "sram_sha256": "2b0527451ccd229f77171b63d8a627ada0462d8c17fbe32bd613485fc884ae29",
+      "core": "Snes9x"
+    },
+    "preserve_1": {
+      "frames": 4000,
+      "trace_sha256": "55a4ae53b91b56bddd32f80d2a074c634b6ccdd82c4c2b7a2b55f28ce3f025b0",
+      "sram_sha256": "d9c84a61a91060ec615334b90c888574806f93ff981a46104a5408c7340cc6f1",
+      "core": "Snes9x"
+    },
+    "preserve_2": {
+      "frames": 5000,
+      "trace_sha256": "e74ba7524c508feb75f05be2ff9808f3f58645ad8816090e186f14dcfdb54de8",
+      "sram_sha256": "ed399154edd8b31f41d3cdbffa1cf822b47c6023b1c8fe41a61b815e7729e6cb",
+      "core": "Snes9x"
+    },
+    "reload_0": {
+      "frames": 6000,
+      "trace_sha256": "b15f87184915d9567b2aa5d166333e8e30afccbab5322dd5bc3e7ccb723fe438",
+      "sram_sha256": "8ac27cef94895672b186cc4496490e3514fd7742c2cf5b3666ca47ded9233743",
+      "core": "Snes9x"
+    },
+    "reload_1": {
+      "frames": 6000,
+      "trace_sha256": "80b986ed31f20afe0ed551704e0585c1b0e63be52522486f1030bc4de304e6fa",
+      "sram_sha256": "39df8f4a517381fea7e72b9c5923c649d3bf48d5eecddedffd4dfb9ef984b66a",
+      "core": "Snes9x"
+    },
+    "reload_2": {
+      "frames": 6000,
+      "trace_sha256": "2b6d2fd7dd2c1b4a1c0cd0c5cdb483278a99fafacfa59191d31ae105287c754c",
+      "sram_sha256": "754371885beab35944686be67b7ad8ae20a6222afde6fe7f97348de8761a9af5",
+      "core": "Snes9x"
+    },
+    "reload_3": {
+      "frames": 6000,
+      "trace_sha256": "13d6985548a40de38e05bef5e47d87da92c2def695636153a6ea8c366dfcc89a",
+      "sram_sha256": "34460a98487174dbd27425786f04b37a9eec3fdd48aa81bdcff4af972f94e14c",
+      "core": "Snes9x"
+    },
+    "reload_4": {
+      "frames": 6000,
+      "trace_sha256": "0e8b7fe4cce1e62bbc63003fc7e9fffa5a53b81584d370c86095b02432ca967b",
+      "sram_sha256": "6486af5e601bc1b97bc8d8797c0eebeed8fb521c334124d843cc68cfd03c99eb",
+      "core": "Snes9x"
+    },
+    "snes9x_0": {
+      "frames": 9000,
+      "trace_sha256": "a4d5cb994f31f249a530961ab1324166073e98a9632e78d332b02d2f276bdfe5",
+      "sram_sha256": "4f8ef45fa687aba931a3457fa66e0fea8e03c89ee9eacdb94a0144faf48b9661",
+      "core": "Snes9x"
+    },
+    "snes9x_1": {
+      "frames": 9000,
+      "trace_sha256": "e2e71e9383d105581c84e56317970831ec428b4a724440255346ab024fd3a233",
+      "sram_sha256": "39df8f4a517381fea7e72b9c5923c649d3bf48d5eecddedffd4dfb9ef984b66a",
+      "core": "Snes9x"
+    },
+    "snes9x_2": {
+      "frames": 9000,
+      "trace_sha256": "0ad9b8bfde566d970c7945956810a0d3c0142a86cd85a23c5c4d89c7cfb68fdc",
+      "sram_sha256": "754371885beab35944686be67b7ad8ae20a6222afde6fe7f97348de8761a9af5",
+      "core": "Snes9x"
+    },
+    "snes9x_3": {
+      "frames": 9000,
+      "trace_sha256": "6928e614f5f078431dcf271af4e9389e76d54725f5aeac9dffa354f56ca338bd",
+      "sram_sha256": "34460a98487174dbd27425786f04b37a9eec3fdd48aa81bdcff4af972f94e14c",
+      "core": "Snes9x"
+    },
+    "snes9x_4": {
+      "frames": 9000,
+      "trace_sha256": "84d61b8d008c76baeb0e5c7f35a53bb61f7de9ffdd7dc450c4b4cef4c16bb428",
+      "sram_sha256": "6486af5e601bc1b97bc8d8797c0eebeed8fb521c334124d843cc68cfd03c99eb",
+      "core": "Snes9x"
+    }
+  },
+  "runtime_case_count": 23,
+  "other_save_slots_preserved": true,
+  "cancel_preserves_save": true,
+  "all_hardware_tested": false,
+  "full_context_reread_claim": false,
+  "ordinary_full_branch_replay_claim": false,
+  "manual_screen_review": {
+    "date": "2026-11-14",
+    "status": "pass",
+    "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+    "native_fields": 31,
+    "unique_pages": 28,
+    "source_and_korean_compared": true,
+    "all_changed_text_fully_visible": true,
+    "manual_scope": "All 28 paired source/Korean pages read. Final two wording refinements re-read in native images; the remaining 26 final pages are byte-identical PNGs to the reviewed candidate. Names, particles, speaker register, row/quote boundaries and portrait/background checked.",
+    "yosano_akiko_distinct_person_preserved": true,
+    "ordinary_full_branch_replay_claim": false
+  }
+}

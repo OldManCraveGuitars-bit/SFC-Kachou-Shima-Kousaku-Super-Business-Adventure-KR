@@ -1,0 +1,49 @@
+{
+  "version": "v1.1",
+  "date": "2026-10-21",
+  "result": "pass",
+  "source_rom": {
+    "bytes": 1048576,
+    "sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
+    "sha1": "18f6451f3973f2c649726cb719b9e383fb13eac6",
+    "md5": "6abe2920bc017a66665ae114ffa2bf0f",
+    "crc32": "B9DCA26D"
+  },
+  "patched_rom": {
+    "bytes": 2097152,
+    "sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
+    "sha1": "30e054c244ca7c296deca317951353250ad223d9",
+    "md5": "68b970ea87677f7252fdfbf30894058c",
+    "crc32": "CA41E474"
+  },
+  "native_chapter_select": {
+    "cases": 25,
+    "chapters": 5,
+    "cores": [
+      "Snes9x",
+      "bsnes"
+    ],
+    "native_controller_input_only": true,
+    "all_three_slots_checked": true,
+    "other_slots_preserved": true,
+    "cancel_restores_identical_load_screen": true,
+    "original_ending_save_deletion_bytes_unchanged": true,
+    "detailed_report": "chapter_select_validation.json"
+  },
+  "inherited_v1_0": {
+    "dialogue_and_story_data_byte_identical": true,
+    "full_review_not_repeated_for_v1_1": true,
+    "report": "current_validation_v1.0.json",
+    "documentation": "VALIDATION_v1.0.md"
+  },
+  "patcher": {
+    "unit_tests": 12,
+    "packaged_exe_cases": 8,
+    "result": "pass",
+    "sha256": "fd39a5a028728f95a00ec9836d85e6771c23cef1af3890f11f97ca7019563a12"
+  },
+  "screenshots": 16,
+  "historical_v1_0_screenshots": 40,
+  "full_combinatorial_replay": false,
+  "all_hardware_tested": false
+}

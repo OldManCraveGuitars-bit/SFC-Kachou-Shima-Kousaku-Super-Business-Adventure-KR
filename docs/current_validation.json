@@ -1,6 +1,6 @@
 {
-  "version": "v1.1",
-  "date": "2026-10-21",
+  "version": "v1.11",
+  "date": "2026-11-14",
   "result": "pass",
   "source_rom": {
     "bytes": 1048576,
@@ -11,13 +11,13 @@
   },
   "patched_rom": {
     "bytes": 2097152,
-    "sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-    "sha1": "30e054c244ca7c296deca317951353250ad223d9",
-    "md5": "68b970ea87677f7252fdfbf30894058c",
-    "crc32": "CA41E474"
+    "sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+    "sha1": "7ea1a0dc37bc1e8b98dbdc1cc474e722cd9f5529",
+    "md5": "8cedf65363c9ea5260b383304ef62ee7",
+    "crc32": "CC4F02CB"
   },
   "native_chapter_select": {
-    "cases": 25,
+    "cases": 23,
     "chapters": 5,
     "cores": [
       "Snes9x",
@@ -30,20 +30,27 @@
     "original_ending_save_deletion_bytes_unchanged": true,
     "detailed_report": "chapter_select_validation.json"
   },
-  "inherited_v1_0": {
-    "dialogue_and_story_data_byte_identical": true,
-    "full_review_not_repeated_for_v1_1": true,
-    "report": "current_validation_v1.0.json",
-    "documentation": "VALIDATION_v1.0.md"
-  },
   "patcher": {
     "unit_tests": 12,
     "packaged_exe_cases": 8,
     "result": "pass",
-    "sha256": "fd39a5a028728f95a00ec9836d85e6771c23cef1af3890f11f97ca7019563a12"
+    "sha256": "2d2b0bd8c85a1ff6f5e36ab8178b71bb2dba17f84af834971ca098c4bcd226fe"
   },
   "screenshots": 16,
   "historical_v1_0_screenshots": 40,
   "full_combinatorial_replay": false,
-  "all_hardware_tested": false
+  "all_hardware_tested": false,
+  "name_and_context_review": {
+    "records_scanned": 10419,
+    "name_fields": 30,
+    "total_changed_fields": 32,
+    "context_clauses": 4,
+    "native_fields": 31,
+    "native_pages": 28,
+    "report": "name_review_validation.json"
+  },
+  "inherited_v1_1": {
+    "chapter_selection_preserved": true,
+    "report": "current_validation_v1.1.json"
+  }
 }

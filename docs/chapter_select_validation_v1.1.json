@@ -1,0 +1,304 @@
+{
+  "status": "passed",
+  "date_utc": "2026-10-21T02:11:03.740760+00:00",
+  "base_sha256": "91cff6851c185e701db379cdbfe73675fbaeb008cd3667acbfa56e6d96cc982b",
+  "target_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
+  "changed_bytes": 33740,
+  "permitted_change_ranges": [
+    [
+      "0x7356",
+      "0x735e"
+    ],
+    [
+      "0x7372",
+      "0x737a"
+    ],
+    [
+      "0x7fdc",
+      "0x7fe0"
+    ],
+    [
+      "0x123c00",
+      "0x124000"
+    ],
+    [
+      "0x1f1000",
+      "0x1f12e5"
+    ],
+    [
+      "0x1f2000",
+      "0x1f4f20"
+    ],
+    [
+      "0x1f5000",
+      "0x1f5058"
+    ],
+    [
+      "0x1f5080",
+      "0x1f50c0"
+    ],
+    [
+      "0x1f5100",
+      "0x1f5105"
+    ],
+    [
+      "0x1f5108",
+      "0x1f510d"
+    ],
+    [
+      "0x1f5110",
+      "0x1f5116"
+    ],
+    [
+      "0x1f8000",
+      "0x1fd000"
+    ]
+  ],
+  "original_ending_and_save_deletion_bytes_unchanged": true,
+  "existing_v1_0_artifacts_unchanged": true,
+  "original_dialogue_and_story_data_unchanged": true,
+  "chapters": [
+    {
+      "title": "토리우미 아키코 사건 편",
+      "chapter": 0,
+      "initial_module": 1,
+      "snes9x_start_and_reload": true,
+      "bsnes_start": true
+    },
+    {
+      "title": "뉴욕 편",
+      "chapter": 1,
+      "initial_module": 0,
+      "snes9x_start_and_reload": true,
+      "bsnes_start": true
+    },
+    {
+      "title": "내부자 거래 편",
+      "chapter": 2,
+      "initial_module": 0,
+      "snes9x_start_and_reload": true,
+      "bsnes_start": true
+    },
+    {
+      "title": "교토 편",
+      "chapter": 5,
+      "initial_module": 0,
+      "snes9x_start_and_reload": true,
+      "bsnes_start": true
+    },
+    {
+      "title": "사장 교체극 편",
+      "chapter": 6,
+      "initial_module": 22,
+      "snes9x_start_and_reload": true,
+      "bsnes_start": true
+    }
+  ],
+  "other_slots_preserved": [
+    {
+      "slot": 2,
+      "chapter": 2,
+      "module": 0,
+      "checksum_valid": true
+    },
+    {
+      "slot": 3,
+      "chapter": 5,
+      "module": 0,
+      "checksum_valid": true
+    },
+    {
+      "slot": 1,
+      "chapter": 1,
+      "module": 0,
+      "checksum_valid": true
+    }
+  ],
+  "cancellation_preserves_all_saved_records": true,
+  "cancellation_restores_identical_load_screen": true,
+  "native_sound_popup_preserved": true,
+  "all_three_native_continue_slots_pass": true,
+  "input_only_runtime_cases": {
+    "start_0": {
+      "config_sha256": "b708d7f31df5eafa2838c4cf4b9a99420bcacd96f299439c89a6dbc9db54f19b",
+      "trace_sha256": "4a4f1a6c01512c1bb4a392b55e995ddb178b2858528bcc20d9447478c67e9921",
+      "sram_sha256": "5a5208752cfb7b93b6b9c650132cd55fcb2bb2b398d329f622a41f8e0d5717c8",
+      "frames": 5000,
+      "screenshots": 8
+    },
+    "reload_0": {
+      "config_sha256": "9ce48b30120161d6c8bd0f9a180597f6d7d2eb3d71fbeda5abb19b386e26697f",
+      "trace_sha256": "289c59e1b37675f0a28808162754aed41c6ef299f3395193c454479dfeca029c",
+      "sram_sha256": "36aa7bde32ebc1ec4ce07ef6a7bed3826905577fddd978c2c1b97eb1857ee6b4",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "bsnes_start_0": {
+      "config_sha256": "17e230c686bdec6b2cb955971324b51154f7a83a45ecad5252ccb3a157687829",
+      "trace_sha256": "2d5e5e0edde013eead27d6b599563fe82243800eff096ae2d730abfd4c51c899",
+      "sram_sha256": "f9b41e0dde46603ba5cda46ef18a7134ad1aedea788f21f696920384aa9bd92b",
+      "frames": 9000,
+      "screenshots": 6
+    },
+    "start_1": {
+      "config_sha256": "c01f843b3fe59431429f43308a29541f2f79cf209536bfb790977806b202f546",
+      "trace_sha256": "3ec7ebd350d9b90079acc8a7ef23d8f8d7de1da8ba8c5b555e877d007c58d1ab",
+      "sram_sha256": "39df8f4a517381fea7e72b9c5923c649d3bf48d5eecddedffd4dfb9ef984b66a",
+      "frames": 5000,
+      "screenshots": 8
+    },
+    "reload_1": {
+      "config_sha256": "d0f7221e5969a988dbf5c56e76b878f73c4b8878b0cc9aa0bfbfc8eec7b3abce",
+      "trace_sha256": "80b986ed31f20afe0ed551704e0585c1b0e63be52522486f1030bc4de304e6fa",
+      "sram_sha256": "39df8f4a517381fea7e72b9c5923c649d3bf48d5eecddedffd4dfb9ef984b66a",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "bsnes_start_1": {
+      "config_sha256": "b900fa0a7c884752fc8e4d43084c56d3fe4196d16bbde3b803ba858b6d80ba28",
+      "trace_sha256": "903f15e936e0959291757ac883da3865258da9ad8a821f7f874ad35454c72a0e",
+      "sram_sha256": "aefa33280799a617bada5c599cacc815c0e212e8f6de9367763ae94b1eba0d6d",
+      "frames": 9000,
+      "screenshots": 5
+    },
+    "start_2": {
+      "config_sha256": "2f1f2c62e980ad11b6517fbe2066c6aa94d16f9ce012e3440de0f3259f1c92f0",
+      "trace_sha256": "bef1cede38fc77d97b3d31a1b966af17fcec3f3c73ccd863ce5dad54e7f9bdaa",
+      "sram_sha256": "754371885beab35944686be67b7ad8ae20a6222afde6fe7f97348de8761a9af5",
+      "frames": 5000,
+      "screenshots": 8
+    },
+    "reload_2": {
+      "config_sha256": "3fc101c2c9547b558fb3d04ff6d87d0c037ef87893c40bca413de1dced5a820c",
+      "trace_sha256": "2b6d2fd7dd2c1b4a1c0cd0c5cdb483278a99fafacfa59191d31ae105287c754c",
+      "sram_sha256": "754371885beab35944686be67b7ad8ae20a6222afde6fe7f97348de8761a9af5",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "bsnes_start_2": {
+      "config_sha256": "5fb9f23048e8a0ccb322ab1001a72d2608750e96738070edc29d9f51ae44a55e",
+      "trace_sha256": "24e6f3d3b2006c90df5f032a8e79f1029eedc25e3744e8137972ffdb31d1d8ce",
+      "sram_sha256": "87b20cb3e9de99ce30431e7b77982d051e4242706585df302e0997d9e24e22ac",
+      "frames": 9000,
+      "screenshots": 5
+    },
+    "start_3": {
+      "config_sha256": "a612d53e86287f01d3f363a1d64bc21f0bed89ca12c0784006821d8e6362dd18",
+      "trace_sha256": "33cbdcd73e97586458f9566af2c2a826d7b85f69ec13d313e3bb9a37225bf517",
+      "sram_sha256": "34460a98487174dbd27425786f04b37a9eec3fdd48aa81bdcff4af972f94e14c",
+      "frames": 5000,
+      "screenshots": 8
+    },
+    "reload_3": {
+      "config_sha256": "4259fc63753fe40f3dca2a7b3b9507df38671a2f34fac995abb50f2ac419eccf",
+      "trace_sha256": "13d6985548a40de38e05bef5e47d87da92c2def695636153a6ea8c366dfcc89a",
+      "sram_sha256": "34460a98487174dbd27425786f04b37a9eec3fdd48aa81bdcff4af972f94e14c",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "bsnes_start_3": {
+      "config_sha256": "581867bf369662c986b2d2701ff419559f69ac6e17efbd234786794bfe26a7e5",
+      "trace_sha256": "de6fc5918c138ce4e9a47b3dbf3085d7abf6c872fef0f33db4d050d70db6d669",
+      "sram_sha256": "7bbb7ae342cfa639e63a9e1a4b499e9149c67f30b0c6d81fa80aa0dc5a8ab4b9",
+      "frames": 9000,
+      "screenshots": 5
+    },
+    "start_4": {
+      "config_sha256": "f7142ffbfc9598903014f67521b7ecc6ad61ad2312b3cbd41e1e95f883449379",
+      "trace_sha256": "2912916bb0e33e534a092965add7e35a1a419caa0c3480b30a07151b59d7d9c2",
+      "sram_sha256": "6486af5e601bc1b97bc8d8797c0eebeed8fb521c334124d843cc68cfd03c99eb",
+      "frames": 5000,
+      "screenshots": 8
+    },
+    "reload_4": {
+      "config_sha256": "7e6b7789aacbc5a59e2fb7220a7e00c29da579241d3c2b55be1e977a7486eacc",
+      "trace_sha256": "0e8b7fe4cce1e62bbc63003fc7e9fffa5a53b81584d370c86095b02432ca967b",
+      "sram_sha256": "6486af5e601bc1b97bc8d8797c0eebeed8fb521c334124d843cc68cfd03c99eb",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "bsnes_start_4": {
+      "config_sha256": "94a25b12f0155f27c96265879e42ae8ed40683443853c79c60c28331b9f59a97",
+      "trace_sha256": "489326c50115eaa44ffa5ed452682e865bda94c9dfa26104ce1604e842c3cdfc",
+      "sram_sha256": "3de49bb8050c4c0ee8594f5a03401c8f044a891584e08cd6fcf3363ff153c597",
+      "frames": 9000,
+      "screenshots": 6
+    },
+    "preserve_slot_1": {
+      "config_sha256": "5e49d622c25e5a3355fe7eb9ce3185f057c485af2dac48669f7fd941bb73043a",
+      "trace_sha256": "55a4ae53b91b56bddd32f80d2a074c634b6ccdd82c4c2b7a2b55f28ce3f025b0",
+      "sram_sha256": "d9c84a61a91060ec615334b90c888574806f93ff981a46104a5408c7340cc6f1",
+      "frames": 4000,
+      "screenshots": 6
+    },
+    "preserve_slot_2c": {
+      "config_sha256": "c80ad99a850ce1f8ccafa505aadb4363d3cdec464c024f7ec23c7146fcad62e4",
+      "trace_sha256": "e74ba7524c508feb75f05be2ff9808f3f58645ad8816090e186f14dcfdb54de8",
+      "sram_sha256": "ed399154edd8b31f41d3cdbffa1cf822b47c6023b1c8fe41a61b815e7729e6cb",
+      "frames": 5000,
+      "screenshots": 6
+    },
+    "preserve_slot_0": {
+      "config_sha256": "086fd4ed55c8875550009dc822832b4030b6f8761876dbb6ab0d5799ba5a9e84",
+      "trace_sha256": "b202f4df9d0aea08808fc7518cf717d322486071260bc5bc19f9f543e62771ef",
+      "sram_sha256": "2b0527451ccd229f77171b63d8a627ada0462d8c17fbe32bd613485fc884ae29",
+      "frames": 5000,
+      "screenshots": 6
+    },
+    "full_save_reload_0": {
+      "config_sha256": "411caa711be22c34b0a38463735796f3b1f6299fc03b6cf1b4e705085e523b82",
+      "trace_sha256": "fc0bec9bd8eeb2d24365410d36ea26b19229cf58d7d7559efab76ad30c523aff",
+      "sram_sha256": "2b0527451ccd229f77171b63d8a627ada0462d8c17fbe32bd613485fc884ae29",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "full_save_reload_1": {
+      "config_sha256": "deed35bf2da09f74c9f81e1d2f398dc0deb87ac60882b0a90d1a7c93f8726e90",
+      "trace_sha256": "e515fe5604820fbd660f592334399cf506666557a16004aaf14c1151da8a6a25",
+      "sram_sha256": "ea60a451f3e7b176cd1e441fbc16213bba8709914ddf88a77c96e99d7952a62c",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "full_save_reload_2": {
+      "config_sha256": "79f3b2875f2d3d0316ee06506c651036c4d0a4a8b9f26f9954b4fe73bd4b8df7",
+      "trace_sha256": "906df96e70e05329230c6a0f2a2d8bd847fcddea09b25c8e66f23d197a4a22fd",
+      "sram_sha256": "a4af8023ce75ae21d096526a1233643bfa37a91bc22e76cbc4277099a1acc732",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "bsnes_reload": {
+      "config_sha256": "4d78bb378615b41bff4d254ed5cf94f04291137037170a02053bc22e9214a880",
+      "trace_sha256": "74143f334fc026bae086a756915605779a007c149a2ce61773a4be2918658dfd",
+      "sram_sha256": "a4af8023ce75ae21d096526a1233643bfa37a91bc22e76cbc4277099a1acc732",
+      "frames": 6000,
+      "screenshots": 5
+    },
+    "cancel": {
+      "config_sha256": "c76503075e10b6afdd7f80422218d1661cb3a81f6b562d6c53d0ae9dc6cd83e6",
+      "trace_sha256": "8f323ebb2fe83555f703701d87e02f58d2d9f3936b1f48fe8f4f884ff99935c0",
+      "sram_sha256": "48704e18925d2028fb24e795e48fd5a50f14e7897b55bf0f4e596395778b84ba",
+      "frames": 2600,
+      "screenshots": 7
+    },
+    "long0": {
+      "config_sha256": "b7f5c20151ad741fd6ac7ccc176fac286d5d8565d827d09d7ab170045b162e2b",
+      "trace_sha256": "114189086c091fba2c93a979f462f1eebadcb49846dbbf264a2973c401879923",
+      "sram_sha256": "bc9e88759b672761c5931733611075be6deea5d636fef84440f8098b497c5467",
+      "frames": 14000,
+      "screenshots": 8
+    },
+    "long4": {
+      "config_sha256": "f682f6a096295707712dfcacc42b26755d2b7ad4296556478f1a4c502fa65dd6",
+      "trace_sha256": "d0dcd3d01af60ce7b626a34b8d855d17eb697ba3c6731962c515d113a88dd810",
+      "sram_sha256": "98c46ebd9656506e2994d765e9205f80c1075723062a98426f3dba62217a8a31",
+      "frames": 14000,
+      "screenshots": 8
+    }
+  },
+  "emulator_cores": {
+    "tools\\snes9x_libretro.dll": "0f94357237f6117deaeb29e3230e25ac991a84af7f6bdd9ab5dd7ecdeb594bcd",
+    "tools\\external_cores\\bsnes\\bsnes_libretro.dll": "cb87808d136189c79aa9254599ed7f7d07c527ae528435a742ad9fb98f5cfcce"
+  },
+  "limitation": "Chapter entry, initial dialogue, save/reload and menu behavior verified on two cores; complete branches and handheld hardware were not replayed for this feature.",
+  "ips_roundtrip_matches_target": true
+}

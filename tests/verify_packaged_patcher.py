@@ -17,12 +17,12 @@ def main():
     source = args.source.read_bytes()
     source_hash = hashlib.sha256(source).hexdigest()
     expected_source = '988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7'
-    target_hash = '191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12'
+    target_hash = 'a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b'
     assert source_hash == expected_source
     exe = args.exe.resolve(strict=True)
     cases = []
     flags = subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0
-    with tempfile.TemporaryDirectory(prefix='shima-v11-') as temp:
+    with tempfile.TemporaryDirectory(prefix='shima-v111-') as temp:
         folder = Path(temp)
 
         def run(name, original=None, output=None, success=False, extra=()):
@@ -44,7 +44,7 @@ def main():
 
         original = folder / '일본판 원본.sfc'
         original.write_bytes(source)
-        output = folder / '시마과장 한글 v1.1.sfc'
+        output = folder / '시마과장 한글 v1.11.sfc'
         run('headerless_unicode_paths', original, output, True)
         headered = folder / '복사기 헤더 포함.smc'
         headered.write_bytes(bytes(range(256)) * 2 + source)
@@ -70,7 +70,7 @@ def main():
         assert not rejected.exists()
         run('gui_constructed_and_embedded_patch_checked', success=True, extra=('--smoke-ui',))
     assert hashlib.sha256(args.source.read_bytes()).hexdigest() == source_hash
-    data = dict(result='pass', version='v1.1', executable_sha256=hashlib.sha256(exe.read_bytes()).hexdigest(),
+    data = dict(result='pass', version='v1.11', executable_sha256=hashlib.sha256(exe.read_bytes()).hexdigest(),
                 source_sha256=source_hash, target_sha256=target_hash, source_preserved=True, cases=cases)
     args.report.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
     print('PACKAGED_PATCHER_PASS', len(cases), 'cases', data['executable_sha256'])

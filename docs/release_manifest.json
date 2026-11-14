@@ -1,9 +1,9 @@
 {
-  "version": "v1.1",
-  "date": "2026-10-21",
-  "title": "비공식 한글판 v1.1 · 챕터 선택 추가",
+  "version": "v1.11",
+  "date": "2026-11-14",
+  "title": "비공식 한글판 v1.11 · 인명 정정·문맥 재검수",
   "repository": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR",
-  "release": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/v1.1",
+  "release": "https://github.com/OldManCraveGuitars-bit/SFC-Kachou-Shima-Kousaku-Super-Business-Adventure-KR/releases/tag/v1.11",
   "source_rom": {
     "bytes": 1048576,
     "sha256": "988eeb2c00dedecbf18f1eb22b5c462b604ac2863a9ead3dc2118c5fefb5d4d7",
@@ -13,39 +13,39 @@
   },
   "patched_rom": {
     "bytes": 2097152,
-    "sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-    "sha1": "30e054c244ca7c296deca317951353250ad223d9",
-    "md5": "68b970ea87677f7252fdfbf30894058c",
-    "crc32": "CA41E474"
+    "sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+    "sha1": "7ea1a0dc37bc1e8b98dbdc1cc474e722cd9f5529",
+    "md5": "8cedf65363c9ea5260b383304ef62ee7",
+    "crc32": "CC4F02CB"
   },
   "files": {
-    "KachouShimaKRPatcher-v1.1.exe": {
-      "bytes": 11762413,
-      "sha256": "fd39a5a028728f95a00ec9836d85e6771c23cef1af3890f11f97ca7019563a12",
-      "sha1": "c81852b8d531bd8b777c08dce19d28edc23d6e24",
-      "md5": "d555c588828ae5df856edc7b4b30c63f",
-      "crc32": "68DF3685"
+    "KachouShimaKRPatcher-v1.11.exe": {
+      "bytes": 11763459,
+      "sha256": "2d2b0bd8c85a1ff6f5e36ab8178b71bb2dba17f84af834971ca098c4bcd226fe",
+      "sha1": "cdb316d3fecef63c6ef3b4bf376609422689f0de",
+      "md5": "35a13cdb38025992a5747d07215f85dd",
+      "crc32": "68C032E6"
     },
-    "Kachou_Shima_Kousaku_KR_v1.1.ips": {
-      "bytes": 483991,
-      "sha256": "bd88a120b13d963e32b52a3533ce51cc65d88b6f29a076c130d5589e1cf3692e",
-      "sha1": "29397765b8627b9984678fc7209a0950b0743e76",
-      "md5": "80a48bfbd44174c4b9a124a3b4c2ff6c",
-      "crc32": "27544D61"
+    "Kachou_Shima_Kousaku_KR_v1.11.ips": {
+      "bytes": 484027,
+      "sha256": "af64d0d4aa28ea7010539f5b45ac11274b665692988d010e5aecb6c72b839048",
+      "sha1": "3ac185efb54b63527b85091f4a257bdf722da913",
+      "md5": "a3448111e399574fd8afdddb719cc510",
+      "crc32": "CA365D20"
     },
-    "Kachou_Shima_Kousaku_KR_v1.1.zip": {
-      "bytes": 11810265,
-      "sha256": "ce09e76e83ec77849c1abbe4f95e5c4fb0fad292b519e8c6841f6e25c1f13a9e",
-      "sha1": "c4670ecd9b026d0c64204b951e1bdfd8cac11664",
-      "md5": "6861f3532029a88ac9a3ac51146e8f6f",
-      "crc32": "8D5377B6"
+    "Kachou_Shima_Kousaku_KR_v1.11.zip": {
+      "bytes": 11811350,
+      "sha256": "b0e79061447e6ba201fe8c4f93c3edbde2c6c51bbd2070393d19a82e614c997d",
+      "sha1": "81bed49f6e4c49cf56f4c36c06a6248180a1fe18",
+      "md5": "3d031787925862a3ac7f1d411b366b37",
+      "crc32": "E6E336B2"
     }
   },
   "original_rom_included": false,
   "patched_rom_included": false,
   "chapter_select": {
     "chapters": [
-      "토리우미 아키코 사건 편",
+      "도리우미 가쿠코 사건 편",
       "뉴욕 편",
       "내부자 거래 편",
       "교토 편",
@@ -61,5 +61,18 @@
     "original_ending_save_deletion_preserved": true
   },
   "source_copier_header": "512-byte copier header accepted only if the remaining 1MiB matches the required SHA-256.",
-  "checksum_policy": "SHA-256 validates inputs and outputs; SHA-1, MD5 and CRC32 are identification aids."
+  "checksum_policy": "SHA-256 validates inputs and outputs; SHA-1, MD5 and CRC32 are identification aids.",
+  "name_and_context_review": {
+    "canonical_name": "도리우미 가쿠코",
+    "japanese": "鳥海赫子",
+    "reading": "とりうみ かくこ",
+    "records_scanned": 10419,
+    "name_fields_corrected": 30,
+    "total_changed_fields": 32,
+    "context_clauses": 4,
+    "native_fields": 31,
+    "native_pages": 28,
+    "yosano_akiko_preserved": true,
+    "report": "docs/NAMES_AND_REVIEW.md"
+  }
 }

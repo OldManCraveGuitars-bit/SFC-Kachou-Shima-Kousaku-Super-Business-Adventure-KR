@@ -1,281 +1,227 @@
 {
-  "version": "v1.1",
-  "date": "2026-10-21",
+  "version": "v1.11",
+  "date": "2026-11-14",
   "count": 16,
-  "target_rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-  "note": "16 new v1.1 images from native controller tests; v1.0 40-image gallery is preserved separately with original capture provenance.",
+  "target_rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+  "ordinary_cold_boot_images": 8,
+  "dispatcher_entry_images": 8,
+  "note": "Native 256x224 images; detailed capture provenance is recorded per image.",
   "screenshots": [
     {
-      "file": "screenshots/v1.1/01-menu.png",
-      "title": "불러오기 화면의 Y: 챕터 선택 안내",
+      "file": "screenshots/v1.11/01-menu.png",
+      "title": "불러오기 화면의 챕터 선택 안내",
       "group": "menu",
       "native_size": [
         256,
         224
       ],
-      "frame": 1300,
-      "sha256": "5733a2d3ffc07ced0973c2652dd77ace2b88a1c781511d0f2d8e15e9c01b20b9",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "bsnes",
-      "scenario": "bsnes_start_0",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
+      "sha256": "9ce18ea282238e3274da8324d3e68fffe5479c8efff8f0eb398624818347af66",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     },
     {
-      "file": "screenshots/v1.1/02-menu.png",
-      "title": "데이터 1에서 다섯 챕터 선택",
+      "file": "screenshots/v1.11/02-menu.png",
+      "title": "도리우미 가쿠코로 수정한 챕터 선택",
       "group": "menu",
       "native_size": [
         256,
         224
       ],
-      "frame": 1580,
-      "sha256": "9e02fef72902593bfcc8dcf5e093b9fa03622e913429e2368dbedebca07a3680",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "start_0",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
+      "sha256": "ceea503c9eef6b7f30ef553eeb7a947b86fa48a90df757f15b813d035a687a69",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     },
     {
-      "file": "screenshots/v1.1/03-menu.png",
-      "title": "데이터 2에서 내부자 거래 편 선택",
+      "file": "screenshots/v1.11/03-menu.png",
+      "title": "데이터 2 슬롯 선택",
       "group": "menu",
       "native_size": [
         256,
         224
       ],
-      "frame": 1580,
-      "sha256": "948485dd933abac5c8e2309796b2e2c5e914fbd671a967339055cfd1408d3a0d",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "preserve_slot_1",
-      "existing_native_save_loaded": true,
-      "transform": "none; native PNG copied byte-for-byte"
+      "sha256": "0cad38490fa702bc015643701ace91a21b9ee354e084a3f03e66c174bf569e1e",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     },
     {
-      "file": "screenshots/v1.1/04-menu.png",
-      "title": "데이터 3에서 교토 편 선택",
+      "file": "screenshots/v1.11/04-menu.png",
+      "title": "데이터 3 슬롯 선택",
       "group": "menu",
       "native_size": [
         256,
         224
       ],
-      "frame": 2420,
-      "sha256": "a6d7fa5abe867cd820172b705acba51a11591fdd1e4664d26386c28e74ab430c",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "preserve_slot_2c",
-      "existing_native_save_loaded": true,
-      "transform": "none; native PNG copied byte-for-byte"
+      "sha256": "09d4e01cee76b6995f2ab08e56183d8caae311c9e183fd2cec60f22b7b210721",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     },
     {
-      "file": "screenshots/v1.1/05-menu.png",
-      "title": "시작 전 선택 슬롯 덮어쓰기 확인",
+      "file": "screenshots/v1.11/05-menu.png",
+      "title": "도리우미 가쿠코 사건 편 시작 확인",
       "group": "menu",
       "native_size": [
         256,
         224
       ],
-      "frame": 2500,
-      "sha256": "917cfcb7a4f87cf144f7fa44aaae321815d9da05f958dd204227297a4b16d0cb",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "preserve_slot_0",
-      "existing_native_save_loaded": true,
-      "transform": "none; native PNG copied byte-for-byte"
+      "sha256": "fd5aa52a67b859bfea74a59c96b53054850be3208d577c207b80bc6412351eb2",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     },
     {
-      "file": "screenshots/v1.1/06-menu.png",
-      "title": "취소 후 기존 저장 화면으로 복귀",
-      "group": "menu",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 2100,
-      "sha256": "b68054edd640c992995939ee8eae2564400953b1cd2d498557b25308ddf91f7a",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "cancel",
-      "existing_native_save_loaded": true,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/07-chapter.png",
-      "title": "토리우미 아키코 사건 편 시작",
+      "file": "screenshots/v1.11/06-chapter.png",
+      "title": "도리우미 가쿠코 사건 편 제목",
       "group": "chapter",
       "native_size": [
         256,
         224
       ],
-      "frame": 2000,
-      "sha256": "47cba7a796212584ebd8ede786a46ae99e021e5648a52d00abc7f592c1b07f7e",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "start_0",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
+      "sha256": "b45df505995feb5b633ce296b4842875a1e41c85ab14e1836dda62c13b25fd58",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     },
     {
-      "file": "screenshots/v1.1/08-chapter.png",
-      "title": "뉴욕 편 시작",
+      "file": "screenshots/v1.11/07-story.png",
+      "title": "도입부의 가쿠코 이름",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "8a27b954f540dfdc5fe18eef908beaa7c8dc12ed895e9f284039aa599fbe3444",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 3
+    },
+    {
+      "file": "screenshots/v1.11/08-story.png",
+      "title": "가쿠코가 도운 사건",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "d26343c8b00d9d688fd6cf72fa221038e036ffc6c2228451341f15b7fd0d184e",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 17
+    },
+    {
+      "file": "screenshots/v1.11/09-story.png",
+      "title": "가쿠코 관련 선택지",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "a3021857aaa8840aaffd14f890d560ac8bc3df2d888a641433eb9fc947e22b36",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 18
+    },
+    {
+      "file": "screenshots/v1.11/10-story.png",
+      "title": "술자리 서술의 자연스러운 표현",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "43ebb25f79dda48e31d6e72f995b149295be6144ba844b32935a250effcb55f1",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 2826
+    },
+    {
+      "file": "screenshots/v1.11/11-story.png",
+      "title": "가쿠코와의 관계 조사 복원",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "bca6af0eca1d255c30cfeb9c2c4e8d573f962c49b135e6e8d1db82b1560cb31b",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 2839
+    },
+    {
+      "file": "screenshots/v1.11/12-story.png",
+      "title": "도리우미 성 표기 통일",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "b2a4385bd86689afd7614229b2a4769c3cd7b3d347d1aa8e5b9573ba2a7db771",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 5073
+    },
+    {
+      "file": "screenshots/v1.11/13-story.png",
+      "title": "가쓰코 장면의 문장 연결",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "da19dbd0d84e39834b82ed05f8cf12765a24c7abe3e6be6d33168cefc7810352",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 7840
+    },
+    {
+      "file": "screenshots/v1.11/14-story.png",
+      "title": "후반 대사의 주어 복원",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "028e5b1107fe185dc501c532c58f081cfd3376f39fa2bfb9c8c44b1489385da5",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Native dispatcher-entry diagnostic; only event/transition tables and checksum differ from the final ROM.",
+      "sequence": 9554
+    },
+    {
+      "file": "screenshots/v1.11/15-story.png",
+      "title": "뉴욕 편 진행",
+      "group": "story",
+      "native_size": [
+        256,
+        224
+      ],
+      "sha256": "be7503c12d6813175ec42afd23796cda35cecde2004ef2d800e28539afa95cd2",
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
+    },
+    {
+      "file": "screenshots/v1.11/16-chapter.png",
+      "title": "교토 편 제목",
       "group": "chapter",
       "native_size": [
         256,
         224
       ],
-      "frame": 2000,
-      "sha256": "5473de0c14fbd83445dd45bc307dbdc073cb7f3e5ed1ed8867c01d0d29133b24",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "start_1",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/09-chapter.png",
-      "title": "내부자 거래 편 시작",
-      "group": "chapter",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 2000,
-      "sha256": "0053a7bb947a2d8080704e418328ac8569cebe1fad80f716d9aba1e2390f636d",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "start_2",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/10-chapter.png",
-      "title": "교토 편 시작",
-      "group": "chapter",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 2000,
       "sha256": "ac2cbe1dbde0bededdea78c412ad6099acc671938a0ef116a42c125f99cfd757",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "start_3",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/11-chapter.png",
-      "title": "사장 교체극 편 시작",
-      "group": "chapter",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 2000,
-      "sha256": "5bb8b462cf3d5a75dfd0dff6c1bd5692cf02427cfbdcefb2a538994336e82b4e",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "start_4",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/12-story.png",
-      "title": "토리우미 아키코 사건 편 대사 진행",
-      "group": "story",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 14000,
-      "sha256": "399aaefc69c638acc7d5fe0440eb48ab4a6fd12017413ca654019eb0f16b8f34",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "long0",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/13-story.png",
-      "title": "뉴욕 편 대사 진행",
-      "group": "story",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 6000,
-      "sha256": "0808efbf298b7ed3199d90fd4b2c4bf6f641aa3c6fad2856d3f5a061d88ccc67",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "bsnes",
-      "scenario": "bsnes_start_1",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/14-story.png",
-      "title": "내부자 거래 편 대사 진행",
-      "group": "story",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 9000,
-      "sha256": "061ce10786c7e0e620a37a43b24f7f48fcec11ed86955fd80e7ce5afb6828804",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "bsnes",
-      "scenario": "bsnes_start_2",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/15-story.png",
-      "title": "교토 편 대사 진행",
-      "group": "story",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 9000,
-      "sha256": "9e27f56a5e01f0239ba9f6519b829345b55192bd3f5a84e81e5ce4cd1cc3b0f7",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "bsnes",
-      "scenario": "bsnes_start_3",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
-    },
-    {
-      "file": "screenshots/v1.1/16-story.png",
-      "title": "사장 교체극 편 대사 진행",
-      "group": "story",
-      "native_size": [
-        256,
-        224
-      ],
-      "frame": 8000,
-      "sha256": "b9996f3773ceac99448ecca4a00996c6fa51438a7bf3f0f0f22549c802bcae22",
-      "rom_sha256": "191aa46eae0c2b5cfb5bf89c8bb53a8d1153f41de303156b52b84147754b5f12",
-      "capture": "Normal cold boot and native controller input; no ROM or RAM entry-point changes.",
-      "core": "Snes9x",
-      "scenario": "long4",
-      "existing_native_save_loaded": false,
-      "transform": "none; native PNG copied byte-for-byte"
+      "rom_sha256": "a2bdd89e572f1640c5675fc3c9f88a502da6d8f8dcf37dbd8871f425e66b027b",
+      "transform": "none; native PNG copied byte-for-byte",
+      "capture": "Exact v1.11 ROM cold boot with ordinary controller input."
     }
   ]
 }
